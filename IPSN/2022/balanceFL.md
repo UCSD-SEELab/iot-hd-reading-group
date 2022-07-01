@@ -9,7 +9,7 @@
 
 * **Motivation:** the *global and local data imbalance* in Federated Learning. 
 
-  ![motivation](/Users/xiaofanyu/Github/iot-hd-reading-group/IPSN/2022/motivation.png)
+  ![motivation](./motivation.png)
 
   * If training directly, there could be performance drop of classification accuracy on minority tail classes. However, those minority classes play a much more important role especially in safety-relate scenarios.
   * Two separate cases for local data imbalance: **class missing and imbalance local class distribution**
@@ -37,7 +37,7 @@
   
   * The overall loss function includes three terms: the knowledge inheritance loss, the cross entropy loss and the smooth regularization loss
   
-    ![loss_function](/Users/xiaofanyu/Github/iot-hd-reading-group/IPSN/2022/loss_function.png)
+    ![loss_function](./loss_function.png)
 
 
 ### Evaluations
@@ -47,7 +47,7 @@
 * How they evaluate their method?
   * Dataset: Long-tail version of CIFAR-10 and Speech commands, self-collected IMU datasets of 6137 training ssamples from 30 people.
   
-    ![imu](/Users/xiaofanyu/Github/iot-hd-reading-group/IPSN/2022/imu.png)
+    ![imu](./imu.png)
   
   * Baselines: FedAvg, FedProx, Centralized Training, BAlanced Softmax, Local Training, Personalized-FedAvg
   
