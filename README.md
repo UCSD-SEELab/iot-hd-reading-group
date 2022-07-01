@@ -1,5 +1,10 @@
 # iot-hd-reading-group
 
+This repository hosts a list of research papers and topics that we track in the IoT and HD related areas.
+
+A template for paper reading summary can be found [here](./template.md).
+### IoTDI & IPSN 2022, reviewed on June 30, 2022.
+
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [BalanceFL: Addressing Class Imbalance in Long-Tail Federated Learning](https://conferences.computer.org/cpsiot/pdfs/IPSN2022-6R1M30NXCSXmbVKUqzz1Of/962400a259/962400a259.pdf) | https://github.com/sxontheway/BalanceFL | Xiaofan    | [Summary](./IPSN/2022/balanceFL.md) |
