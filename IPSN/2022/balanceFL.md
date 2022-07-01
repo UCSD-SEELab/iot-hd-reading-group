@@ -77,3 +77,5 @@
   * Loss re-weighting
   * Knowledge transfer from head to tail classes
 * **A typical way of doing research:** when you solve a big problem, you can first separate the new scenarios into different cases (for example, the class missing and imbalance local class in this paper), and address each case separately
+* Taste of IoTDI and IPSN is shifting - more learning works :)
+* This paper should be a baseline for our future FedLL project
