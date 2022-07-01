@@ -37,21 +37,28 @@
     * If input is modality B, fa ga gb are learned instead. If data has both modality, both fa fb are learned.
   * Deep canonically correlated autoencoders (DCCAE): An alternative autoencoder architecture Serves same purpose as split autoencoder to minimize reconstruction loss for all modalities but also uses another objective to increase the canonical correlation between the generated representations from two modalities. DCCAE maps multimodal data into correlated representations rather than shared representations.
 * **Multimodality Aggregation for Autoencoder**
-  ![loss_function](./MultimodalFL_Aggregation.png)
+  ![MultimodalFL_Aggregation](./MultimodalFL_Aggregation.png)
   * Each modality in autoencoder is corresponding to an encoder and decoder (denote as f and g), after collected all local autoencoders, server conduct a component-wise aggregation similar to FedAvg to produce final autoencoder which is used for subsequent classifier training.
-
-
 
 ### Evaluations
 
-* Where did they implement their method? On what platform?
-* How they evaluate their method?
-  * Dataset
-  * Baselines
-  * Metrics
-* What are the key results?
+* **Evaluation Setup**
+  * Dataset: Proposed method as well as baseline comparisonsc(details below) are tested on:
+    ![MultimodalFL_Datasets](./MultimodalFL_Datasets.png)
+    * All dataset conatin sensing data of some modality and activity as label (Human Activity Recognition task)
+  * Baselins: For comparison, authors implemented a FL system that only uses one modality (denote as UmFL). FL training using multimodal data is labeled as MmFL.
+* **Results**
+  ![MultimodalFL_Results](./MultimodalFL_Results.png)
+  * UmFL -> FL on one modality (A or B)
+  * MmFL -> FL on both modality, L and T indicate learning and testing modality dataset.
+  * It is clearlt shown that FL with multimodal data can increase final accuracy with slightly faster convergence.
 
-### Pros and Cons (Your thoughts)
+### Pros and Cons
 
-* Pros: why you think this is a good paper?
-* Cons: unrealistic assumptions, missing elements, missing experiments, etc.
+* Pros:
+  * Multimodality can facilitates better learning result assuming multimodal data from a sensor at a given piont reflect the same underlying truth.
+  * Allow FL to deploy in heterogeneous client environment.
+  * System is scalable as both split autoencoder and DCCAE are saclable.
+* Cons:
+  * Need prior knowledge of data modalities in the system in order to properly design autoencoder.
+  * Client computation and communcation overhead increases as data modalities in the entire system increases. Also paper did not include overhead and efficiency analysis.
