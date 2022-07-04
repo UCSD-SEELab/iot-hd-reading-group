@@ -59,6 +59,7 @@
   * Multimodality can facilitates better learning result assuming multimodal data from a sensor at a given piont reflect the same underlying truth.
   * Allow FL to deploy in heterogeneous client environment.
   * System is scalable as both split autoencoder and DCCAE are saclable.
+  * They used common validation dataset.
 * Cons:
-  * Need prior knowledge of data modalities in the system in order to properly design autoencoder.
+  * The paper assumes situation where there are only two modalities, however, since each modality requirs an additional encoder an decoder to the autoencoder, prior knowledge of data modalities in the system is needed in order to determine the architecture of aoutoencoder.
   * Client computation and communcation overhead increases as data modalities in the entire system increases. Also paper did not include overhead and efficiency analysis.
