@@ -26,7 +26,7 @@
 * **Why this works?**
     * They apply PQ to one or multiple neural networks while only sharing a pair of the learned codebooks to maximize the compression ratio. Through making the number of layers to be finetuned be less or equal to three in most cases, they retain the accuracy of its compressed model.
 * **solution**
-    ![Overview of the offline component of YONO](IPSN\2022\OverallOfYONO.png)
+    ![Overview of the offline component of YONO](OverallOfYONO.png)
     * They apply PQ to one or multiple neural networks while only sharing a pair of the learned codebooks to maximize the compression ratio.
     * They first concatenate weights of all the models of different tasks. Then, they construct two weight matrices, W1 and W2, so that YONO takes into account spatial information of convolutional layer kernel. For W1, they combine convolutional layers with a kernel size of 3x3. Then for W2, they concatenate convolutional layers with kernel size 1x1 and fully connected layers. After that, W1 and W2 will be given as an input to learn codebooks, C1 and C2, for different kernel sizes.
     * In terms of their code, in the fine tuning stage, they select the first and last layer of a model and finetune them. The finetuning step largely recovers the accuracy of the original model by re-adjusting the first and last layer of the model according to the different weights induced by the codebooks. 
@@ -36,13 +36,13 @@
 ### Evaluations
 
 * **Evaluation Setup**
-    ![Compression Efficiency](IPSN\2022\CompressionEfficiency.png)
     * Dataset: They generally choose 4 types of datasets to apply or train with their algorithm which are Image, Audio, IMU and sEMG.
     They check the compression efficiency of the heterogeneous MTL systems trained with five datasets of two types.
-    ![Inference Accuracy](IPSN\2022\InferenceAccuracy.png)
+    ![Compression Efficiency](CompressionEfficiency.png)
     * The second figure check the inference accuracy of the heterogeneous MTL systems trained with five datasets pf two types.
-    ![Latency Comparasion](IPSN\2022\Latency.png)
+    ![Inference Accuracy](InferenceAccuracy.png)
     * The third figure shows compared to the baseline, YONO has much lower latency.
+    ![Latency Comparasion](Latency.png)
 
 ### Pros and Cons
 * Pros:
