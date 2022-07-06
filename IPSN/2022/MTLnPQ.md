@@ -25,7 +25,7 @@
     * YONO, a product quantization based approach that compresses multiple heterogeneous models and enables in-memory model execution and model switching for dissimilar multi-task learning on MCUs.
 * **Why this works?**
     * They apply PQ to one or multiple neural networks while only sharing a pair of the learned codebooks to maximize the compression ratio. Through making the number of layers to be finetuned be less or equal to three in most cases, they retain the accuracy of its compressed model.
-* **solution**
+* **Solution**
     ![Overview of the offline component of YONO](OverallOfYONO.png)
     * They apply PQ to one or multiple neural networks while only sharing a pair of the learned codebooks to maximize the compression ratio.
     * They first concatenate weights of all the models of different tasks. Then, they construct two weight matrices, W1 and W2, so that YONO takes into account spatial information of convolutional layer kernel. For W1, they combine convolutional layers with a kernel size of 3x3. Then for W2, they concatenate convolutional layers with kernel size 1x1 and fully connected layers. After that, W1 and W2 will be given as an input to learn codebooks, C1 and C2, for different kernel sizes.
