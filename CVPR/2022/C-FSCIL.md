@@ -21,7 +21,7 @@
 ### Method
 
 * **Proposed solution**
-  ![C-FSCIL](./C-FSCIL.png)
+  ![C-FSCIL](./C-FSCIL.PNG)
   * Proposed framework contains three main components: a forzen feature extractor(FE), a fully connected layer(FCL) and a memory (EM)
     * FE: Prosess image input to some feature vector
     * FCL: Act as an HD encoder, maps feature vector to some hypervector.
@@ -36,12 +36,12 @@
 
 * **Update Mode**
   * Mode 1: Averaged Prototypes (Least computation)
-    ![C-FSCIL_mode1](./C-FSCIL_mode1.png)
+    ![C-FSCIL_mode1](./C-FSCIL_mode1.PNG)
     * Simply used averaged hypervector for each class as prototypes.
     * No retarining on FCL.
     * Not require GAAM (globally average activation memory)
   * Mode 2: Retraining on Bipolarized Prototypes (Median computation)
-    ![C-FSCIL_mode2_loss](./C-FSCIL_mode2_loss.png)
+    ![C-FSCIL_mode2_loss](./C-FSCIL_mode2_loss.PNG)
     * Insufficient inter-class separability issue arises as number fo calss increased.
     * Adjust the prototypes and the fully connected layer to increase prototype separability.
     * Start by bipolarize class prototypes.
@@ -60,7 +60,7 @@
   * Hypervector has d=512.
 
 * **Evaluation Result**
-  ![C-FSCIL_result](./C-FSCIL_result.png)
+  ![C-FSCIL_result](./C-FSCIL_result.PNG)
   * Proposed method sets the new state-of-the-art on both datasets.
   * For low class number, mode2 is more effective.
 
