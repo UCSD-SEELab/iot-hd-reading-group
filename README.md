@@ -6,6 +6,9 @@ A template for paper reading summary can be found [here](./template.md).
 
 ### HD
 
+| Paper Title                                                  | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) | https://github.com/IBM/constrained-FSCIL | Eric   | [Summary](./HD/C-FSCIL/C-FSCIL.md) | 
 
 
 ### IoTDI & IPSN 2022, reviewed on June 30, 2022.
