@@ -16,6 +16,7 @@
 
 ### Method
 
+* What is the technical problem? What are the input and output of the problem?
 * What they propose to solve the problem?
 * Why this works?
 * Algorithm, architecture, solution
