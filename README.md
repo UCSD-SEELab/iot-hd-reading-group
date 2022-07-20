@@ -9,7 +9,7 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) | https://github.com/IBM/constrained-FSCIL | Eric   | [Summary](./HD/C-FSCIL/C-FSCIL.md) | 
-| [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) | https://github.com/iis-eth-zurich/hd_dvs | Shuhang Xu   | [Summary](./HD/SparseHDC/SparseHDC.md) | 
+| [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) | https://github.com/iis-eth-zurich/hd_dvs | Shuhang   | [Summary](./HD/SparseHDC/SparseHDC.md) | 
 
 
 ### IoTDI & IPSN 2022, reviewed on June 30, 2022.
