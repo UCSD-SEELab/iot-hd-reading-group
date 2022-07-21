@@ -61,7 +61,7 @@
     * AMIGOS dataset with 30s window with sliding over 15s each trail.
     
 * **Evaluation Result**
-  * ![result](./result.PNG)
+  * ![result](./Result.PNG)
     * Proposed method sets the new state-of-the-art on used datasets.
     * Non-linear correlation between accuracy and p/d.
 
