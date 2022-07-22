@@ -18,7 +18,7 @@
 
 * **Challenges**
   * Emotional inference model usually takes a lot of data to train.
-  * Current State-of-Art mmethods like SVM, Bayes Classifier, XGB has high computational complexity whcih makes them unsuitable for wearable sensing IoT devices with limited computing capability.
+  * Current State-of-Art mmethods like SVM, Bayes Classifier, XGB has high computational complexity which makes them unsuitable for wearable sensing IoT devices with limited computing capability.
 
 ### Method
 ![HDC-MER-Design](./HDC-MER-Design.PNG)
@@ -29,7 +29,7 @@
 
 * **HD Embedding**
   ![Embedding1](./Embedding1.PNG)
-  * Represnet Real valued Biosignal reading into bonarized sparse hypervector.
+  * Represent Real valued Biosignal reading into binarized sparse hypervector.
   * S is predetermined encoding vector, m is number of features of certain modality, d denotes dimensionalityd of hypervector and p is sparisty factor.
     * Low p produce sparse binary hypervecors
       ![Embedding2](./Embedding2.PNG)
@@ -58,7 +58,7 @@
 * **Evaluation Setup**
     * Binary emotion classification
     * Baseline including GaussianNB, SVM, XGB
-    * AMIGOS dataset with 30s window with sliding over 15s each trail.
+    * AMIGOS dataset with 30s window with sliding over 15s each trail. [Link to dataset](http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/)
     
 * **Evaluation Result**
   * ![result](./Result.PNG)
@@ -76,3 +76,4 @@
 * Cons:
     * No effiency evaluation.
     * How useful is binary emotion classification, what happens when multiple label is involved.
+    * Baseline too simplistic, no compaison with CNN or LSTM.
