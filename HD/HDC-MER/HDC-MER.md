@@ -64,6 +64,8 @@
   * ![result](./Result.PNG)
     * Proposed method sets the new state-of-the-art on used datasets.
     * Non-linear correlation between accuracy and p/d.
+    * HDC-MER achieves optimal classification accuracy with 30% of randonly selected data whereas other methods requires 80%+ data.
+    * Second figure shows both Low/high sparsity of hypervector after encoding can cause drop in accuracy.
 
 
 ### Pros and Cons
