@@ -9,6 +9,7 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) | https://github.com/IBM/constrained-FSCIL | Eric   | [Summary](./HD/C-FSCIL/C-FSCIL.md) | 
+| [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) | https://github.com/iis-eth-zurich/hd_dvs | Shuhang   | [Summary](./HD/SparseHDC/SparseHDC.md) | 
 | [Hyperdimensional Computing-based Multimodality Emotion Recognition with Physiological Signals](https://ieeexplore.ieee.org/document/8771622) | https://github.com/enjui/HDC-MER | Eric   | [Summary](./HD/HDC-MER/HDC-MER.md) | 
 
 
