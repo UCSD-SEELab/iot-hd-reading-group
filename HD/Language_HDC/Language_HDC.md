@@ -54,7 +54,7 @@
 
 
 * **Evaluation Result**
-  ![Result](./result.PNG)
+  ![Result](./Result.PNG)
   * Result shows proposed hardware design can greatly acclerate HDC computation with small accuracy trade-off.
   * Memory usage increases exponetially in baseline method, whereas HDC requires constant memory.
   * Robust against faulty memory cell due to high dimensionality and holographic representation of HDC.
