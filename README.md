@@ -13,8 +13,9 @@ A template for paper reading summary can be found [here](./template.md).
 | [Hyperdimensional Computing-based Multimodality Emotion Recognition with Physiological Signals](https://ieeexplore.ieee.org/document/8771622) (AICAS 2019) | https://github.com/enjui/HDC-MER | Eric   | [Summary](./HD/HDC-MER/HDC-MER.md) |
 | [Vector Symbolic Architectures Answer Jackendoff's Challenges for Cognitive Neuroscience](https://arxiv.org/abs/cs/0412059) (2004) | Not provided | Xiaofan | [Summary](./HD/VSA-Jackendoff/VSA-Jackendoff.md) |
 | [A Robust and Energy-Efficient Classifier Using Brain-Inspired Hyperdimensional Computing](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf)| https://github.com/abbas-rahimi/HDC-Language-Recognition | Eric | [Summary](./HD/Language_HDC/Language_HDC.md) |
+| [Symbolic Representation and Learning with Hyperdimensional Computing](https://pubmed.ncbi.nlm.nih.gov/33501231/) | https://github.com/ncos/pyhdc, <br />https://github.com/thulab/DeepHash | Xiaofan    | [Summary](./HD/HIL/hil.md)                       |
 | [Superposition of many models into one](https://proceedings.neurips.cc/paper/2019/hash/4c7a167bb329bd92580a99ce422d6fa6-Abstract.html) (NeurIPS 2019) |  |  |  |
-| [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) |  |  |  |
+| [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | | | |
 
 
 ### IoTDI & IPSN 2022, reviewed on June 30, 2022.
