@@ -30,12 +30,12 @@
   * Binding: Compoenet-wise XOR.
   * Permutation: Compoenet-wise rotate.
   * For efficiency and computation simplicity, all hypervector are in binary form. \
-    ![Encoding](.\Encoding.PNG)
+    ![Encoding](./Encoding.PNG)
   * To preserve sequential info, binding and permutation are applied.
   * Classification are done with cosine similarity check. \
-    ![Similarity](.\Similarity.PNG)
+    ![Similarity](./Similarity.PNG)
 
-![Overall_Design](.\System_Design.PNG)
+![Overall_Design](./System_Design.PNG)
 * **Hardware Design**
   * HDC classification mimimally requires encoder and simularity checker to carry out classification task.
     * In Language Classification:
@@ -54,7 +54,7 @@
 
 
 * **Evaluation Result**
-  ![Result](.\result.PNG)
+  ![Result](./result.PNG)
   * Result shows proposed hardware design can greatly acclerate HDC computation with small accuracy trade-off.
   * Memory usage increases exponetially in baseline method, whereas HDC requires constant memory.
   * Robust against faulty memory cell due to high dimensionality and holographic representation of HDC.
