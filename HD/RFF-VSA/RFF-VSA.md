@@ -33,7 +33,7 @@
   * Permutation: Component-wise rotate
   * Similarity: cosine / hamming
 
-* **Encoder**
+* **Encoder** \
   ![Binary_VSA_Encoding](./Binary_VSA_Encoding.PNG)
   * 256 random embedding hypervector is selected.
   * To encode pixel position info, different number of permutation is used before binding.
@@ -50,13 +50,13 @@
     * Defined a set of conditions of VSA that is suitable to HDC applications, and proposed a more expressive finite group VSA.
   * Learning with SGD instead of bundling.
 
-* **Randon Fourier Features**
+* **Randon Fourier Features** \
   ![RFF](./RFF.PNG)
   * HDC system usually generate embedding hypervector with random sampling in the vector space, however such operation already limited number of similarity mlatrices HDC system can express.
   * To solve that RFF is used to generate embedding hypervectors.
   * Embedding hypervecs generate this way enable more expressive HDC system.
 
-* **VSA Definition**
+* **VSA Definition** \
   ![VSA_Definition](./VSA_Definition.PNG)
   * A VSA can for used for HDC if the following condition is satisfied.
 
@@ -76,17 +76,17 @@
   * Baselines: Multilayer Perceptron, Binary HDC.
   * Comparisons: BinaryHDC with RFF, Cyclic Finite VSA(|G|=8) with RFF, Cyclic Finite VSA(|G|=16) with RFF
 
-* **Result**
+* **Result** \
   ![Result](./Result.PNG)
   * RFF already improves HDC significantly.
   * Finite group VSA further imporves the performance.
   * Single-Pass on data can still achieve good result enabling online learning.
 
-* **Computional Complexity**
+* **Computional Complexity** \
   ![Complexity](./Complexity.PNG)
   * Proposed VSA can still be efficient on hardware.
 
-* **Empirical Analysis on |G|**
+* **Empirical Analysis on |G|** \
   ![G_Analysis](./G_Analysis.PNG)
   * 1-Epoch achieve good accuracy compare to multi-epoch.
   * CDC increase only sligfhtlt as |G| increases.
