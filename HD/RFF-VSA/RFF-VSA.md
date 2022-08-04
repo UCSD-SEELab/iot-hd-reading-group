@@ -94,12 +94,12 @@
 ### Pros and Cons
 
 * Pros:
-  * Increase Performence without greatly increase computational complexity.
-  * Provided meaningful discussion on the relation between expressivity and performance.
   * Generalized a set of necessaries conditions for VSA in HDC, enabling future research on VSA.
-  * 
+  * Provided meaningful discussion on the relation between expressivity and performance.
+  * Increase Performence without greatly increase computational complexity.
 
 * Cons:
+  * Why RFF is not well explained.
   * How would finite group VSA alone perform.
   * Finite Group VSA seem to only increase performance slightly, how useful is it.
 
