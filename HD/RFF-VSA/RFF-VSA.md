@@ -9,7 +9,7 @@
 ### Motivation and Problem Formulation
 
 * **Motivation**
-  * Typical HDC use binary VSA and encoding hyperverctor that randomly drew from such hyper veector space. Such simplistic VSA structure and initialization method facilitztes fast computation however is lack in accuracy when compare to other machine learning methods.
+  * Typical HDC use binary VSA and encoding hyperverctor that randomly drew from such hyper vector space. Such simplistic VSA structure and initialization method facilitztes fast computation however is lack in accuracy when compare to other machine learning methods.
   * Traditional HDC VSA is not expressive enough which restrict the performence of HDC system.
   * HDC system can be approved with more complex VSA such as infinite group VSA (Real numbered or compplex hypervector instead of Binary). However thoes increase the computational complexity greatly.
   
