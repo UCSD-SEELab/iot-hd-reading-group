@@ -15,7 +15,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [A Robust and Energy-Efficient Classifier Using Brain-Inspired Hyperdimensional Computing](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf) (ISPLED 2016) | https://github.com/abbas-rahimi/HDC-Language-Recognition | Eric | [Summary](./HD/Language_HDC/Language_HDC.md) |
 | [Symbolic Representation and Learning with Hyperdimensional Computing](https://pubmed.ncbi.nlm.nih.gov/33501231/) (Frontiers 2020) | https://github.com/ncos/pyhdc, <br />https://github.com/thulab/DeepHash | Xiaofan    | [Summary](./HD/HIL/hil.md)                       |
 | [Superposition of many models into one](https://proceedings.neurips.cc/paper/2019/hash/4c7a167bb329bd92580a99ce422d6fa6-Abstract.html) (NeurIPS 2019) |  |  |  |
-| [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | | | |
+| [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric | [Summary](./HD/RFF-VSA/RFF-VSA.md)
 
 
 ### IoTDI & IPSN 2022, reviewed on June 30, 2022.
