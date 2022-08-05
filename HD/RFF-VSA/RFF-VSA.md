@@ -59,6 +59,11 @@
 * **VSA Definition** \
   ![VSA_Definition](./VSA_Definition.PNG)
   * A VSA can for used for HDC if the following condition is satisfied.
+  * Proposed finite group VSA
+    * Has a finite set of symbols
+    * Somewhere between Binary VSA (Just 0s and 1s) and infinite group VSA (real number VSA)
+    * Provided more expressivity and allow better performance.
+    * Still maintaining the computational efficiency.
 
 * **Learning with SGD instead of bundling**
   * Bundling can be used to learn a class representative is based on the assumption that the resulting bundling hypervector is similar to all the constitute sample hypervectors.
