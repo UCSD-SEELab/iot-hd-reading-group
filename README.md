@@ -4,6 +4,14 @@ This repository hosts a list of research papers and topics that we track in the 
 
 A template for paper reading summary can be found [here](./template.md).
 
+### AAAI2022
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
+
+
+
 ### HD
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
