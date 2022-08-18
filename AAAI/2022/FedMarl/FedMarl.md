@@ -104,6 +104,7 @@
   * Server computation overhead.
   * How agents share model weights.
   * How function U is chosen.
+  * VDN ? (Need further reading)
 
 
 
