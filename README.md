@@ -4,6 +4,25 @@ This repository hosts a list of research papers and topics that we track in the 
 
 A template for paper reading summary can be found [here](./template.md).
 
+
+
+### ICDCS 2022
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric   | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
+
+
+
+
+### AAAI 2022
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
+
+
+
 ### HD
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
