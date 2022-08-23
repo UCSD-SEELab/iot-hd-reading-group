@@ -16,8 +16,8 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
-| [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL.md) |
-| [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./ML/ML4EV/ML4EV.md) |
+| [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL/CACL.md) |
+| [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./AAAI/2022/ML4EV/ML4EV.md) |
 
 
 ### IoTDI & IPSN 2022
@@ -47,8 +47,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                   |
 | ------------------------------------------------------------ | ------------ | ---------- | --------------------------------------- |
-| [TinyOL: TinyML with Online-Learning on Microcontrollers](https://arxiv.org/pdf/2103.08295.pdf) (IJCNN 2021) | Not Provided | Shuhang    | [Summary](./ML/TinyOL/TinyOL.md)        |
-| [On-Device Training of Machine Learning Models on Microcontrollers with Federated Learning](https://www.mdpi.com/2079-9292/11/4/573/htm) (Electronics 2022) | Not Provided | Shuhang    | [Summary](./ML/MLwFedLearning/MLwFL.md) |
+| [TinyOL: TinyML with Online-Learning on Microcontrollers](https://arxiv.org/pdf/2103.08295.pdf) (IJCNN 2021) | Not Provided | Shuhang    | [Summary](./TinyML/TinyOL/TinyOL.md)        |
+| [On-Device Training of Machine Learning Models on Microcontrollers with Federated Learning](https://www.mdpi.com/2079-9292/11/4/573/htm) (Electronics 2022) | Not Provided | Shuhang    | [Summary](./TinyML/MLwFedLearning/MLwFL.md) |
 
 
 ### Others
