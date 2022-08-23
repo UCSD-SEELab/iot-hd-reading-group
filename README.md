@@ -32,3 +32,10 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ---------------------------------- | ---------- | -------------------------------------------- |
 | [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL | Xiaofan    | [Summary](./Others/WirelessCL/WirelessCL.md) |
 
+### Machine Learning
+
+| Paper Title                                                  | Link to code                       | Presenters | Notes                                        |
+| ------------------------------------------------------------ | ---------------------------------- | ---------- | -------------------------------------------- |
+| [TinyOL: TinyML with Online-Learning on Microcontrollers](https://arxiv.org/pdf/2103.08295.pdf) (Electronics 2022) | Not Provided | Shuhang    | [Summary](ML\ML4EV\MLwFL.md) |
+| [On-Device Training of Machine Learning Models on Microcontrollers with Federated Learning](https://www.mdpi.com/2079-9292/11/4/573/htm) (Electronics 2022) | Not Provided | Shuhang    | [Summary](ML\ML4EV\MLwFL.md) |
+| [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (IJCNN 2021) | Not Provided | Shuhang    | [Summary](ML\ML4EV\TinyOL.md) |
