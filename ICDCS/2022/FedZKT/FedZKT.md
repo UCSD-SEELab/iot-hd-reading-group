@@ -31,7 +31,7 @@
   
 
 * **Objective Functions / Loss Functions** \
-![ObjectiveFunction](./ObjectiveFunction.PNG)
+![ObjectiveFunction](./objectiveFunction.PNG)
   * F: Global model parameters, minimize disagreement between global model and local model ensemble.
   * G: Generative model parameters, maximize loss.
 ![Loss1](Loss1.PNG)
