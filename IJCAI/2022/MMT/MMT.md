@@ -47,12 +47,12 @@
   * CMU-MOSI and POM are used in evaluation.
 
 * **Evaluation Result**
-  ![result1](./result1.PNG)  \
-  ![result2](./result1.PNG)
+  ![Result1](./Result1.PNG)  \
+  ![Result2](./Result1.PNG)
   * Proposed method sets the new state-of-the-art on both datasets.
 
 * **Evaluation on number of layers**
-  ![result2](./result3.PNG)
+  ![Result2](./Result3.PNG)
   * More layer does not necessarily tranlate to better performance.
 
 
