@@ -1,4 +1,4 @@
-## [Learning with Holographic Reduced Representations](https://arxiv.org/abs/2109.02157)
+## [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-)
 
 * Ashwinkumar Ganesan , Hang Gao, Sunil Gandhi , Edward Raff, Tim Oates, James Holt, Mark McLean.
 * University of Maryland, Laboratory for Physical Sciences, Booz Allen Hamilton
