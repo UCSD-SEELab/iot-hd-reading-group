@@ -23,7 +23,7 @@
   * MMT uses tensor representation with set of well defined temnsor operation can handle multiple modality at once to perduce representation with all possible interactive paths in a signle block.
 
 * **Proposed solution**
-![System_Flow](.\System_Flow.PNG)
+![System_Flow](./System_Flow.PNG)
   * Like typical transformer network, the process starts with encoding multiple modality sequence data. In the case of MMT the following formula is used: \
   ![QK_Matrix](./QK_Matrix.PNG)
   * Then tensor ring decompsition is used to reduce how rank Q and K into low rank matrices to greatly reduce the computation cost.
@@ -32,12 +32,12 @@
   * Self-attention is then averaged through temporal dimension.
   * Use different QK tensor multiply by weight averaged Self-attention metrix from other modalites to generate corss-attention matrix.
   * Lastly linearize the modality aware attention tensors as output. \
-  ![Output](.\Output.PNG)
+  ![Output](./Output.PNG)
     * i-th modality aware output are combined from self attention and attention from other modalities with respect i.
   * Overall, all possible modality interactive paths can be captured, resulting rich representations for each modality by simultaneously paying attention to all the potential multiway interaction.
 
 * **Hierarchical Design**
-![Hierarchical](.\Hierarchical.PNG)
+![Hierarchical](./Hierarchical.PNG)
   * Subsequently, a hierarchical architecture can be implemented where lower level MMT blocks can be used to capture low order modality correlation and higher level MMT to capture high order correlation.
 
 
