@@ -17,7 +17,7 @@
 
 ### Method
 * **Main Idea**
-![Main_Idea](.\Main_Idea.PNG)
+![Main_Idea](./Main_Idea.PNG)
   * Above figure shows a comparison of proposed attention method(Right) and past attention mathod(MulT).
   * MulT is only able to create attention aware representation between two modality per block. As number of modality M increases, it would require M^2 attention block to fully capture all possible interactive paths.
   * MMT uses tensor representation with set of well defined temnsor operation can handle multiple modality at once to perduce representation with all possible interactive paths in a signle block.
