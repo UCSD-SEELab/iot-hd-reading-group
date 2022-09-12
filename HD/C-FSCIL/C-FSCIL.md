@@ -17,7 +17,6 @@
 * **Challenges**
   * Forgetting: Like the majority of lifelong learning problems, continually learning new classes in data stream without forgetting the old ones is the main challenge.
   * Resource constrain: As number of classes increases, computation cost stay constant while memory size sacles at most linearly.
-  
 ### Method
 
 * **Proposed solution**

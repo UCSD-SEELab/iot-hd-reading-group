@@ -4,12 +4,6 @@ This repository hosts a list of research papers and topics that we track in the 
 
 A template for paper reading summary can be found [here](./template.md).
 
-### ICDCS 2022
-
-| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
-| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric   | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
-
 
 ### AAAI 2022
 
@@ -18,6 +12,20 @@ A template for paper reading summary can be found [here](./template.md).
 | [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
 | [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL/CACL.md) |
 | [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./AAAI/2022/ML4EV/ML4EV.md) |
+
+
+### IJCAI 2022
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [MMT: Multi-Way Multi-Modal Transformer for Multimodal Learning](https://www.ijcai.org/proceedings/2022/0480.pdf) (IJCAI 2022) | Not Provided | Eric   | [Summary](./IJCAI/2022/MMT/MMT.md) |
+
+
+### ICDCS 2022
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric   | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
 
 
 ### IoTDI & IPSN 2022
