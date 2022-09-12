@@ -19,6 +19,7 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [MMT: Multi-Way Multi-Modal Transformer for Multimodal Learning](https://www.ijcai.org/proceedings/2022/0480.pdf) (IJCAI 2022) | Not Provided | Eric   | [Summary](./IJCAI/2022/MMT/MMT.md) |
+| [Learning from Students: Online Contrastive Distillation Network for General Continual Learning](https://www.ijcai.org/proceedings/2022/0446.pdf) | https://github.com/lijincm/OCD-Net | Xiaofan | [Summary](./IJCAI/2022/OCD-NET/OCD-NET.md) |
 
 
 ### ICDCS 2022
