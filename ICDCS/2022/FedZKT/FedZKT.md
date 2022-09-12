@@ -31,7 +31,7 @@
   
 
 * **Objective Functions / Loss Functions** \
-![ObjectiveFunction](./ObjectiveFunction.PNG)
+![ObjectiveFunction](./objectiveFunction.PNG)
   * F: Global model parameters, minimize disagreement between global model and local model ensemble.
   * G: Generative model parameters, maximize loss.
 ![Loss1](Loss1.PNG)
@@ -51,7 +51,7 @@
 
 ### Evaluation
 * **Setup**
-  * Proposed FL system is tested on MNIST KMNIST FMNIST and CIFAR!) datasets.
+  * Proposed FL system is tested on MNIST KMNIST FMNIST and CIFAR datasets.
   * For heterogeneous models, ShuffleNetV2 MobiNetV2 and other LeNet-like designed are used.
   * Baseline: FedMD, FedMD also allows model heterogenerity on clients but require piror knowledge of data or pretrained GAN model.
 
@@ -73,7 +73,7 @@
   * Add no additional compution on clients.
 
 
-* Pros:
+* Cons:
   * Generative model training does not make sense to me, why would maximizing loss between F and local model ensemble train GAN
   * Server will need to handle significantly more computations.
 
