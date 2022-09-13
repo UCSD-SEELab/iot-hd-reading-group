@@ -19,14 +19,19 @@
     * Tie-breaking in favor of weak players increases their effort
   * Assumptions
     * Deterministic
-    * Utility of player:
+    * Utility of player: 
+    ![Utility formula](./utility.jpg)
     * Nash equilibrium in the players
 
 ### Method
 
-*
-*
-*
+List of things the authors have proved:
+* First proposition
+![Proposition 1](./Proposition.jpg)
+* Formula that shows the propostion that "Breaking ties in favor of strong players guarantees ⅓ utility over any other rule":
+* ![Proposition 2](./Proposition2.jpg)
+* Formula for minimum reward given probaboility of success of last player
+![Reward formula](./reward.jpg)
 
 ### Results
 
