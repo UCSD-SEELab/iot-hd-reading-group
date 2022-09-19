@@ -20,6 +20,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [MMT: Multi-Way Multi-Modal Transformer for Multimodal Learning](https://www.ijcai.org/proceedings/2022/0480.pdf) (IJCAI 2022) | Not Provided | Eric   | [Summary](./IJCAI/2022/MMT/MMT.md) |
 | [Learning from Students: Online Contrastive Distillation Network for General Continual Learning](https://www.ijcai.org/proceedings/2022/0446.pdf) (IJCAI 2022) | https://github.com/lijincm/OCD-Net | Xiaofan | [Summary](./IJCAI/2022/OCD-Net/OCD-Net.md) |
+| [Understanding the Mitigating Data Contamination in Deep Anomaly Detection: A Kernel-based Approach](https://www.ijcai.org/proceedings/2022/322) (IJCAI 2022) | Not Provided | Xiaofan | [Summary](./IJCAI/2022/DataContamination/DataContamination.md) |
 
 
 ### ICDCS 2022
