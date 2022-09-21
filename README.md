@@ -20,7 +20,6 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [MMT: Multi-Way Multi-Modal Transformer for Multimodal Learning](https://www.ijcai.org/proceedings/2022/0480.pdf) (IJCAI 2022) | Not Provided | Eric   | [Summary](./IJCAI/2022/MMT/MMT.md) |
 | [Learning from Students: Online Contrastive Distillation Network for General Continual Learning](https://www.ijcai.org/proceedings/2022/0446.pdf) (IJCAI 2022) | https://github.com/lijincm/OCD-Net | Xiaofan | [Summary](./IJCAI/2022/OCD-Net/OCD-Net.md) |
-| [Picking the Right Winner: Why Tie-Breaking in Crowdsourcing Contests Matters](https://www.ijcai.org/proceedings/2022/0044.pdf) (IJCAI 2022) | Not Provided | Ivannia |  [Summary](./IJCAI/2022/PickingtheRightWinner/PickingtheRightWinner)
 
 ### ICDCS 2022
 
