@@ -5,7 +5,7 @@ This repository hosts a list of research papers and topics that we track in the 
 A template for paper reading summary can be found [here](./template.md).
 
 
-### AAAI 2022
+### AAAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
@@ -15,7 +15,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (AAAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./AAAI/2022/CFeD/CFeD.md) |
 
 
-### IJCAI 2022
+### IJCAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
@@ -26,20 +26,33 @@ A template for paper reading summary can be found [here](./template.md).
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 
 
-### ICDCS 2022
+### ICDCS
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric   | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
 
 
-### IoTDI & IPSN 2022
+### IPSN
 
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [BalanceFL: Addressing Class Imbalance in Long-Tail Federated Learning](https://conferences.computer.org/cpsiot/pdfs/IPSN2022-6R1M30NXCSXmbVKUqzz1Of/962400a259/962400a259.pdf) (IPSN 2022) | https://github.com/sxontheway/BalanceFL | Xiaofan    | [Summary](./IPSN/2022/BalanceFL/BalanceFL.md) |
+
+
+### IoTDI
+
+| Paper Title                                                  | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric   | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
 | [YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers](https://arxiv.org/abs/2203.03794) (IoTDI 2022) | Not provided | Shuhang   | [Summary](./IPSN/2022/YONO/MTLnPQ.md) |
+
+
+### MobiCom
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
 
 
 ### HD
@@ -54,8 +67,6 @@ A template for paper reading summary can be found [here](./template.md).
 | [Symbolic Representation and Learning with Hyperdimensional Computing](https://pubmed.ncbi.nlm.nih.gov/33501231/) (Frontiers 2020) | https://github.com/ncos/pyhdc, <br />https://github.com/thulab/DeepHash | Xiaofan    | [Summary](./HD/HIL/hil.md)                       |
 | [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)               |
 | [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./HD/HRR/HRR.md)               |
-
-
 
 ### Tiny Machine Learning
 
