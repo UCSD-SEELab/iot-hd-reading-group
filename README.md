@@ -12,6 +12,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
 | [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL/CACL.md) |
 | [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./AAAI/2022/ML4EV/ML4EV.md) |
+| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (AAAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./AAAI/2022/CFeD/CFeD.md) |
 
 
 ### IJCAI 2022
@@ -22,6 +23,8 @@ A template for paper reading summary can be found [here](./template.md).
 | [Learning from Students: Online Contrastive Distillation Network for General Continual Learning](https://www.ijcai.org/proceedings/2022/0446.pdf) (IJCAI 2022) | https://github.com/lijincm/OCD-Net | Xiaofan | [Summary](./IJCAI/2022/OCD-Net/OCD-Net.md) |
 | [Picking the Right Winner: Why Tie-Breaking in Crowdsourcing Contests Matters](https://www.ijcai.org/proceedings/2022/0044.pdf) (IJCAI 2022) | Not Provided | Ivannia | [Summary](./IJCAI/2022/PickingTheRightWinner/PickingtheRightWinner.md) |
 | [Understanding the Mitigating Data Contamination in Deep Anomaly Detection: A Kernel-based Approach](https://www.ijcai.org/proceedings/2022/322) (IJCAI 2022) | Not Provided | Xiaofan | [Summary](./IJCAI/2022/DataContamination/DataContamination.md) |
+| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
+
 
 ### ICDCS 2022
 
