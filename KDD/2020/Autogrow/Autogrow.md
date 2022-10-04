@@ -1,4 +1,4 @@
-## Paper Title (with link)
+## AutoGrow: Automatic Layer Growing in Deep Convolutional Networks (with link)
 
 * Authors and Affiliation
 
