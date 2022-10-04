@@ -38,6 +38,12 @@ A template for paper reading summary can be found [here](./template.md).
 | [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric   | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
 | [YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers](https://arxiv.org/abs/2203.03794) (IoTDI 2022) | Not provided | Shuhang   | [Summary](./IPSN/2022/YONO/MTLnPQ.md) |
 
+### KDD
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+
 
 ### HD
 
