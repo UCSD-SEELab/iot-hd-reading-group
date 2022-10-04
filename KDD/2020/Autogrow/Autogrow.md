@@ -25,7 +25,7 @@ They make 3 contributions in this paper:
 
 1) **Autogrow**: automating algorithm for depth discovery in DNNs: starting from a shallow seed architecture, AutoGrow grows new layers if the growth improves the accuracy; otherwise, stops growing and thus discovers the depth.  They propose robust growing and stopping policies to generalize to different network architectures and datasets. Some important terms they use is Network: which is composed of a cascade of sub-networks. A sub-network is composed of sub-modules, which typical share the same output size. A sub-module is an elementary growing block composed of one or a few layers.
 
-
+   ![Utility formula](./utility.jpg)
 
     In the image, you can see the process of this algorithm: It starts from the shallowest backbone network and gradually grows sub-modules ( e.g., a residual block); the growth stops once a stopping policy is satisfied. So basically it grows a submodule of a subnet, initializes it, it checks: does it meet the growing policy? Yes, okay, next one. Adds submodel, does it meet the growing policy? No. Okay its done with that subnet. Next one.
 
