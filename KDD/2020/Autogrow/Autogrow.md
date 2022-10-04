@@ -25,11 +25,11 @@ They make 3 contributions in this paper:
 
 1) **Autogrow**: automating algorithm for depth discovery in DNNs: starting from a shallow seed architecture, AutoGrow grows new layers if the growth improves the accuracy; otherwise, stops growing and thus discovers the depth.  They propose robust growing and stopping policies to generalize to different network architectures and datasets. Some important terms they use is Network: which is composed of a cascade of sub-networks. A sub-network is composed of sub-modules, which typical share the same output size. A sub-module is an elementary growing block composed of one or a few layers.
 
-   ![Utility formula](./utility.jpg)
+   ![Process](./process.jpg)
 
     In the image, you can see the process of this algorithm: It starts from the shallowest backbone network and gradually grows sub-modules ( e.g., a residual block); the growth stops once a stopping policy is satisfied. So basically it grows a submodule of a subnet, initializes it, it checks: does it meet the growing policy? Yes, okay, next one. Adds submodel, does it meet the growing policy? No. Okay its done with that subnet. Next one.
 
-
+   ![Algorithm](./algorithm.jpg)
 
     The algorithm does exactly that, you have SubNetList = circular linked list of all the subnetworks. GrowingSub which is the current growing subnetwork and the last grown subnetwork is grownsub. If the submodel doesn’t improve the accuracy than removes subnetwork from the list of subnetwork, and its permanently stopped. If it does improve than it adds a submodel and continues with the next one.
 
@@ -74,13 +74,20 @@ They make 3 contributions in this paper:
     
 * Experiments
 
+     ![Table2](./Table2.jpg)
     * Since the test ZeroInit and AdamInit = Network Morphism has a lower accuracy (negative “∆”) in all the cases, which validates they’re hypothesis that a converged shallow network with Network Morphism gives a bad initialization to train a deeper net. So they go and test with different learning rate and initialization model
+      ![Table3](./Table3.jpg)
     * Constant learning rate is better that stair case learning rate and random initialization is better than the past initialization.
     * **PROBLEM**: You can see in the found net that there’s a Very early stop issue using C-autogrow.
+      ![Table5](./Table5.jpg)
     * P-Autogrow, finds a much deeper net. Here the accuracy peeks in K=3. Which proves that reducing K produces a deeper net while the accuracy gain is marginal/impossible
+      ![Table6](./Table6.jpg)
     * Further proofs that Random Initialization is also best when using p-Autogrow.
+      ![Table7](./Table7.jpg)
     * Demonstrates that the shallowest DNN works as well as a deeper seed. This implies that AutoGrow can appropriately stop regardless of the depth of the seed network. Since the focus of this work is on depth automation, they prefer starting with the shallowest seed to avoid a manual search of a seed depth.
+      ![Figure5](./Figure5.jpg)
     * For ResNets, a discovered depth (Black full dot) falls at the location where accuracy saturates. This means AutoGrow discovers a near-optimal depth. AutoGrow sometimes discovers smaller DNNs when increasing K from 3 to 50. So, the accuracy of plain networks even increases at K = 50. This implies the possibility of discovering a better accuracy-depth trade-off by tuning K.
+      ![Table4](./Table4.jpg)
     * Lastly they test the adaptability with different datasets, where AutoGrow discovers layer depth across all scenarios without any tuning, achieving the main goal of this work. It works best with Plain Network because the accuracy is positive which means Autogrow is much better, and in ResNet, they’re very similar but Autogrow is mostly automated. The only outlier is CIFAR100 with Basic3ResNet where is better the training by scratch.
     * The final accuracy is limited by the submodule design, not by AutoGrow. Which is one of the assumptions: choosing a good DNN to yield good results. The programmer defines the model, so its accuracy depends on the selected model.
 
