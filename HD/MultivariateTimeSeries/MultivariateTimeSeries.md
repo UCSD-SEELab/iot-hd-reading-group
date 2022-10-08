@@ -1,8 +1,8 @@
 ## [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf)
 
-* Authors and Affiliation
+* Kenny Schlegel, Florian Mirus, Peer Neubert and Peter Protzel
 
-* Conference and year
+* Intelligen Vehicles Symposium (IV), 2021
 
 * Link to the code (if any)
 
