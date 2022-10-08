@@ -73,8 +73,6 @@ A template for paper reading summary can be found [here](./template.md).
 | [Symbolic Representation and Learning with Hyperdimensional Computing](https://pubmed.ncbi.nlm.nih.gov/33501231/) (Frontiers 2020) | https://github.com/ncos/pyhdc, <br />https://github.com/thulab/DeepHash | Xiaofan    | [Summary](./HD/HIL/hil.md)                       |
 | [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)               |
 | [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./HD/HRR/HRR.md) 
-| [Minority Resampling Boosted Unsupervised Learning with Hyperdimensional Computing for Threat Detection at the Edge of the Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE Access 2021) | [Link to code]([Minority_Resampling_Boosted_Unsupervised_Learning_With_Hyperdimensional_Computing_for_Threat_Detection_at_the_Edge_of_Internet_of_Things.pdf](https://github.com/UCSD-SEELab/iot-hd-reading-group/files/9737933/Minority_Resampling_Boosted_Unsupervised_Learning_With_Hyperdimensional_Computing_for_Threat_Detection_at_the_Edge_of_Internet_of_Things.pdf)
- | Louis      | [Summary]() 
 |
 
 ### Tiny Machine Learning
