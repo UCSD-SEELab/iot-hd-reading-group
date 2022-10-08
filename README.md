@@ -5,16 +5,17 @@ This repository hosts a list of research papers and topics that we track in the 
 A template for paper reading summary can be found [here](./template.md).
 
 
-### AAAI 2022
+### AAAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
 | [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL/CACL.md) |
 | [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./AAAI/2022/ML4EV/ML4EV.md) |
+| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (AAAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./AAAI/2022/CFeD/CFeD.md) |
 
 
-### IJCAI 2022
+### IJCAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
@@ -22,19 +23,27 @@ A template for paper reading summary can be found [here](./template.md).
 | [Learning from Students: Online Contrastive Distillation Network for General Continual Learning](https://www.ijcai.org/proceedings/2022/0446.pdf) (IJCAI 2022) | https://github.com/lijincm/OCD-Net | Xiaofan | [Summary](./IJCAI/2022/OCD-Net/OCD-Net.md) |
 | [Picking the Right Winner: Why Tie-Breaking in Crowdsourcing Contests Matters](https://www.ijcai.org/proceedings/2022/0044.pdf) (IJCAI 2022) | Not Provided | Ivannia | [Summary](./IJCAI/2022/PickingTheRightWinner/PickingtheRightWinner.md) |
 | [Understanding the Mitigating Data Contamination in Deep Anomaly Detection: A Kernel-based Approach](https://www.ijcai.org/proceedings/2022/322) (IJCAI 2022) | Not Provided | Xiaofan | [Summary](./IJCAI/2022/DataContamination/DataContamination.md) |
+| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 
-### ICDCS 2022
+
+### ICDCS
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric   | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
 
 
-### IoTDI & IPSN 2022
+### IPSN
 
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [BalanceFL: Addressing Class Imbalance in Long-Tail Federated Learning](https://conferences.computer.org/cpsiot/pdfs/IPSN2022-6R1M30NXCSXmbVKUqzz1Of/962400a259/962400a259.pdf) (IPSN 2022) | https://github.com/sxontheway/BalanceFL | Xiaofan    | [Summary](./IPSN/2022/BalanceFL/BalanceFL.md) |
+
+
+### IoTDI
+
+| Paper Title                                                  | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric   | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
 | [YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers](https://arxiv.org/abs/2203.03794) (IoTDI 2022) | Not provided | Shuhang   | [Summary](./IPSN/2022/YONO/MTLnPQ.md) |
 
@@ -43,6 +52,13 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+
+
+### MobiCom
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
 
 
 ### HD
@@ -58,6 +74,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)               |
 | [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./HD/HRR/HRR.md)               |
 | [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf) (IV 2021) | [Link to code](https://github.com/TUC-ProAut/HDC_driving_style_classification) | Ivannia     | [Summary](./HD/MultivariateTimeSeries/MultivariateTimeSeries.md)               |
+
 
 ### Tiny Machine Learning
 
