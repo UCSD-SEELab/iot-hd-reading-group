@@ -1,10 +1,8 @@
-## Paper Title (with link)
+## Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things ([with link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655))
 
-* Authors and Affiliation
+* VIVEK CHRISTOPHER, THARMASANTHIRAN AATHMAN, KAYATHIRI MAHENDRAKUMARAN, RASHMIKA NAWARATNE, DASWIN DE SILVA (IEEE), VISHAKA NANAYAKKARA, AND DAMMINDA ALAHAKOON (IEEE)
 
-* Conference and year
-
-* Link to the code (if any)
+* IEEE ACCESS 2021
 
 ### Motivation and Problem Formulation
 
