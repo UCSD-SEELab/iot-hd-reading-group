@@ -81,6 +81,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)               |
 | [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./HD/HRR/HRR.md)               |
 | [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf) (IV 2021) | [Link to code](https://github.com/TUC-ProAut/HDC_driving_style_classification) | Ivannia     | [Summary](./HD/MultivariateTimeSeries/MultivariateTimeSeries.md)               |
+| [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided | Louis    | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md) | 
 
 
 ### Tiny Machine Learning
