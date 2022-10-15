@@ -10,19 +10,19 @@
 * Complexity of dynamic threat detection at the Edge for IoT devices
 * Widespread adoption of IoT applications stresses the impact and vulnerability to cyber attacks.
 
-* Unlabeled data
-* Unbalanced datasets
-
 **Challenges**
 * Signature based detection requires frequent updates and can be circumvented with obfuscation techniques.
 * Knowledge and Statistical based detection requires balanced and labeled data.
-**Missing from Previous Work**
 
-**Key Assumptions**
+**Missing from Previous Work**
 * Few Shot Learning (FSL) requires balanced data
 * Granular Computing (GrC) needs to be combined with deep learning techniques
 * Blockchain requires human intervention and is mainly good for preventing counterfeiting
 * SMOTE creates larger and less specific decision limits
+
+**Key Assumptions**
+* Unlabeled data
+* Unbalanced datasets
 
 ### Method
 
