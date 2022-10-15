@@ -26,7 +26,13 @@
 
 ### Method
 
+* Effective, efficient, and secure method for machine learning at the IoT Edge specifically for cybersecurity threat detection
+* Novel EG-SMOTE algorithm that addresses limitations due to noisy, imbalanced or overfitted data.
+* Machine learning method that integrates EG-SMOTE and GSOM to identify threats
+
 ![Figure1](./HD_EGSMOT_GSOM_1.png)
+
+![Method](./HD_EGSMOT_GSOM_method.png)
 
 ### Evaluations
 
