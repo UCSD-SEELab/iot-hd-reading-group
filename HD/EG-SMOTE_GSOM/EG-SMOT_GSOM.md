@@ -48,5 +48,11 @@
 
 ### Pros and Cons (Your thoughts)
 
-* Pros: why you think this is a good paper?
-* Cons: unrealistic assumptions, missing elements, missing experiments, etc.
+**Pros:** 
+* Clearly conveyed ideas  
+* Made convincing arguments for the use of machine learning 
+
+**Cons:** 
+* The work that was cited for GSOM had HD related concepts but weren't specifically HD
+* EG-SMOTE results barely edge out G-SMOTE
+* Not a lot of directly related work to cite.
