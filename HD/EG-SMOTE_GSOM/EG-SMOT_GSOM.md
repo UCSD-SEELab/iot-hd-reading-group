@@ -29,6 +29,9 @@
 * Effective, efficient, and secure method for machine learning at the IoT Edge specifically for cybersecurity threat detection
 * Novel EG-SMOTE algorithm that addresses limitations due to noisy, imbalanced or overfitted data.
 * Machine learning method that integrates EG-SMOTE and GSOM to identify threats
+* Algorithm 1 - Balances data, removes noise, and prevents overfitting
+* Algorithm 2 - Clusters and labels data into Nodes
+* Algorithm 3 - Classifies new data based on proximity to labeled Nodes 
 
 ![Figure1](./HD_EGSMOT_GSOM_1.png)
 
@@ -36,12 +39,12 @@
 
 ### Evaluations
 
-* Where did they implement their method? On what platform?
-* How they evaluate their method?
-  * Dataset
-  * Baselines
-  * Metrics
-* What are the key results?
+* Results contained details of experimentation comparing EG-SMOTE to SMOTE and GSMOTE across four datasets (KDD99, NSL-KDD, CICIDS2017, and BoT-IoT).  
+* The classifiers used: Logistic Regressor(LR), Gradient Boosting Classier (GBC), K-Nearest Neighbours(KNN), Decision Tree (DT), XGBoost and GSOM.
+ 
+![Metrics](./HD_EGSMOT_GSOM_eval.png)
+
+![Results](./HD_EGSMOT_GSOM_results.png)
 
 ### Pros and Cons (Your thoughts)
 
