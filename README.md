@@ -75,6 +75,8 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
+| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (Mobicom 2020) | Not Provided | Dan    | [Summary](./Wireless/IndoorNavigation/IndoorNavigation.md) |
+
 
 ## Topic Reviews
 
@@ -91,6 +93,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)               |
 | [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf) (IV 2021) | [Link to code](https://github.com/TUC-ProAut/HDC_driving_style_classification) | Ivannia     | [Summary](./HD/MultivariateTimeSeries/MultivariateTimeSeries.md)               |
 | [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided | Louis    | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md) | 
+| [OnlineHD: Robust, Efficient, and Single-Pass Online Learning Using Hyperdimensional System](https://doi.org/10.23919/DATE51398.2021.9474107) | https://github.com/BIASLab-UCI/onlinehd | Alex    | [Summary](./HD/OnlineHD/OnlineHD.md) | 
 
 
 ### Tiny Machine Learning
@@ -106,4 +109,3 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code                       | Presenters | Notes                                        |
 | ------------------------------------------------------------ | ---------------------------------- | ---------- | -------------------------------------------- |
 | [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL | Xiaofan    | [Summary](./Wireless/WirelessCL/WirelessCL.md) |
-| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (Mobicom 2020) | Not Provided | Dan    | [Summary](./Wireless/IndoorNavigation/IndoorNavigation.md) |
