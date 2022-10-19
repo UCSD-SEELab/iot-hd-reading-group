@@ -106,3 +106,4 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code                       | Presenters | Notes                                        |
 | ------------------------------------------------------------ | ---------------------------------- | ---------- | -------------------------------------------- |
 | [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL | Xiaofan    | [Summary](./Wireless/WirelessCL/WirelessCL.md) |
+| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (Mobicom 2020) | Not Provided | Dan    | [Summary](./Wireless/IndoorNavigation/IndoorNavigation.md) |
