@@ -78,12 +78,12 @@
   * Contrastive Multi-view Learning (CMC): Contrastive learning method for image based HAR tasks.
 
 
-![acc.png](acc.png)
+![acc.PNG](acc.PNG)
 * Result
   * Cosmo works well even with samll number of labellled data.
   * Even with few labelled data, Cosmo outperformes attensense which use 100% of labelled data.
 
-![Conv.png](Conv.png)
+![Conv.PNG](Conv.PNG)
 * Additionally, with contrastively learning encoders, Cosmo is able to converge much faster.
 
 
