@@ -26,6 +26,9 @@
 
 1) They’re first contribution is to formalize the input filtering problem and provide valid conditions of a filter.
    * Define a filter as “valid” is it’s accurate enough (surpases a certain threshold, this threshold is basically an acceptable inference accuracy) & it has a reduced overhead (which is mainly that the overall cost of the input filter is lower than the original cost without the filter)
+
+![Figure2](./Figure 2. Process.jpg)
+
    * You can see Figure 2 the main process. So you have $X$ = Input, $h$ = the function for the inference model from a hypothesis family ($H$) which returns $Y$ = label space, then the output of $h$ is the input for $f_h$ = function the transforms $Y$ -> $Z$ (estimated redundancy measurement). From there you train an input filter $g$ from a hypothesis family $G$ which given $X$ can deduce the redundancy measurement $z$.
    * Once the model is trained, you have input, pass it through the filter $g$, get redundancy measurement then you ask is it redundant enough, yes = you use Skip or reuse, no, then use the inference model to get a result.
    * Now that we know the steps the go to ask themselves Given an inference workload, is there a valid input filter $g$?
