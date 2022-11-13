@@ -13,89 +13,59 @@
    * Theoretical definitions of filterability of an inference workload
    * Solution with robust discriminability of feature embedding to allow input filtering to be widely effective in many tasks
 * The challenge is that AI models with state-of-the-art accuracy are very computationally intensive, which we don’t want
-* SOLUTION to this problem that has been proposed before: Eliminate the redundancy of the deep model itself via accelerating and compressing techniques in the input, specifically two ways to do this
-   * SKIP: where you filter input data that will bring useless inference results
-   * REUSE: in this case you filter input whose results can reuse previous inference results
+* **SOLUTION** to this problem: Eliminate the redundancy of the deep model itself via accelerating and compressing techniques in the input, specifically two ways to do this
+   * <ins>SKIP</ins>: where you filter input data that will bring useless inference results
+   * <ins>REUSE</ins>: in this case you filter input whose results can reuse previous inference results
 * Previous Works:
    * FilterForward: SKIP method for image input, they use a pre-trained MobileNet’s feature embedding and then train a binary “micro-classifier” to know when to skip.
     * FoggyCache: REUSE method for image and audio. It includes Low-level features and locality-sensitive hashing for embedding, followed by an L2 norm as the difference function. To compare new data with past observations.
     * Reducto: variant of SKIP for video input. It has a Low-level feature difference between successive frames.
-    * Missing: Theoretical abstraction of the problem, they also split filtering task into sub-modules and they resolve each submodule individually, no optimal accuracy, missing input modalities like text and sensor signals, and lastly the features are poorly discriminative.
-
+    * **Missing**: Theoretical abstraction of the problem, they also split filtering task into sub-modules and they resolve each submodule individually, no optimal accuracy, missing input modalities like text and sensor signals, and lastly the features are poorly discriminative.
 
 ### Method
 
-They make 3 contributions in this paper:
+1) They’re first contribution is to formalize the input filtering problem and provide valid conditions of a filter.
+   * Define a filter as “valid” is it’s accurate enough (surpases a certain threshold, this threshold is basically an acceptable inference accuracy) & it has a reduced overhead (which is mainly that the overall cost of the input filter is lower than the original cost without the filter)
+   * You can see Figure 2 the main process. So you have $X$ = Input, $h$ = the function for the inference model from a hypothesis family ($H$) which returns $Y$ = label space, then the output of $h$ is the input for $f_h$ = function the transforms $Y$ -> $Z$ (estimated redundancy measurement). From there you train an input filter $g$ from a hypothesis family $G$ which given $X$ can deduce the redundancy measurement $z$.
+   * Once the model is trained, you have input, pass it through the filter $g$, get redundancy measurement then you ask is it redundant enough, yes = you use Skip or reuse, no, then use the inference model to get a result.
+   * Now that we know the steps the go to ask themselves Given an inference workload, is there a valid input filter $g$?
+   * They first define that an inference workload is filterable if the complexity measurement of $G$ is smaller than $H$, where $h$ is part of this $H$ (Hypothesis family) and $f_h$ o $h$ = family of the input filter’s target concept is part of uppercase case G which is the hypothesis family of $g$.
+   * They go and do the filterability analysis for 3 workloads: 
+      * First the test a binary classifier $h$ like speaker verification that return classification confidence or even a multi-class classifier and they determined that this is NOT filterable, the proof is on the next image.
+      * Then they test an inference model $h$ as a multi-class mono-label classifier like object detector on drone for traffic monitoring (in this example example you would only care about cars and pedestrians, trees and animals are redundant) and they conclude that this IS filterable.
+      * Lastly they test a bounded regression model $h$ like face authentication where the coordinates of the detected face have to be within a specific range and they conclude that this IS filterable.
+   * Assumptions: Identical distributions for both the input values for the inference workload and the input filter training + the same training samples, for the input filtering and inference workload.
 
-1) **Autogrow**: automating algorithm for depth discovery in DNNs: starting from a shallow seed architecture, AutoGrow grows new layers if the growth improves the accuracy; otherwise, stops growing and thus discovers the depth.  They propose robust growing and stopping policies to generalize to different network architectures and datasets. Some important terms they use is Network: which is composed of a cascade of sub-networks. A sub-network is composed of sub-modules, which typical share the same output size. A sub-module is an elementary growing block composed of one or a few layers.
-
-   ![Process](./process.jpg)
-
-    In the image, you can see the process of this algorithm: It starts from the shallowest backbone network and gradually grows sub-modules ( e.g., a residual block); the growth stops once a stopping policy is satisfied. So basically it grows a submodule of a subnet, initializes it, it checks: does it meet the growing policy? Yes, okay, next one. Adds submodel, does it meet the growing policy? No. Okay its done with that subnet. Next one.
-
-   ![Algorithm](./algorithm.jpg)
-
-    The algorithm does exactly that, you have SubNetList = circular linked list of all the subnetworks. GrowingSub which is the current growing subnetwork and the last grown subnetwork is grownsub. If the submodel doesn’t improve the accuracy than removes subnetwork from the list of subnetwork, and its permanently stopped. If it does improve than it adds a submodel and continues with the next one.
-
-2) Contrary to Network Morphism, they propose that random initialization works equally or better.
-    * ZeroInit: Stack a residual block and initialize Batch Normalization layer as zeros  the function of the shallower net is preserved but the DNN is morphed to a deeper net.
-    * AdamInit: freeze all parameters except the last Batch Normalization layer in the new submodel, and then use Adam optimizer in the last Bath Normalization for maximum 10 epochs till the training accuracy of the deeper net is as good as the shallower one.
-    * UniInit: random initialization of the last Batch Normalization layer using uniform noises
-    * GauInit: random initialization of the last Batch Normalization layer using gaussian noises with standard deviation 1.0
-
-      Basically, that UniInit and GauInit are better than top 2 initializations.
-
-3) It is beneficial to rapidly grow layers before a shallower net converge its related to the meetGrowing Policy().
-    * Convergent Growth: AutoGrow only grows when current network has converged.  And stops when meetStoppingPolicy() returns true defined if the recent growth does not improve validation accuracy more than τ within K epochs.
-
-    * Periodic Growth: the network always grows every K epochs. And stops when meetStoppingPolicy() returns true this is when the validation accuracy improves less than tau in the last J epochs, where J ≫ K.
-
-      They propose that Periodic Growth outperforms convergent Growth. τ, J and K are hyperparameters set by the programmer.
-
-
+2) The second contribution is InFi as the first end-to-end learnable input filtering framework for both SKIP and REUSE methods, it has advantages like:
+   * Robust discriminability
+   * Wider Applicability
+   * Outperforms baselines in accuracy and efficiency. 
+   * In training SKIP is treated as REUSE with a NONE output.
+      * The key to REUSE is to measure the semantic similarity between the current input and previously cached ones. In Figure 3 you can see how $x$ and $x'$ is a pair of inputs and you have $d$ as the difference function on embeddings $e$ and $e'$. Then the classifier predicts $z$. Z in REUSE is distance between 2 inputs
+      * SKIP is the same process but $z$ is the probability that $x$ is not redundant.
+    * In inference
+       * The same process for both methods but differ in the inputs for d. 
+       * In SKIP you have a binary classifier to determine whether to skip or not depending on the redundancy score $z$. 
+       * In REUSE $d$ takes into account the key-value table of the past data where the keys are the feature embedding and the values are the corresponding inference results. The distance between an input and past cached features ($z$) is calculated through KNN or some other classification algorithm.
+     * Key components of InFi are: feature embedding, classifier, training mechanism and inference algorithm.
+     * They opened the range of filterable workloads with 6 input modalities which are: text, image, video, audio, sensor signal and feature map.
+     * Training:
+        * Infi-Skip: Training a binary classifier, and they use binary cross-entropy as the loss function.
+        * Infi-Reuse: Train using contrastive loss, so given a set of input and their discrete inference results, the redundancy measurement is defined as the distance metric between a pair of inputs.
+      * Inference:
+         *  Infi-Skip: They use $T$ (threshold for redundancy) to determine whether to skip the current input in other words return NONE
+         *  Infi-Reuse: Maintain a cache, they use Homogenized KNN algorithm to reuse cached results which in turn return homogeneity score. They use Homogenized instead of normal KNN due to the problem that a new input may not be similar to any past cached entries, and they use Least Frequently Used algorithm as the replace policy inside the cache.
 
 ### Evaluations
 
-* Generalization parameters:
-    * The setup τ in all the experiments to 0.05%
-    * Convergent Growth: K = T. Which is enough to ensure convergence.
-    * Normally K = 3, but they also test it.
-    * Use maximum validation accuracy for growing and stopping
-* Baseline: Autogrow or Network Morphism compared to training a deeper net from scratch (trained by SGD with momentum 0.9 using staircase learning rate).
-* Types of DNNs
-    * Basic3ResNet: 3 residual sub-networks
-    * Basic4ResNet: 4 sub-networks
-    * Plain3NET: VggNet-like plain net removing shortcuts in Basic3ResNet
-    * Plain4NET: VggNet-like plain net removing shortcuts in Basic4ResNet
-* Dataset
-    * CIFAR10
-    * CIFAR100
-    * SVHN
-    * FashionMNIST
-    * MNIST
-   
-    (They use a Variety of datasets to specifically test the flexibility of the model).
-    
-* Experiments
-
-     ![Table2](./Table2.jpg)
-    * Since the test ZeroInit and AdamInit = Network Morphism has a lower accuracy (negative “∆”) in all the cases, which validates they’re hypothesis that a converged shallow network with Network Morphism gives a bad initialization to train a deeper net. So they go and test with different learning rate and initialization model
-      ![Table3](./Table3.jpg)
-    * Constant learning rate is better that stair case learning rate and random initialization is better than the past initialization.
-    * **PROBLEM**: You can see in the found net that there’s a Very early stop issue using C-autogrow.
-      ![Table5](./Table5.jpg)
-    * P-Autogrow, finds a much deeper net. Here the accuracy peeks in K=3. Which proves that reducing K produces a deeper net while the accuracy gain is marginal/impossible
-      ![Table6](./Table6.jpg)
-    * Further proofs that Random Initialization is also best when using p-Autogrow.
-      ![Table7](./Table7.jpg)
-    * Demonstrates that the shallowest DNN works as well as a deeper seed. This implies that AutoGrow can appropriately stop regardless of the depth of the seed network. Since the focus of this work is on depth automation, they prefer starting with the shallowest seed to avoid a manual search of a seed depth.
-      ![Figure5](./Figure5.jpg)
-    * For ResNets, a discovered depth (Black full dot) falls at the location where accuracy saturates. This means AutoGrow discovers a near-optimal depth. AutoGrow sometimes discovers smaller DNNs when increasing K from 3 to 50. So, the accuracy of plain networks even increases at K = 50. This implies the possibility of discovering a better accuracy-depth trade-off by tuning K.
-      ![Table4](./Table4.jpg)
-    * Lastly they test the adaptability with different datasets, where AutoGrow discovers layer depth across all scenarios without any tuning, achieving the main goal of this work. It works best with Plain Network because the accuracy is positive which means Autogrow is much better, and in ResNet, they’re very similar but Autogrow is mostly automated. The only outlier is CIFAR100 with Basic3ResNet where is better the training by scratch.
-    * The final accuracy is limited by the submodule design, not by AutoGrow. Which is one of the assumptions: choosing a good DNN to yield good results. The programmer defines the model, so its accuracy depends on the selected model.
+* Dataset: They use a bunch of datasets, like Hollywood2, Esc-10, UCI HAR, MoCap and City Traffic to have the variety of modalities and inference tasks as well which can be seen in the next table.
+* Baseline:  FilterForward (FF), Reducto and FoggyCache(FC).
+* Metrics:  
+   * Filtering rate: for accuracy @ 90% inference accuracy, both for SKIP and REUSE methods. You can see is also tested against optimal results which is a computed metric by $(0.1) + r_N$ where $r_N$ = ratio of redundant inputs in the test dataset. Results show that InFi-Skip outperforms FilterForward and Reducto on al 10 workloads. Similarly Infi-Reuse significantly outperforms FoggyCache on all 6 applicable REUSE workloads.
+   * Computational complexity: They use Number of Parameters in the filter and number of float operations. They compare it to MobileNetV1 for efficiency and other standard CNN models, and as seen in Table4, InFi reduces about 70% Float operations and 99.4% parameters.
+   * Latency and Energy: They tested their model against MobileNetV1 again, one the most efficient CNN models on mobile devices. InFi with the image feature network costs only about 12-25% runtime of MobileNetV1. The average energy costs are much lower than MobileNetV1 on the phone and smartwatch.
 
 ### Pros and Cons (Your thoughts)
 
-* Pros: Automatization of a tedious task with some better results and time saving.
-* Cons: Still needs human input, like hyperparameters, and the model used which are also tuned and may use a series of tests which they are trying to improve.
+* Pros: Raises the bar for input filtering algorithms and it does help with reducing energy consumption and is more computationally efficient once paired with good AI model for inference.
+* Cons: Not tested with this added AI model for inference and we have seen how edge devices are gaining processing power quickly so efficiency is not really a problem anymore, something similar can be applied to this problem as well.
