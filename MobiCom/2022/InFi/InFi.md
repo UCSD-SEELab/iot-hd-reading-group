@@ -4,7 +4,7 @@
 
 * MobiCom 2022
 
-* [Link to Github](https://github.com/yuanmu97/infi)
+* [https://github.com/yuanmu97/infi](https://github.com/yuanmu97/infi)
 
 ### Motivation and Problem Formulation
 
