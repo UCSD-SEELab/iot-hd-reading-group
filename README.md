@@ -59,6 +59,7 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
+| [InFi: End-to-end Learnable Input Filter for Resource-efficient Mobile-centric Inference](https://dl.acm.org/doi/10.1145/3495243.3517016) (MobiCom 2022) | Not provided | Ivannia    | [Summary](./MobiCom/2022/InFi/InFi.md) |
 
 ### USENIX ATC
 
