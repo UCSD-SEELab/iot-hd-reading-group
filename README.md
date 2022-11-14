@@ -4,6 +4,8 @@ This repository hosts a list of research papers and topics that we track in the 
 
 A template for paper reading summary can be found [here](./template.md).
 
+## Conference Reviews
+
 
 ### AAAI
 
@@ -26,11 +28,33 @@ A template for paper reading summary can be found [here](./template.md).
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 
 
+### KDD
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+
+
+### NeurIPS
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./NeurIPS/2021/HRR/HRR.md)               |
+| [Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning](https://proceedings.neurips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html) (NeurIPS 2020) | [Link to code](https://github.com/deepmind/deepmind-research/tree/master/byol) | Xiaofan      | [Summary](./NeurIPS/2020/BYOL/BYOL.md)               |
+
+
 ### ICDCS
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric   | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
+
+
+### SenSys
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking](https://dl.acm.org/doi/10.1145/3485730.3485929) (SenSys 2021) | Not Provided | Eric   | [Summary](./SenSys/2021/FedMask/FedMask.md) |
 
 
 ### IPSN
@@ -47,18 +71,15 @@ A template for paper reading summary can be found [here](./template.md).
 | [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric   | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
 | [YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers](https://arxiv.org/abs/2203.03794) (IoTDI 2022) | Not provided | Shuhang   | [Summary](./IPSN/2022/YONO/MTLnPQ.md) |
 
-### KDD
-
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
-
 
 ### MobiCom
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
+| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (Mobicom 2020) | Not Provided | Dan    | [Summary](./Wireless/IndoorNavigation/IndoorNavigation.md) |
+| [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (Mobicom 2022) | Not Provided | Eric    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
+| [Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://dl.acm.org/doi/pdf/10.1145/3495243.3560515) (Mobicom 2022) | Not Provided | Dan    | [Summary](./MobiCom/2022/RFMask/RFMask.md) |
 | [InFi: End-to-end Learnable Input Filter for Resource-efficient Mobile-centric Inference](https://dl.acm.org/doi/10.1145/3495243.3517016) (MobiCom 2022) | https://github.com/yuanmu97/infi | Ivannia    | [Summary](./MobiCom/2022/InFi/InFi.md) |
 
 ### USENIX ATC
@@ -67,6 +88,8 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
 
+
+## Topic Reviews
 
 ### HD
 
@@ -79,8 +102,9 @@ A template for paper reading summary can be found [here](./template.md).
 | [A Robust and Energy-Efficient Classifier Using Brain-Inspired Hyperdimensional Computing](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf) (ISPLED 2016) | https://github.com/abbas-rahimi/HDC-Language-Recognition     | Eric       | [Summary](./HD/Language_HDC/Language_HDC.md)     |
 | [Symbolic Representation and Learning with Hyperdimensional Computing](https://pubmed.ncbi.nlm.nih.gov/33501231/) (Frontiers 2020) | https://github.com/ncos/pyhdc, <br />https://github.com/thulab/DeepHash | Xiaofan    | [Summary](./HD/HIL/hil.md)                       |
 | [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)               |
-| [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./HD/HRR/HRR.md)               |
 | [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf) (IV 2021) | [Link to code](https://github.com/TUC-ProAut/HDC_driving_style_classification) | Ivannia     | [Summary](./HD/MultivariateTimeSeries/MultivariateTimeSeries.md)               |
+| [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided | Louis    | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md) |
+| [OnlineHD: Robust, Efficient, and Single-Pass Online Learning Using Hyperdimensional System](https://doi.org/10.23919/DATE51398.2021.9474107) (DATE 2021) | https://github.com/BIASLab-UCI/onlinehd | Alex    | [Summary](./HD/OnlineHD/OnlineHD.md) |
 
 
 ### Tiny Machine Learning
@@ -91,8 +115,9 @@ A template for paper reading summary can be found [here](./template.md).
 | [On-Device Training of Machine Learning Models on Microcontrollers with Federated Learning](https://www.mdpi.com/2079-9292/11/4/573/htm) (Electronics 2022) | Not Provided | Shuhang    | [Summary](./TinyML/MLwFedLearning/MLwFL.md) |
 
 
-### Others
+### Wireless Communication
 
-| Paper Title                                                  | Link to code                       | Presenters | Notes                                        |
-| ------------------------------------------------------------ | ---------------------------------- | ---------- | -------------------------------------------- |
-| [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL | Xiaofan    | [Summary](./Others/WirelessCL/WirelessCL.md) |
+| Paper Title                                                  | Link to code                                                 | Presenters | Notes                                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------------------------------------------------------- |
+| [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL                           | Xiaofan    | [Summary](./Wireless/WirelessCL/WirelessCL.md)           |
+| [Deep-Learning-Based Device Fingerprinting for Increased LoRa-IoT Security: Sensitivity to Network Deployment Changes](https://dl.acm.org/doi/abs/10.1109/MNET.001.2100553) (IEEE Networks 2022) | [Link to dataset](https://research.engr.oregonstate.edu/hamdaoui/datasets) | Xiaofan    | [Summary](./Wireless/LoRaFingerprint/LoRaFingerprint.md) |
