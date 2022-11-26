@@ -59,9 +59,10 @@ A template for paper reading summary can be found [here](./template.md).
 
 ### IPSN
 
-| Paper Title                                                  | Link to code                            | Presenters | Notes                               |
-| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| Paper Title                                                  | Link to code                            | Presenters | Notes                                         |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | --------------------------------------------- |
 | [BalanceFL: Addressing Class Imbalance in Long-Tail Federated Learning](https://conferences.computer.org/cpsiot/pdfs/IPSN2022-6R1M30NXCSXmbVKUqzz1Of/962400a259/962400a259.pdf) (IPSN 2022) | https://github.com/sxontheway/BalanceFL | Xiaofan    | [Summary](./IPSN/2022/BalanceFL/BalanceFL.md) |
+| [YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers](https://arxiv.org/abs/2203.03794) (IPSN 2022) | Not provided                            | Shuhang    | [Summary](./IPSN/2022/YONO/MTLnPQ.md)         |
 
 
 ### IoTDI
@@ -69,7 +70,6 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric   | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
-| [YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers](https://arxiv.org/abs/2203.03794) (IoTDI 2022) | Not provided | Shuhang   | [Summary](./IPSN/2022/YONO/MTLnPQ.md) |
 
 
 ### MobiCom
