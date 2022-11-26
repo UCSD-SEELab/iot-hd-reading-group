@@ -88,6 +88,11 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
 
+### INFOCOM
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Nadege: When Graph Kernels meet Network Anomaly Detection](https://ieeexplore.ieee.org/document/9796978) (INFOCOM 2022) | Not provided | Xiaofan    | [Summary](./INFOCOM/2022/Nadege/Nadege.md) |
 
 ## Topic Reviews
 
