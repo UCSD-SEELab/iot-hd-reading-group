@@ -34,9 +34,15 @@
   * mmWave Radar
     * Frequenct Modulated Continuous Wave
     * Transmit Chirp Signal
-    * Receive and extract vibrations
-    
+    * Receive and extract vibrations  
     <img src="./fig3.png"  width="50%" height="50%">
+    
+  * Spectrogram Generation
+    * Time-Frequency domain spectrum
+  * Audio Reconstruction
+    * cGAN
+    * Vocoder    
+    <img src="./fig4.png"  width="50%" height="50%">    
 
 ### Evaluations
 
