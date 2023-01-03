@@ -46,9 +46,10 @@
 
 ### Results
 
-    ![Results](./fig6.png)
+  *   
+    <img src="./figs.png"  width="100%" height="100%">   
 
-### Pros and Cons (Your thoughts)
+### Pros and Cons 
 
 * Pros:
   * Can penetrate walls
