@@ -94,6 +94,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Nadege: When Graph Kernels meet Network Anomaly Detection](https://ieeexplore.ieee.org/document/9796978) (INFOCOM 2022) | Not provided | Xiaofan    | [Summary](./INFOCOM/2022/Nadege/Nadege.md) |
 | [ComAI: Enabling Lightweight, Collaborative Intelligence by Retrofitting Vision DNNs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9796769) (INFOCOM 2022) | Not provided | Dan    | [Summary](./INFOCOM/2022/ComAI/ComAI.md) |
+| [Milliear: Millimeter-wave Acoustic Eavesdropping with Unconstrained Vocabulary](https://ieeexplore.ieee.org/document/9796940) (INFOCOM 2022) | Not provided | Louis    | [Summary](./INFOCOM/2022/Milliear/Milliear.md) |
 
 ## Topic Reviews
 
