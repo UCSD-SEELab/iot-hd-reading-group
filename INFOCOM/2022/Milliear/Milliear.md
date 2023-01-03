@@ -37,6 +37,8 @@
     * Receive and extract vibrations
 
     ![Highlevel Example](./fig3.png)
+    
+    <img src="./fig3.png"  width="60%" height="30%">
 
 ### Evaluations
 
