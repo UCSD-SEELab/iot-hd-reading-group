@@ -42,17 +42,24 @@
   * Audio Reconstruction
     * cGAN
     * Vocoder    
-    <img src="./fig4.png"  width="50%" height="50%">    
+    <img src="./fig4.png"  width="60%" height="60%">    
 
-### Evaluations
+### Results
 
-* HERE
+    <img src="./figs.png"  width="100%" height="100%"> 
 
 ### Pros and Cons (Your thoughts)
 
 * Pros:
-  * HERE
+  * Can penetrate walls
+  * High resolution
+  * Unconstrained vocabulary
+  * Low cost
+  *
 * Cons:
-  * HERE
+  * Requires training
+  * Liminted by angle and distance
+  * Doesn't pick up sound from non-vibrating sources (ie mouth)
+ 
 * Something I learned from the paper:
-  * HERE
+  * The power of vibration, radar, and frequency waves
