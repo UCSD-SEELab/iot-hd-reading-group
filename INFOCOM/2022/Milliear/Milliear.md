@@ -35,10 +35,8 @@
     * Frequenct Modulated Continuous Wave
     * Transmit Chirp Signal
     * Receive and extract vibrations
-
-    ![Highlevel Example](./fig3.png)
     
-    <img src="./fig3.png"  width="60%" height="30%">
+    <img src="./fig3.png"  width="50%" height="50%">
 
 ### Evaluations
 
