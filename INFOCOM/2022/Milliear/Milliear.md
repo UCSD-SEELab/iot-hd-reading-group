@@ -46,7 +46,7 @@
 
 ### Results
 
-    ![Results](./figs.png)
+    ![Results](./fig6.png)
 
 ### Pros and Cons (Your thoughts)
 
