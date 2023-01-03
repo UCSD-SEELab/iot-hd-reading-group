@@ -46,7 +46,7 @@
 
 ### Results
 
-    <img src="./figs.png"  width="100%" height="100%"> 
+    *<img src="./figs.png"  width="100%" height="100%"> 
 
 ### Pros and Cons (Your thoughts)
 
@@ -55,7 +55,7 @@
   * High resolution
   * Unconstrained vocabulary
   * Low cost
-  *
+ 
 * Cons:
   * Requires training
   * Liminted by angle and distance
