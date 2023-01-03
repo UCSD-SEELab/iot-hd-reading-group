@@ -46,7 +46,7 @@
 
 ### Results
 
-    *<img src="./figs.png"  width="100%" height="100%"> 
+    <img src="./figs.png"  width="90%" height="90%"> 
 
 ### Pros and Cons (Your thoughts)
 
