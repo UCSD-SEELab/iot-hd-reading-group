@@ -26,26 +26,54 @@
    * (Class + Clip) - ScaleHD
 * Why this works?
    * Mathematically speaking if you scale a hypervector (transform binary to decimal) the cosine similarity between a query vector and the scaled hypervector remains the same as if you didn’t scale the hypervector.
-   * And why does scaling bring robustness? Because as seen in Figure 3: The original value is 5, after bit flip it becomes 17 -> relative error = 240%, after scaling 16 times the value becomes 80, after bit flip it becomes 68 -> relative error = 15%. This makes sense because when having a bigger number, there’s a lower probability of the bit flip being to the left of the most-significant bit (bigger value).
+   
+     ![math](./math.png)
+   
+   * Why does scaling bring robustness? Because as seen in Figure 3: The original value is 5, after bit flip it becomes 17 -> relative error = 240%, after scaling 16 times the value becomes 80, after bit flip it becomes 68 -> relative error = 15%. This makes sense because when having a bigger number, there’s a lower probability of the bit flip being to the left of the most-significant bit (bigger value).
+   
+     ![justification](./justification.png)
+   
 * Algorithms:
    * The first algorithm is global scaleHD, where you take the max value between the range of decimal numbers from hypervectors (Vmin, Vmax). Take the maximum possible of the absolute of those two (Va). And determine alpha as the ratio between this 2, and multiply all the classes in memory by alpha. 
+   
+     ![Global_formula](./Global_formula.png)
+     ![Global_algorithm](./Global_algorithm.png)
+   
    * Class-ScaleHD is the same algorithm and foundation BUT does it repeatedly in all of the classes, finds max and min values in the class and has specific alpha for each class (specifically useful for unbalanced classes when talking about samples).
+     
+     ![class_formula](./class_formula.png)
+     ![class_algorithm](./class_algorithm.png)
+     
    * (Class + Clip)-ScaleHD: cut/clip som extreme values in the class HV value distribution so that there’s a possibility to scale up even more -> more robustness. Starts with class scaling -> Find the clip value for each data - width (Clip ratio is determined by the programmer) -> apply global scaling.
+
+     ![clip_formula](./clip_formula.png)
+     ![clip_algorithm](./clip_algorithm.png)
 
 ### Evaluations
 
 * **Dataset**: Speech recognition (ISOLET), human activities (HAR), medical diagnosis (CARDIO), image classification (MNIST)
 * **Baselines**: Basic approach of HDC model - both in accuracy and with energy consumption
-   * Image1: Clip ratio is done through experimentation -> Minimum and maximum values for algorithms
-   * Image2: Error-free accuracy for different datasets configurations part of the baselines
+   * Clip ratio is done through experimentation -> Minimum and maximum values for algorithms
+   
+     ![baselines2](./baselines2.png)
+     
+   * Error-free accuracy for different datasets configurations part of the baselines
+   
+     ![baselines](./baselines.png)
+     
 * **Metric**: 
    * Cosine Similarity between error inject model and original model as the evaluation metric to check how the error influenced the HDC model.
    * Accuracy in the inference
    * Porcentage of Energy Saving: Using Voltage Scaling
 * **Results**:
    * Table3: By using ScaleHD average savings rise to 62%, 65% and 69% from the baseline at 50% because HDC has an inherent error tolerance even the baseline
+     
+     ![energy_results](./energy_results.png)
+     
    * Figure 9: Cosine similarity between error inject model and original model in different applications -> Although HDC is robust by itself, ScaleHD is superior at overcoming random bit-flip error. Especifically (Class+Clip)-ScaleHD has demonstrated the strongest performance
    * Figure 10: By applying ScaleHD, HDC’s robustness is significantly enhanced across all applications datasets. F.e. Accuracy drop at 10^-7 in baseline can be pushed to 10^-3 without accuracy loss -> 10000 times robustness improvement.
+
+     ![accuracy_results](./accuracy_results.png)
 
 ### Pros and Cons (Your thoughts)
 
