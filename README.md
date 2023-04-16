@@ -88,6 +88,11 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
 
+### ICCAD
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [ScaleHD: Robust Brain-Inspired Hyperdimensional Computing via Adapative Scaling](https://ieeexplore.ieee.org/document/10069402) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/ScaleHD/ScaleHD.md) |
 
 ## Topic Reviews
 
