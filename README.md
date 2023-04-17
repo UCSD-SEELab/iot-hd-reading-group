@@ -99,6 +99,12 @@ A template for paper reading summary can be found [here](./template.md).
 | [ComAI: Enabling Lightweight, Collaborative Intelligence by Retrofitting Vision DNNs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9796769) (INFOCOM 2022) | Not provided | Dan    | [Summary](./INFOCOM/2022/ComAI/ComAI.md) |
 | [Milliear: Millimeter-wave Acoustic Eavesdropping with Unconstrained Vocabulary](https://ieeexplore.ieee.org/document/9796940) (INFOCOM 2022) | Not provided | Louis    | [Summary](./INFOCOM/2022/Milliear/Milliear.md) |
 
+### ICCAD
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [ScaleHD: Robust Brain-Inspired Hyperdimensional Computing via Adapative Scaling](https://ieeexplore.ieee.org/document/10069402) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/ScaleHD/ScaleHD.md) |
+
 ## Topic Reviews
 
 ### HD
