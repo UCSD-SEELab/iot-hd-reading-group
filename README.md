@@ -7,6 +7,14 @@ A template for paper reading summary can be found [here](./template.md).
 ## Conference Reviews
 
 
+### ICLR
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided | Eric   | [Summary](./ICLR/2021/RFA/RFA.md) |
+
+
+
 ### AAAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
