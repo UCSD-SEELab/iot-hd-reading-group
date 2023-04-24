@@ -27,14 +27,25 @@
       * Dot product = With the gaussian kernel function
       * Activation function (Tan) =  To get that non-linaearity aspect and allows it to backpropegate (updating the weights of each neuron based on their contribution to the error)
       * Binarization
+      
+      ![Encoding](./Encoding.png)
+      
    * Preserves spatial-temporal information.
       * Spatial correlation is already achieved with past encoding.
       * The objective of preserving the spatial-temporal information is to represent the patterns in the samples into high-dimensional patterns.
       * To achieve this they temporally sort them -> Sort them by sensor + Using rolling window to represent all of the time series (Sorting is important because you want particular data to be assigned in to a particular weight).
       * Each row of the kernel encoder is a projection vector that adds up spatial temporal information of all the sensors in different weights. This is computationally efficient because the spatial and temporal information is preserved before mapping to a higher dimensional space (sorting) which leads to a higher parallelism instead of thousands of operations in the hd space.
+      
+      ![TempHD](./TempHD.png)
+      
    * Adaptively update the class hypervectors to eliminate saturation, it takes into account how much information is the new hv going to bring before adding it to the class hv which eliminates the necessity of iterative training, this can be shown in the next formulas:
       * If the query hv is assigned to the **correct** class: $\eta_1$ = learning rate, $1-\delta_l$ (similarity to the correct class) if the similarity is high not that much weight is added to the class but if it's really different then more weight is added to the class hypervector.
+
+        ![Correct_formula](./Correct_formula.png)
+
       * If the query hv is assigned to the **incorrect** class: Substract from the incorrect predicted class and the weight is depending of how much of mismatch there is between the predicted and real class. Here $\eta_2$ = learning rate and $\delta_{l^\prime}-\delta_l$ is the difference between the similarities of the predicted and true class hyoervectors to the query hv.
+      
+        ![Incorrect_formula](./Incorrect_formula.png)
 
 ### Evaluations
 
@@ -48,11 +59,22 @@
    * Accuracy
       * On average 3% higher than NgramHD.
       * Varies between individuals.
+      
+      ![result_1](./result_1.png)
+      
    * Efficiency
       * SVM achieves fastest training and testing because of low training samples.
+        
+        ![result_2](./result_2.png)
+        
       * SVM’s runtime rapidly increases as dataset gets larger.
+
+        ![result_3](./result_3.png)
+
    * Partial training data
       * Nearly 60% accuracy with only 10% of the training samples this is a good characteristic because training samples are usually limited in practical applications.
+      
+      ![result_4](./result_4.png)
 
 ### Pros and Cons (Your thoughts)
 
