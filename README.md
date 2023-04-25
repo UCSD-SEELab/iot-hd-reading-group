@@ -7,6 +7,14 @@ A template for paper reading summary can be found [here](./template.md).
 ## Conference Reviews
 
 
+### ICLR
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided | Eric   | [Summary](./ICLR/2021/RFA/RFA.md) |
+
+
+
 ### AAAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
@@ -55,7 +63,7 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking](https://dl.acm.org/doi/10.1145/3485730.3485929) (SenSys 2021) | Not Provided | Eric   | [Summary](./SenSys/2021/FedMask/FedMask.md) |
-| [SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing](https://dl.acm.org/doi/10.1145/3560905.3568502) (SenSys 2022) | Not Provided | Dan   | [Summary](./SenSys/2022/SpeechQoE/SpeechQoE.md) |
+| [SQEE: A Machine Perception Approach to Sensing Quality Evaluation at the Edge by Uncertainty Quantification](https://dl.acm.org/doi/abs/10.1145/3560905.3568534) (SenSys 2022) | Not Provided | Xiaofan | [Summary](./SenSys/2022/SQEE/SQEE.md) |
 
 
 ### IPSN
@@ -82,12 +90,14 @@ A template for paper reading summary can be found [here](./template.md).
 | [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (Mobicom 2022) | Not Provided | Eric    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
 | [Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://dl.acm.org/doi/pdf/10.1145/3495243.3560515) (Mobicom 2022) | Not Provided | Dan    | [Summary](./MobiCom/2022/RFMask/RFMask.md) |
 | [InFi: End-to-end Learnable Input Filter for Resource-efficient Mobile-centric Inference](https://dl.acm.org/doi/10.1145/3495243.3517016) (MobiCom 2022) | https://github.com/yuanmu97/infi | Ivannia    | [Summary](./MobiCom/2022/InFi/InFi.md) |
+| [U-Star: An Underwater Navigation System based on Passive 3D Optical Identification Tags](https://dl.acm.org/doi/pdf/10.1145/3495243.3517019) (Mobicom 2022) | Not provided | Louis    | [Summary](./MobiCom/2022/U-Star/U-Star.md) |
 
 ### USENIX ATC
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
+| [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/system/files/atc20-liu-xing.pdf) (ATC 2020) | Not provided | Louis    | [Summary](./ATC/2020/Firefly/Firefly.md) |
 
 ### INFOCOM
 
@@ -95,6 +105,13 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Nadege: When Graph Kernels meet Network Anomaly Detection](https://ieeexplore.ieee.org/document/9796978) (INFOCOM 2022) | Not provided | Xiaofan    | [Summary](./INFOCOM/2022/Nadege/Nadege.md) |
 | [ComAI: Enabling Lightweight, Collaborative Intelligence by Retrofitting Vision DNNs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9796769) (INFOCOM 2022) | Not provided | Dan    | [Summary](./INFOCOM/2022/ComAI/ComAI.md) |
+| [Milliear: Millimeter-wave Acoustic Eavesdropping with Unconstrained Vocabulary](https://ieeexplore.ieee.org/document/9796940) (INFOCOM 2022) | Not provided | Louis    | [Summary](./INFOCOM/2022/Milliear/Milliear.md) |
+
+### ICCAD
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [ScaleHD: Robust Brain-Inspired Hyperdimensional Computing via Adapative Scaling](https://ieeexplore.ieee.org/document/10069402) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/ScaleHD/ScaleHD.md) |
 
 ## Topic Reviews
 
