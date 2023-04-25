@@ -50,7 +50,7 @@
       * Generate synthetic data in unbalanced classes
       * Each user has a profile that is represented as a Gaussian distribution for each QoE level
       * After obtaining a few (3-5) samples from the new user, find the closest neighbors for this new distribution from the existing user profiles, and:
-      ![formula](./human_consistency.png)
+      ![formula](./formula.png)
       * In the case there are not enough neighbors, parametric model with QoS factors serves as a backup
       * Experiments show that the synthetic data are consistent with real data:
       ![T-SNE experiment](./tsne.png)
