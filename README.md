@@ -55,6 +55,7 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking](https://dl.acm.org/doi/10.1145/3485730.3485929) (SenSys 2021) | Not Provided | Eric   | [Summary](./SenSys/2021/FedMask/FedMask.md) |
+| [SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing](https://dl.acm.org/doi/10.1145/3560905.3568502) (SenSys 2022) | Not Provided | Dan   | [Summary](./SenSys/2022/SpeechQoE/SpeechQoE.md) |
 
 
 ### IPSN
