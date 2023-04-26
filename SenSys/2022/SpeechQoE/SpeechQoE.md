@@ -33,6 +33,7 @@
 * Figure 1 and 2 shows that feature vectors of different QoE scores are different, while they are similar for same QoE scores.
 * Figure 4 shows that the relationship between QoE scores and speech features are consistent.
 * Figure 5 shows that the relationship between QoE and speech within the same individual is consistent.
+
 ![Figure1,2](./diff_level.png)
 ![Figure4](./qoe_consistency.png)
 ![Figure5](./human_consistency.png)
@@ -50,9 +51,11 @@
       * Generate synthetic data in unbalanced classes
       * Each user has a profile that is represented as a Gaussian distribution for each QoE level
       * After obtaining a few (3-5) samples from the new user, find the closest neighbors for this new distribution from the existing user profiles, and:
+
       ![formula](./formula.png)
       * In the case there are not enough neighbors, parametric model with QoS factors serves as a backup
       * Experiments show that the synthetic data are consistent with real data:
+
       ![T-SNE experiment](./tsne.png)
 
 
@@ -64,8 +67,10 @@
   * MLQoE[2016]: map QoS to QoE
   * E-model[2005]: analytical parametric model
 * Proposed model outperforms the baselines.
+
 ![Comparison to the baselines](./result1.png)
 * Proposed model also outperforms the baselines on personalization criteria.
+
 ![Personalization](./result_personalization.png)
   
 * Pro: 
