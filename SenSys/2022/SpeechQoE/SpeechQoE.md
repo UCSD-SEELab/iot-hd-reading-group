@@ -40,7 +40,7 @@
 
 ### Method
 * **Architecture**
-  ![Main architecture](./arch.PNG)
+  ![Main architecture](./arch.png)
     * The authors propose to use short-time-fourier-transform (STFT) to preprocess the data.
     * The details of the CNN model is not specified.
     * Personalization: each user has their own model fine-tuned.
@@ -66,7 +66,7 @@
 * Proposed model outperforms the baselines.
 ![Comparison to the baselines](./result1.png)
 * Proposed model also outperforms the baselines on personalization criteria.
-![T-SNE experiment](./result_personalization.png)
+![Personalization](./result_personalization.png)
   
 * Pro: 
   * Very well-written motivation, tells a great story
