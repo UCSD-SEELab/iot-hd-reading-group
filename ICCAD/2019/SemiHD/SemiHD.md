@@ -60,7 +60,7 @@
 ### Evaluations
 
 * **Dataset**: A lot, can be seen in the image bellow.
-* **Baselines**: Decision Tree, Naive Bayes SVM     
+* **Baselines**: Decision Tree, Naive Bayes, SVM     
 * **Metric**: Accuracy (# of data points that are correctly classified) and efficiency (Execution and Energy)
 * **Results**:
    * SemiHD with non-binarized model can provide higher classification accuracy compared to baselines
@@ -79,7 +79,7 @@
       
      ![Table3](./Table3.png)
       
-   * SemiHD achieves higher accuracy with higher labeled data but more iterations are needed.
+   * SemiHD achieves higher accuracy with higher labeled data but more iterations are needed, compared wih HD (not mentioned if retraining is done).
    
      ![Table4](./Table4.png)
    
@@ -93,8 +93,11 @@
 * Pros: 
    * Very well written and explainable
    * Novelty as the first semi-supervised algorithm in HD
-   * High results of improvement
    * Variety of datasets
 * Cons: 
    * Missing some equations of how to calculate support accuracy, specifically in efficiency calculations (S and R_th)
+   * Despite using variety of datasets, chosen dataset are questionable.
+      * Results are not reproducible
+   * The results (especifically in accuracy) both on SVM and HD compared with SVM are really low.
+      * The difference in accuracy between HD and SemiHD is not getting smaller over time, which is also suspicious.
 
