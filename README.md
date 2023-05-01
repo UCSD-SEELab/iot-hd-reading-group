@@ -114,6 +114,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [ScaleHD: Robust Brain-Inspired Hyperdimensional Computing via Adapative Scaling](https://ieeexplore.ieee.org/document/10069402) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/ScaleHD/ScaleHD.md) |
 | [Neurally-Inspired Hyperdimensional Classification for Efficient and Robust Biosignal Processing](https://dl.acm.org/doi/abs/10.1145/3508352.3549477) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/TempHD/TempHD.md) |
+| [SemiHD: Semi-Supervised Learning Using Hyperdimensional Computing](https://ieeexplore.ieee.org/document/8942165) (ICCAD 2019) | Not provided | Ivannia  | [Summary](./ICCAD/2019/SemiHD/SemiHD.md) |
 
 ## Topic Reviews
 
