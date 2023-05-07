@@ -99,6 +99,13 @@ A template for paper reading summary can be found [here](./template.md).
 | [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
 | [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/system/files/atc20-liu-xing.pdf) (ATC 2020) | Not provided | Louis    | [Summary](./ATC/2020/Firefly/Firefly.md) |
 
+### USENIX Security
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Delphi: A Cryptographic Inference Service for Neural Networks](https://www.usenix.org/system/files/sec20-mishra_0.pdf) (Security 2020) | (https://github.com/mc2-project/delphi) | Dan | [Summary](./Security/2020/Delphi/Delphi.md) |
+
+
 ### INFOCOM
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
