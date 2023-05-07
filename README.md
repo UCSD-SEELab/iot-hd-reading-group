@@ -103,7 +103,7 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Delphi: A Cryptographic Inference Service for Neural Networks](https://www.usenix.org/system/files/sec20-mishra_0.pdf) (Security 2020) | (https://github.com/mc2-project/delphi) | Dan | [Summary](./Security/2020/Delphi/Delphi.md) |
+| [Delphi: A Cryptographic Inference Service for Neural Networks](https://www.usenix.org/system/files/sec20-mishra_0.pdf) (Security 2020) | https://github.com/mc2-project/delphi | Dan | [Summary](./Security/2020/Delphi/Delphi.md) |
 
 
 ### INFOCOM
