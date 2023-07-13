@@ -1,8 +1,9 @@
-## Paper Title (with link)
+## [HyperRec: Efficient Recommender Systems with Hyperdimensional Computing](https://acsweb.ucsd.edu/~sasalama/papers/HyperRec.pdf)
 
-* Authors and Affiliation
+* Yunhui Guo (University of California, San Diego), Mohsen Imani (University of California, Irvine), Jaeyoung Kang (University of California, San Diego), Sahand Salamat (University of California, San Diego), Justin Morris (University of California, San Diego), Baris Aksanli (San Diego State University),
+Yeseong Kim (DGIST), Tajana Rosing (University of California, San Diego)
 
-* Conference and year
+* ASP-DAC 2021
 
 * Link to the code (if any)
 
