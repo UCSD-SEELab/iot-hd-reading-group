@@ -26,7 +26,7 @@ Yeseong Kim (DGIST), Tajana Rosing (University of California, San Diego)
 
 * **HyperRec**: Encode users, items and ratings with HD hypervectors. Two stages to this work is the representation of users and items with binding and bundling + Recommendation with KNN via Hamming Distance.
 
-  ![Process](./HyperRec.png)
+![Process](./Hyperrec.png)
 
    * *HD encoding stage*: create a database from dataset by using hvs it saves memory and fast hardware acceleration
       * Transform raw data of users, items and rating to hd binary vectors.
