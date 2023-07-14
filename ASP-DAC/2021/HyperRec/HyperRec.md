@@ -25,6 +25,9 @@ Yeseong Kim (DGIST), Tajana Rosing (University of California, San Diego)
 ### Method
 
 * **HyperRec**: Encode users, items and ratings with HD hypervectors. Two stages to this work is the representation of users and items with binding and bundling + Recommendation with KNN via Hamming Distance.
+
+  ![Process](./HyperRec.png)
+
    * *HD encoding stage*: create a database from dataset by using hvs it saves memory and fast hardware acceleration
       * Transform raw data of users, items and rating to hd binary vectors.
          * User and Item are random hv
@@ -59,6 +62,9 @@ Yeseong Kim (DGIST), Tajana Rosing (University of California, San Diego)
    * HyperRec archives the best results on half of the considered benchmarks.
       * Compared to neighbor-based methods, it captures riches information.
       * Compared to latent-factor based methods, it needs less memory and is scalable.
+
+![Results1](./Results1.png)
+![Results2](./Results.png)
 
 
 ### Pros and Cons (Your thoughts)
