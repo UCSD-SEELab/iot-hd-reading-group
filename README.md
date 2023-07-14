@@ -37,9 +37,10 @@ A template for paper reading summary can be found [here](./template.md).
 
 ### KDD
 
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+| Paper Title                                                  | Link to code                        | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ----------------------------------- | ---------- | ------------------------------------------ |
+| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided                        | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+| [Navigating Alignment for Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework](Navigating Alignment for Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework) (KDD 2023) | https://github.com/jiayunz/FedAlign | Xiaofan    | [Summary](./KDD/2023/fedalign/fedalign.md) |
 
 
 ### NeurIPS
