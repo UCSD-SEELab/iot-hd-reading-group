@@ -14,8 +14,6 @@ A template for paper reading summary can be found [here](./template.md).
 | [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided | Eric   | [Summary](./ICLR/2021/RFA/RFA.md) |
 | [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric   | [Summary](./ICLR/2023/CreamFL/CreamFL.md) |
 
-
-
 ### AAAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
@@ -39,17 +37,19 @@ A template for paper reading summary can be found [here](./template.md).
 
 ### KDD
 
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+| Paper Title                                                  | Link to code                        | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ----------------------------------- | ---------- | ------------------------------------------ |
+| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided                        | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+| [Navigating Alignment for Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework](http://mesl.ucsd.edu/pubs/Jiayun_KDD2023_FEDALIGN.pdf) (KDD 2023) | https://github.com/jiayunz/FedAlign | Xiaofan    | [Summary](./KDD/2023/fedalign/fedalign.md) |
 
 
 ### NeurIPS
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./NeurIPS/2021/HRR/HRR.md)               |
-| [Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning](https://proceedings.neurips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html) (NeurIPS 2020) | [Link to code](https://github.com/deepmind/deepmind-research/tree/master/byol) | Xiaofan      | [Summary](./NeurIPS/2020/BYOL/BYOL.md)               |
+| [Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning](https://proceedings.neurips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html) (NeurIPS 2020) | [Link to code](https://github.com/deepmind/deepmind-research/tree/master/byol) | Xiaofan    | [Summary](./NeurIPS/2020/BYOL/BYOL.md)         |
+| [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan    | [Summary](./NeurIPS/2021/HRR/HRR.md)           |
+| [FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction](https://arxiv.org/abs/2212.01548) (NeurIPS 2022) | [Link to code](https://github.com/AIoT-MLSys-Lab/FedRolex)   | Xiaofan    | [Summary](./NeurIPS/2022/FedRolex/fedrolex.md) |
 
 
 ### ICDCS
@@ -65,6 +65,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking](https://dl.acm.org/doi/10.1145/3485730.3485929) (SenSys 2021) | Not Provided | Eric   | [Summary](./SenSys/2021/FedMask/FedMask.md) |
 | [SQEE: A Machine Perception Approach to Sensing Quality Evaluation at the Edge by Uncertainty Quantification](https://dl.acm.org/doi/abs/10.1145/3560905.3568534) (SenSys 2022) | Not Provided | Xiaofan | [Summary](./SenSys/2022/SQEE/SQEE.md) |
+| [SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing](https://dl.acm.org/doi/10.1145/3560905.3568502) (SenSys 2022) | Not Provided | Dan   | [Summary](./SenSys/2022/SpeechQoE/SpeechQoE.md) |
 
 
 ### IPSN
@@ -100,6 +101,13 @@ A template for paper reading summary can be found [here](./template.md).
 | [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
 | [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/system/files/atc20-liu-xing.pdf) (ATC 2020) | Not provided | Louis    | [Summary](./ATC/2020/Firefly/Firefly.md) |
 
+### USENIX Security
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Delphi: A Cryptographic Inference Service for Neural Networks](https://www.usenix.org/system/files/sec20-mishra_0.pdf) (Security 2020) | https://github.com/mc2-project/delphi | Dan | [Summary](./Security/2020/Delphi/Delphi.md) |
+
+
 ### INFOCOM
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
@@ -113,6 +121,14 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [ScaleHD: Robust Brain-Inspired Hyperdimensional Computing via Adapative Scaling](https://ieeexplore.ieee.org/document/10069402) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/ScaleHD/ScaleHD.md) |
+| [Neurally-Inspired Hyperdimensional Classification for Efficient and Robust Biosignal Processing](https://dl.acm.org/doi/abs/10.1145/3508352.3549477) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/TempHD/TempHD.md) |
+| [SemiHD: Semi-Supervised Learning Using Hyperdimensional Computing](https://ieeexplore.ieee.org/document/8942165) (ICCAD 2019) | Not provided | Ivannia  | [Summary](./ICCAD/2019/SemiHD/SemiHD.md) |
+
+### ASP-DAC
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [HyperRec: Efficient Recommender Systems with Hyperdimensional Computing](https://acsweb.ucsd.edu/~sasalama/papers/HyperRec.pdf) (ASP-DAC 2021) | Not provided | Ivannia  | [Summary](./ASP-DAC/2021/HyperRec/HyperRec.md) |
 
 ## Topic Reviews
 
