@@ -28,19 +28,31 @@
 * Two Camera Modes 
   * Low power (1.1 mW) greyscale, low resolution, and noisy
   * High power (100 mW) color, high resolution
+    
 * Gateway
   * Nearby non-power constrained (plugged in)
+    
 * Algorithm
-  * Neural Network Decoder
+  * Neural Network Decoder<br />
     ![Neural Network Decoder](./NND.png)
-  * Attention Mechanism
+  * Attention Mechanism<br />
     ![Attention Mechanism](./AM.png)
+  * Packet Loss Correction<br />
+    ![Packet Loss Correction](./PLC.png)
 
 ### Results
 
 * **Dataset:** REDS4, UDM10, Vid4
-
-* **What is missing:** ?
+  
+* Metrics
+  * Performance evaluation of method with h.264 codec<br />
+    ![Single vs Dual Mode Codec](./codec_comparison.png)
+  * Comparison of sensor and compression power<br />
+    ![Sensor and Compression Power Comparison](./power_metrics.png)
+  * Y-Channel Model Comparison<br />
+    ![Y-Channel Model Comparison](./YComparison.png)
+  * PSNR versus frame number<br />
+    ![PSNR versus frame number](./PSNR.png)
 
 ### Pros and Cons (Your thoughts)
 
