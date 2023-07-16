@@ -19,8 +19,8 @@
 
 ### Method
 
-* **Proposed solution**
-  ![HyperSpec-1](./HyperSpec-1.PNG)
+* **Proposed solution**  
+  ![HyperSpec-1](./HyperSpec-1.png)
   * HyperSpec: a GPU-accelerated spectral clustering library using HDC.
     * Spectra Preprocessing is a bottleneck for the algorithm, because 1. speed of parsing data into numerical format is bounded; 2. processing parsed data is computation bounded; 3. limited storage I/O bandwidth.
     * Optimization:
@@ -35,7 +35,7 @@
     * HD Distance Computation
       * Hamming distance for similarity measurement
     * Clustering Algorithms
-      * **DBSCAN** and **Hierarchical** clustering
+      * DBSCAN and Hierarchical clustering
       * Benefits: 1. these two algorithms have trade-offs between runtime and quality, so combining can give flexibility; 2. minimal efforts to tune hyperparameters; 3. fast implementations available
 
 
@@ -52,13 +52,13 @@
   * Performance comparison with existing tools
     * HyperSpec exceeds most benchmarks in clustered spectra ratio (Figure 4a)
     * HyperSpec is comparable in completeness (Figure 4b)
-    * HyperSpec mostly forms medium-size clusters
-   ![HyperSpec-3](./HyperSpec-3.PNG)
+    * HyperSpec mostly forms medium-size clusters  
+   ![HyperSpec-3](./HyperSpec-3.png)
   * Runtime
     * Total clustering time much faster than benchmarks
-    * Excellent scalability and performance advantages
-   ![HyperSpec-4](./HyperSpec-4.PNG)
-   ![HyperSpec-5](./HyperSpec-5.PNG)
+    * Excellent scalability and performance advantages  
+   ![HyperSpec-4](./HyperSpec-4.png)
+   ![HyperSpec-5](./HyperSpec-5.png)
 
 
 
