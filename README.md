@@ -130,14 +130,24 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [HyperRec: Efficient Recommender Systems with Hyperdimensional Computing](https://acsweb.ucsd.edu/~sasalama/papers/HyperRec.pdf) (ASP-DAC 2021) | Not provided | Ivannia  | [Summary](./ASP-DAC/2021/HyperRec/HyperRec.md) |
 
+
+### CVPR
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) |       https://github.com/VU-DETAIL/PerfHD               | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)               |
+| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL                     | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md)               |
+
+
+
+
+
 ## Topic Reviews
 
 ### HD
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                                                 | Presenters | Notes                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------ |
-| [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) |       https://github.com/VU-DETAIL/PerfHD               | Eric       | [Summary](./HD/PerfHD/PerfHD.md)               |
-| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL                     | Eric       | [Summary](./HD/C-FSCIL/C-FSCIL.md)               |
 | [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) (ISLPED 2020) | https://github.com/iis-eth-zurich/hd_dvs                     | Shuhang    | [Summary](./HD/SparseHDC/SparseHDC.md)           |
 | [Hyperdimensional Computing-based Multimodality Emotion Recognition with Physiological Signals](https://ieeexplore.ieee.org/document/8771622) (AICAS 2019) | https://github.com/enjui/HDC-MER                             | Eric       | [Summary](./HD/HDC-MER/HDC-MER.md)               |
 | [Vector Symbolic Architectures Answer Jackendoff's Challenges for Cognitive Neuroscience](https://arxiv.org/abs/cs/0412059) (2004) | Not provided                                                 | Xiaofan    | [Summary](./HD/VSA-Jackendoff/VSA-Jackendoff.md) |
