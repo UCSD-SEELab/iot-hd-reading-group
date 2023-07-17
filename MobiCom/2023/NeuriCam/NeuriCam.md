@@ -34,11 +34,11 @@
     
 * Algorithm
   * Neural Network Decoder<br />
-    ![Neural Network Decoder](./NND.png)
+    <img src="./NND.png" width="752" height="331" />
   * Attention Mechanism<br />
     ![Attention Mechanism](./AM.png)
   * Packet Loss Correction<br />
-    ![Packet Loss Correction](./PLC.png)
+    <img src="./PLC.png" width="752" height="732" />
 
 ### Results
 
@@ -46,13 +46,13 @@
   
 * Metrics
   * Performance evaluation of method with h.264 codec<br />
-    ![Single vs Dual Mode Codec](./codec_comparison.png)
+    <img src="./codec_comparison.png" width="716" height="258" />
   * Comparison of sensor and compression power<br />
     ![Sensor and Compression Power Comparison](./power_metrics.png)
   * Y-Channel Model Comparison<br />
-    ![Y-Channel Model Comparison](./YComparison.png)
+    <img src="./YComparison.png" width="716" height="220" />
   * PSNR versus frame number<br />
-    ![PSNR versus frame number](./PSNR.png)
+    <img src="./PSNR.png" width="716" height="198" />
 
 ### Pros and Cons (Your thoughts)
 
