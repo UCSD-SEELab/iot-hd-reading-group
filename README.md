@@ -94,7 +94,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [InFi: End-to-end Learnable Input Filter for Resource-efficient Mobile-centric Inference](https://dl.acm.org/doi/10.1145/3495243.3517016) (MobiCom 2022) | https://github.com/yuanmu97/infi | Ivannia    | [Summary](./MobiCom/2022/InFi/InFi.md) |
 | [U-Star: An Underwater Navigation System based on Passive 3D Optical Identification Tags](https://dl.acm.org/doi/pdf/10.1145/3495243.3517019) (MobiCom 2022) | Not provided | Louis    | [Summary](./MobiCom/2022/U-Star/U-Star.md) |
 | [NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras](https://arxiv.org/abs/2207.12496) (MobiCom 2023) | [Link](https://github.com/vb000/NeuriCam) | Louis    | [Summary](./MobiCom/2023/NeuriCam/NeuriCam.md) |
-| [AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments](AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments) (MobiCom 2023) | Not provided yet | Xiaofan | [Summary](./MobiCom/2023/AdaptiveNet/adaptivenet.md) |
+| [AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments](https://arxiv.org/abs/2303.07129) (MobiCom 2023) | Not provided yet | Xiaofan | [Summary](./MobiCom/2023/AdaptiveNet/adaptivenet.md) |
 
 ### USENIX ATC
 

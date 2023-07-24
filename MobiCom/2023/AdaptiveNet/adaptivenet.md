@@ -1,4 +1,4 @@
-## [AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments](AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments)
+## [AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments](https://arxiv.org/abs/2303.07129)
 
 * Hao Wen, Yuanchun Li, Zunshuai Zhang, Shiqi Jiang, Xiaozhou Ye, Ye Ouyang, Ya-Qin Zhang, Yunxin Liu, Institute for AI Industry Research (AIR), Tsinghua University
 
