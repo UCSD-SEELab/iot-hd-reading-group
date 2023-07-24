@@ -88,12 +88,13 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
-| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (Mobicom 2020) | Not Provided | Dan    | [Summary](./MobiCom/2020/IndoorNavigation/IndoorNavigation.md) |
-| [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (Mobicom 2022) | Not Provided | Eric    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
-| [Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://dl.acm.org/doi/pdf/10.1145/3495243.3560515) (Mobicom 2022) | Not Provided | Dan    | [Summary](./MobiCom/2022/RFMask/RFMask.md) |
+| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (MobiCom 2020) | Not Provided | Dan    | [Summary](./MobiCom/2020/IndoorNavigation/IndoorNavigation.md) |
+| [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (MobiCom 2022) | Not Provided | Eric    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
+| [Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://dl.acm.org/doi/pdf/10.1145/3495243.3560515) (MobiCom 2022) | Not Provided | Dan    | [Summary](./MobiCom/2022/RFMask/RFMask.md) |
 | [InFi: End-to-end Learnable Input Filter for Resource-efficient Mobile-centric Inference](https://dl.acm.org/doi/10.1145/3495243.3517016) (MobiCom 2022) | https://github.com/yuanmu97/infi | Ivannia    | [Summary](./MobiCom/2022/InFi/InFi.md) |
-| [U-Star: An Underwater Navigation System based on Passive 3D Optical Identification Tags](https://dl.acm.org/doi/pdf/10.1145/3495243.3517019) (Mobicom 2022) | Not provided | Louis    | [Summary](./MobiCom/2022/U-Star/U-Star.md) |
-| [NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras](https://arxiv.org/abs/2207.12496) (Mobicom 2023) | [Link](https://github.com/vb000/NeuriCam) | Louis    | [Summary](./MobiCom/2023/NeuriCam/NeuriCam.md) |
+| [U-Star: An Underwater Navigation System based on Passive 3D Optical Identification Tags](https://dl.acm.org/doi/pdf/10.1145/3495243.3517019) (MobiCom 2022) | Not provided | Louis    | [Summary](./MobiCom/2022/U-Star/U-Star.md) |
+| [NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras](https://arxiv.org/abs/2207.12496) (MobiCom 2023) | [Link](https://github.com/vb000/NeuriCam) | Louis    | [Summary](./MobiCom/2023/NeuriCam/NeuriCam.md) |
+| [AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments](AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments) (MobiCom 2023) | Not provided yet | Xiaofan | [Summary](./MobiCom/2023/AdaptiveNet/adaptivenet.md) |
 
 ### USENIX ATC
 
