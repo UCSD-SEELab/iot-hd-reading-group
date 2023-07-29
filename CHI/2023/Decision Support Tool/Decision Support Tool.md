@@ -38,7 +38,7 @@
 
 ### Results
 
-  <img src="./DST.png"/>
+  <img src="./dst.png"/>
 
 ### Pros and Cons (Your thoughts)
 
