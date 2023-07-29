@@ -8,6 +8,11 @@
 
 * What is the high-level problem?
   * How can you maximize the likelihood that a clinician will accept the advice of an AI system?
+ 
+* Key Contributions
+  * Provides a rare description of how clinicians sought information to validate each other’s diagnostic/treatment suggestions in their practice.
+  * Identifes an alternative approach to calibrating clinicians’ trust in AI.
+  * Offers an initial description of how clinicians deliberate clinical decisions using a predictive DST and biomedical literature simultaneously
 
 * Key Challenges
   * How to persuade clinicians to use the advice provided by an AI
