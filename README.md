@@ -140,8 +140,11 @@ A template for paper reading summary can be found [here](./template.md).
 | [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) |       https://github.com/VU-DETAIL/PerfHD               | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)               |
 | [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL                     | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md)               |
 
+### CHI
 
-
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems](https://dl.acm.org/doi/pdf/10.1145/3544548.3581393)| None | Louis| [Summary](./CHI/2023/Decision%20Support%20Tool/Decision%20Support%20Tool.md)   
 
 
 ## Topic Reviews
