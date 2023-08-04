@@ -6,17 +6,6 @@ A template for paper reading summary can be found [here](./template.md).
 
 ## Conference Reviews
 
-
-### DATE
-
-| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
-| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Eric | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
-
-
-
-
-
 ### ICLR
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
@@ -44,6 +33,12 @@ A template for paper reading summary can be found [here](./template.md).
 | [Understanding the Mitigating Data Contamination in Deep Anomaly Detection: A Kernel-based Approach](https://www.ijcai.org/proceedings/2022/322) (IJCAI 2022) | Not Provided | Xiaofan | [Summary](./IJCAI/2022/DataContamination/DataContamination.md) |
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 
+### CVPR
+
+| Paper Title                                                  | Link to code                             | Presenters | Notes                                     |
+| ------------------------------------------------------------ | ---------------------------------------- | ---------- | ----------------------------------------- |
+| [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) | https://github.com/VU-DETAIL/PerfHD      | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)   |
+| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md) |
 
 ### KDD
 
@@ -136,19 +131,17 @@ A template for paper reading summary can be found [here](./template.md).
 | [Neurally-Inspired Hyperdimensional Classification for Efficient and Robust Biosignal Processing](https://dl.acm.org/doi/abs/10.1145/3508352.3549477) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/TempHD/TempHD.md) |
 | [SemiHD: Semi-Supervised Learning Using Hyperdimensional Computing](https://ieeexplore.ieee.org/document/8942165) (ICCAD 2019) | Not provided | Ivannia  | [Summary](./ICCAD/2019/SemiHD/SemiHD.md) |
 
+### DATE
+
+| Paper Title (Conf/Year of Paper)                             | Link to code | Presenters | Notes                                                        |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------------------------ |
+| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Eric       | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
+
 ### ASP-DAC
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [HyperRec: Efficient Recommender Systems with Hyperdimensional Computing](https://acsweb.ucsd.edu/~sasalama/papers/HyperRec.pdf) (ASP-DAC 2021) | Not provided | Ivannia  | [Summary](./ASP-DAC/2021/HyperRec/HyperRec.md) |
-
-
-### CVPR
-
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) |       https://github.com/VU-DETAIL/PerfHD               | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)               |
-| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL                     | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md)               |
 
 ### CHI
 
