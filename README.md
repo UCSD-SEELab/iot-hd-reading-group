@@ -7,6 +7,16 @@ A template for paper reading summary can be found [here](./template.md).
 ## Conference Reviews
 
 
+### DATE
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Eric | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
+
+
+
+
+
 ### ICLR
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
