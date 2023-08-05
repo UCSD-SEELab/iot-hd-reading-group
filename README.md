@@ -85,7 +85,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric   | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
+| [DeepSQA: Understanding Sensor Data via Question Answering](https://dl.acm.org/doi/10.1145/3450268.3453529) (IoTDI 2021) | https://github.com/NESL/DeepSQA | Xiafao | [Summary](./IoTDI/2021/DeepSQA/DeepSQA.md) |
+| [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
 
 
 ### MobiCom
