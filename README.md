@@ -151,6 +151,12 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems](https://dl.acm.org/doi/pdf/10.1145/3544548.3581393)| None | Louis| [Summary](./CHI/2023/Decision%20Support%20Tool/Decision%20Support%20Tool.md)   
 
+### DAC
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) | None | Xin| [Summary](./DAC/SegHDC/SegHDC.md)   
+
 
 ## Topic Reviews
 
