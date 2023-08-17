@@ -12,11 +12,11 @@
   * AR devices capture data about bystanders -> identify sensitive information (like age, gender, emotion, etc).
   * Unease in Bystanders due to data leaks for malicious intent (BPP: Bystander Privacy Problem).
   * Understanding the problem:
-   * AR User: Person wearing the AR device.
-   * Subject: People directly interacting with AR User.
-   * Bystander: People in the frame of camera and depth of the AR device but not interacting with the AR User.
+    * AR User: Person wearing the AR device.
+    * Subject: People directly interacting with AR User.
+    * Bystander: People in the frame of camera and depth of the AR device but not interacting with the AR User.
 
-[!Setting.png](!Setting.png)
+    ![Setting](./Setting.png)
 
 * Contributions:
   * BystandAR: Novel bystander privacy protection system that uses the AR user’s eye gaze and voice data to determine the subject.
@@ -42,6 +42,9 @@
 ### Method
 
 * BystandAR: practical solution that protects bystander privacy (preventing malicious AR applications running on AR devices from collecting sensitive information by passing obscured frames) without compromising user experience.
+
+![Process](./Process.png)
+
 * At each frame:
   * Tracks user eye-gaze and voice.
   * Track face in which the user is currently focused on.
@@ -71,6 +74,9 @@
   * SLAM: can be used to track the location of a detected face when the device moves.
   * Estimate the amount of movement and create a bounding box.
 * 3D - 2D transformation
+
+  ![Translation](./Translation.png)
+
   * Must locate each face using absolute spatial reference (world coordinate system).
   * If a face overlaps then update the location of the face.
 * Face Obscuration
@@ -88,18 +94,27 @@
 * Baselines: DeepFace for face detection of bystanders (after the models) and Gradient Boosted Decision Tree (highly accurate offline bystander detection model).
 * Offload every 10 obscured frame.
 * Fig. 6: Lower thresholds results in lower rates of BPR but higher SAR
+
+![Fig6](./Fig6.png)
+
 * Table:
   * Better overall.
   * GBDT can’t support no subject (person didn’t interact).
   * Both performed worst when the bystander is moving.
+
+![Table1](./Table1.png)
+
 * Using sampling interval of 8 frames:
   * Runs at 52.6 FPS  while not requires to obscure frames (apply masks).
   * 60 FPS is recommended by Microsoft.
   * 33.6 FPS when releasing obscuring frames -> Expected because Microsoft’s standard sensor data logging API wll drop to 30 FPS.
     * BystandAR switches between offloading frames based on requests.
+
 * Table 2:
   * CPU load increases 27%.
   * Minimal increase in memory footprint and power consumption.
+
+![Table2](./Table2.png)
 
 ### Pros and Cons (Your thoughts)
 
