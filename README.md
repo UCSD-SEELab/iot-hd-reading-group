@@ -6,6 +6,12 @@ A template for paper reading summary can be found [here](./template.md).
 
 ## Conference Reviews
 
+### ICLR
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
+| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
+| [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided | Eric   | [Summary](./ICLR/2021/RFA/RFA.md) |
+| [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric   | [Summary](./ICLR/2023/CreamFL/CreamFL.md) |
 
 ### AAAI
 
@@ -27,20 +33,28 @@ A template for paper reading summary can be found [here](./template.md).
 | [Understanding the Mitigating Data Contamination in Deep Anomaly Detection: A Kernel-based Approach](https://www.ijcai.org/proceedings/2022/322) (IJCAI 2022) | Not Provided | Xiaofan | [Summary](./IJCAI/2022/DataContamination/DataContamination.md) |
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 
+### CVPR
+
+| Paper Title                                                  | Link to code                             | Presenters | Notes                                     |
+| ------------------------------------------------------------ | ---------------------------------------- | ---------- | ----------------------------------------- |
+| [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) | https://github.com/VU-DETAIL/PerfHD      | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)   |
+| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md) |
 
 ### KDD
 
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+| Paper Title                                                  | Link to code                        | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ----------------------------------- | ---------- | ------------------------------------------ |
+| [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided                        | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
+| [Navigating Alignment for Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework](http://mesl.ucsd.edu/pubs/Jiayun_KDD2023_FEDALIGN.pdf) (KDD 2023) | https://github.com/jiayunz/FedAlign | Xiaofan    | [Summary](./KDD/2023/fedalign/fedalign.md) |
 
 
 ### NeurIPS
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan      | [Summary](./NeurIPS/2021/HRR/HRR.md)               |
-| [Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning](https://proceedings.neurips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html) (NeurIPS 2020) | [Link to code](https://github.com/deepmind/deepmind-research/tree/master/byol) | Xiaofan      | [Summary](./NeurIPS/2020/BYOL/BYOL.md)               |
+| [Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning](https://proceedings.neurips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html) (NeurIPS 2020) | [Link to code](https://github.com/deepmind/deepmind-research/tree/master/byol) | Xiaofan    | [Summary](./NeurIPS/2020/BYOL/BYOL.md)         |
+| [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan    | [Summary](./NeurIPS/2021/HRR/HRR.md)           |
+| [FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction](https://arxiv.org/abs/2212.01548) (NeurIPS 2022) | [Link to code](https://github.com/AIoT-MLSys-Lab/FedRolex)   | Xiaofan    | [Summary](./NeurIPS/2022/FedRolex/fedrolex.md) |
 
 
 ### ICDCS
@@ -56,6 +70,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking](https://dl.acm.org/doi/10.1145/3485730.3485929) (SenSys 2021) | Not Provided | Eric   | [Summary](./SenSys/2021/FedMask/FedMask.md) |
 | [SQEE: A Machine Perception Approach to Sensing Quality Evaluation at the Edge by Uncertainty Quantification](https://dl.acm.org/doi/abs/10.1145/3560905.3568534) (SenSys 2022) | Not Provided | Xiaofan | [Summary](./SenSys/2022/SQEE/SQEE.md) |
+| [SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing](https://dl.acm.org/doi/10.1145/3560905.3568502) (SenSys 2022) | Not Provided | Dan   | [Summary](./SenSys/2022/SpeechQoE/SpeechQoE.md) |
 
 
 ### IPSN
@@ -70,7 +85,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric   | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
+| [DeepSQA: Understanding Sensor Data via Question Answering](https://dl.acm.org/doi/10.1145/3450268.3453529) (IoTDI 2021) | https://github.com/NESL/DeepSQA | Xiaofan | [Summary](./IoTDI/2021/DeepSQA/DeepSQA.md) |
+| [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
 
 
 ### MobiCom
@@ -78,11 +94,14 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
-| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (Mobicom 2020) | Not Provided | Dan    | [Summary](./MobiCom/2020/IndoorNavigation/IndoorNavigation.md) |
-| [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (Mobicom 2022) | Not Provided | Eric    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
-| [Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://dl.acm.org/doi/pdf/10.1145/3495243.3560515) (Mobicom 2022) | Not Provided | Dan    | [Summary](./MobiCom/2022/RFMask/RFMask.md) |
+| [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (MobiCom 2020) | Not Provided | Dan    | [Summary](./MobiCom/2020/IndoorNavigation/IndoorNavigation.md) |
+| [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (MobiCom 2022) | Not Provided | Eric    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
+| [Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://dl.acm.org/doi/pdf/10.1145/3495243.3560515) (MobiCom 2022) | Not Provided | Dan    | [Summary](./MobiCom/2022/RFMask/RFMask.md) |
 | [InFi: End-to-end Learnable Input Filter for Resource-efficient Mobile-centric Inference](https://dl.acm.org/doi/10.1145/3495243.3517016) (MobiCom 2022) | https://github.com/yuanmu97/infi | Ivannia    | [Summary](./MobiCom/2022/InFi/InFi.md) |
-| [U-Star: An Underwater Navigation System based on Passive 3D Optical Identification Tags](https://dl.acm.org/doi/pdf/10.1145/3495243.3517019) (Mobicom 2022) | Not provided | Louis    | [Summary](./MobiCom/2022/U-Star/U-Star.md) |
+| [U-Star: An Underwater Navigation System based on Passive 3D Optical Identification Tags](https://dl.acm.org/doi/pdf/10.1145/3495243.3517019) (MobiCom 2022) | Not provided | Louis    | [Summary](./MobiCom/2022/U-Star/U-Star.md) |
+| [NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras](https://arxiv.org/abs/2207.12496) (MobiCom 2023) | [Link](https://github.com/vb000/NeuriCam) | Louis    | [Summary](./MobiCom/2023/NeuriCam/NeuriCam.md) |
+| [DroidPerf: Profiling Memory Objects on Android Devices](https://dl.acm.org/doi/pdf/10.1145/3570361.3592503) (MobiCom 2023) | [Link](https://github.com/Xuhpclab/DroidPerf) | Shengfan    | [Summary](./MobiCom/2023/DroidPerf/DroidPerf.md) |
+| [AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments](https://arxiv.org/abs/2303.07129) (MobiCom 2023) | Not provided yet | Xiaofan | [Summary](./MobiCom/2023/AdaptiveNet/adaptivenet.md) |
 
 ### USENIX ATC
 
@@ -90,6 +109,13 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
 | [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/system/files/atc20-liu-xing.pdf) (ATC 2020) | Not provided | Louis    | [Summary](./ATC/2020/Firefly/Firefly.md) |
+
+### USENIX Security
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Delphi: A Cryptographic Inference Service for Neural Networks](https://www.usenix.org/system/files/sec20-mishra_0.pdf) (Security 2020) | https://github.com/mc2-project/delphi | Dan | [Summary](./Security/2020/Delphi/Delphi.md) |
+
 
 ### INFOCOM
 
@@ -107,6 +133,12 @@ A template for paper reading summary can be found [here](./template.md).
 | [Neurally-Inspired Hyperdimensional Classification for Efficient and Robust Biosignal Processing](https://dl.acm.org/doi/abs/10.1145/3508352.3549477) (ICCAD 2022) | Not provided | Ivannia  | [Summary](./ICCAD/2022/TempHD/TempHD.md) |
 | [SemiHD: Semi-Supervised Learning Using Hyperdimensional Computing](https://ieeexplore.ieee.org/document/8942165) (ICCAD 2019) | Not provided | Ivannia  | [Summary](./ICCAD/2019/SemiHD/SemiHD.md) |
 
+### DATE
+
+| Paper Title (Conf/Year of Paper)                             | Link to code | Presenters | Notes                                                        |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------------------------ |
+| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Eric       | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
+
 ### ASP-DAC
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
@@ -119,13 +151,24 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [BystandAR: Protecting Bystander Visual Data in Augmented Reality Systems](https://dl.acm.org/doi/10.1145/3581791.3596830) (MobiSys 2023) | Not provided | Ivannia  | [Summary](./MobiSys/2023/BystandAR/BystandAR.md) |
 
+### CHI
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems](https://dl.acm.org/doi/pdf/10.1145/3544548.3581393)| None | Louis| [Summary](./CHI/2023/Decision%20Support%20Tool/Decision%20Support%20Tool.md)   
+
+### DAC
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) | None | Xin| [Summary](./DAC/SegHDC/SegHDC.md)   
+
 ## Topic Reviews
 
 ### HD
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                                                 | Presenters | Notes                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------ |
-| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL                     | Eric       | [Summary](./HD/C-FSCIL/C-FSCIL.md)               |
 | [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) (ISLPED 2020) | https://github.com/iis-eth-zurich/hd_dvs                     | Shuhang    | [Summary](./HD/SparseHDC/SparseHDC.md)           |
 | [Hyperdimensional Computing-based Multimodality Emotion Recognition with Physiological Signals](https://ieeexplore.ieee.org/document/8771622) (AICAS 2019) | https://github.com/enjui/HDC-MER                             | Eric       | [Summary](./HD/HDC-MER/HDC-MER.md)               |
 | [Vector Symbolic Architectures Answer Jackendoff's Challenges for Cognitive Neuroscience](https://arxiv.org/abs/cs/0412059) (2004) | Not provided                                                 | Xiaofan    | [Summary](./HD/VSA-Jackendoff/VSA-Jackendoff.md) |
@@ -135,6 +178,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf) (IV 2021) | [Link to code](https://github.com/TUC-ProAut/HDC_driving_style_classification) | Ivannia     | [Summary](./HD/MultivariateTimeSeries/MultivariateTimeSeries.md)               |
 | [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided | Louis    | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md) |
 | [OnlineHD: Robust, Efficient, and Single-Pass Online Learning Using Hyperdimensional System](https://doi.org/10.23919/DATE51398.2021.9474107) (DATE 2021) | https://github.com/BIASLab-UCI/onlinehd | Alex    | [Summary](./HD/OnlineHD/OnlineHD.md) |
+| [HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612) (J. Proteome R 2023) | Not provided | Xin    | [Summary](./HD/HyperSpec/HyperSpec.md) |
 
 
 ### Tiny Machine Learning
@@ -151,3 +195,10 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------------------------------------------------------- |
 | [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL                           | Xiaofan    | [Summary](./Wireless/WirelessCL/WirelessCL.md)           |
 | [Deep-Learning-Based Device Fingerprinting for Increased LoRa-IoT Security: Sensitivity to Network Deployment Changes](https://dl.acm.org/doi/abs/10.1109/MNET.001.2100553) (IEEE Networks 2022) | [Link to dataset](https://research.engr.oregonstate.edu/hamdaoui/datasets) | Xiaofan    | [Summary](./Wireless/LoRaFingerprint/LoRaFingerprint.md) |
+
+
+### Arvix
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                   |
+| ------------------------------------------------------------ | ------------ | ---------- | --------------------------------------- |
+| [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arvix) | https://anonymous.4open.science/r/hdcc-5F7C/ | Shengfan    | [Summary](./Arvix/2023/HDCC/HDCC.md)        |

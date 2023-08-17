@@ -12,6 +12,7 @@
 * Why is it important?
 * What are the challenges?
 * What is missing from previous works?
+* What are the major contributions?
 * What are the key assumptions?
 
 ### Method
