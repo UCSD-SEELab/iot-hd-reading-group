@@ -11,6 +11,13 @@
 * Problem and Importance:
   * AR devices capture data about bystanders -> identify sensitive information (like age, gender, emotion, etc).
   * Unease in Bystanders due to data leaks for malicious intent (BPP: Bystander Privacy Problem).
+  * Understanding the problem:
+   * AR User: Person wearing the AR device.
+   * Subject: People directly interacting with AR User.
+   * Bystander: People in the frame of camera and depth of the AR device but not interacting with the AR User.
+
+[!Setting.png](!Setting.png)
+
 * Contributions:
   * BystandAR: Novel bystander privacy protection system that uses the AR user’s eye gaze and voice data to determine the subject.
   * Leverage spatial awareness and eye gaze tracking, to locate faces -> Don’t need to infer location of the faces at every frame.
