@@ -145,6 +145,12 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [HyperRec: Efficient Recommender Systems with Hyperdimensional Computing](https://acsweb.ucsd.edu/~sasalama/papers/HyperRec.pdf) (ASP-DAC 2021) | Not provided | Ivannia  | [Summary](./ASP-DAC/2021/HyperRec/HyperRec.md) |
 
+### MobiSys
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+| [BystandAR: Protecting Bystander Visual Data in Augmented Reality Systems](https://dl.acm.org/doi/10.1145/3581791.3596830) (MobiSys 2023) | Not provided | Ivannia  | [Summary](./MobiSys/2023/BystandAR/BystandAR.md) |
+
 ### CHI
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
@@ -156,7 +162,6 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) | None | Xin| [Summary](./DAC/SegHDC/SegHDC.md)   
-
 
 ## Topic Reviews
 
