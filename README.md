@@ -183,6 +183,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided | Louis    | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md) |
 | [OnlineHD: Robust, Efficient, and Single-Pass Online Learning Using Hyperdimensional System](https://doi.org/10.23919/DATE51398.2021.9474107) (DATE 2021) | https://github.com/BIASLab-UCI/onlinehd | Alex    | [Summary](./HD/OnlineHD/OnlineHD.md) |
 | [HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612) (J. Proteome R 2023) | Not provided | Xin    | [Summary](./HD/HyperSpec/HyperSpec.md) |
+| [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arxiv) | https://anonymous.4open.science/r/hdcc-5F7C/ | Shengfan | [Summary](./HD/HDCC/HDCC.md) |
 
 
 ### Tiny Machine Learning
@@ -200,9 +201,3 @@ A template for paper reading summary can be found [here](./template.md).
 | [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL                           | Xiaofan    | [Summary](./Wireless/WirelessCL/WirelessCL.md)           |
 | [Deep-Learning-Based Device Fingerprinting for Increased LoRa-IoT Security: Sensitivity to Network Deployment Changes](https://dl.acm.org/doi/abs/10.1109/MNET.001.2100553) (IEEE Networks 2022) | [Link to dataset](https://research.engr.oregonstate.edu/hamdaoui/datasets) | Xiaofan    | [Summary](./Wireless/LoRaFingerprint/LoRaFingerprint.md) |
 
-
-### ArXIV
-
-| Paper Title                                                  | Link to code | Presenters | Notes                                   |
-| ------------------------------------------------------------ | ------------ | ---------- | --------------------------------------- |
-| [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arxiv) | https://anonymous.4open.science/r/hdcc-5F7C/ | Shengfan    | [Summary](./Arvix/2023/HDCC/HDCC.md)        |
