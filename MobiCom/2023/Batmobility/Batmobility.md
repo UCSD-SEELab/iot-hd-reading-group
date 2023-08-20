@@ -51,9 +51,9 @@
   * 6x6 m indoor arena 
   * Textureless foam floor
   * VICON capture system
-  <img src="./results1.png"/>
-  <img src="./results2.png"/>
-  <img src="./results3.png"/>
+  <img src="./result1.png"/>
+  <img src="./result2.png"/>
+  <img src="./result3.png"/>
 
 ### Pros and Cons (Your thoughts)
 
