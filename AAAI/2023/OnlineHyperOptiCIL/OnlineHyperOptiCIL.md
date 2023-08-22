@@ -61,7 +61,7 @@
     * Based on exemplars and current phase data
 
 * Learning policy
-  ![Policy](./policy.png)
+  ![Policy](./Policy.png)
 
 * Action space
   * constants for losses for staability.
