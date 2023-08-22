@@ -48,7 +48,7 @@
   
   
 ### Method
-![method](./method.png)
+![method](./Method.png)
 * Model as an online MPD
   * State: model
   * Action: Hyperparameters
