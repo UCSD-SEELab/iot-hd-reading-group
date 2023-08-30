@@ -17,11 +17,11 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [Online Hyperparameter Optimization for Class-Incremental Learning](https://arxiv.org/pdf/2301.05032.pdf) (AAAI 2023) | https://github.com/yaoyao-liu/online-hyperparameter-optimization/ | Eric   | [Summary](./AAAI/2023/OnlineHyperOptiCIL/OnlineHyperOptiCIL.md) |
 | [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
 | [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL/CACL.md) |
 | [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./AAAI/2022/ML4EV/ML4EV.md) |
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (AAAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./AAAI/2022/CFeD/CFeD.md) |
+| [Online Hyperparameter Optimization for Class-Incremental Learning](https://arxiv.org/pdf/2301.05032.pdf) (AAAI 2023) | https://github.com/yaoyao-liu/online-hyperparameter-optimization/ | Eric   | [Summary](./AAAI/2023/OnlineHyperOptiCIL/OnlineHyperOptiCIL.md) |
 
 
 ### IJCAI
@@ -142,8 +142,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title (Conf/Year of Paper)                             | Link to code | Presenters | Notes                                                        |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------------------------ |
-| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Eric       | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
 | [HDCluster: An Accurate Clustering Using Brain-Inspired High-Dimensional Computing](https://ieeexplore.ieee.org/document/8715147) (DATE 2019) | Not Provided | Xin      | [Summary](./DATE/2019/HDCluster/HDCluster.md) |
+| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Eric       | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
 
 ### ASP-DAC
 
