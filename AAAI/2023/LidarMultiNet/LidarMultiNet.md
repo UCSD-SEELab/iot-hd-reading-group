@@ -8,7 +8,10 @@
 
 ### Motivation and Problem Formulation
 
-* **Problem**: 3D Object Detection (identify object), Semantic Segmentation (classify each pixel) and Panoptic Segmentation (Semantic Segmentation + Classification per Instance for each object) are implemented in specialized networks.
+* **Problem**: 3D Object Detection (identify object), Semantic Segmentation (classify each pixel) and Panoptic Segmentation (Semantic Segmentation + Classification per Instance for each object) are implemented in specialized networks. This can seen in the following image:
+
+    ![Tasks](./Tasks.png)
+
 * **Importance**: LiDAR-based perception is necessary in autonomous driving.
 * **Challenges**:
    * Difficult to adapt to other tasks.
@@ -21,7 +24,12 @@
    * Outperforms SOA on 5 LiDAR benchmarks even with LiDAR-only non-ensemble methods.
 * **Previous Works**:
    * Prior LiDAR multitask networks have underperformed compared to single task + fail SOA performance.
-   * Learn features using 3D -> 2D voxelation with Bird’s Eye View (BEV) or range-view projection.
+   * Learn features using 3D -> 2D voxelation with Bird’s Eye View (BEV) or range-view projection. The examples of this 2 views can be seen in the next images:
+      * Birds Eye View
+
+        ![motivation](./motivation.png)
+
+      * Range View
    * Object Detection:
       * 3D sparse tensor -> 2D BEV feature map and perform detection in BEV
       * Anchor free detectors (Center-based detection instead of axis-based)
