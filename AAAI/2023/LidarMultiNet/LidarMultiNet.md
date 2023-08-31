@@ -89,7 +89,7 @@
 
    * In the past formulas, they are using the following characters:
  
-     
+     ![Explanation](./Explanation.png)
  
 ### Evaluations
 
