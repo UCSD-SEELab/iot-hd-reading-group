@@ -27,9 +27,12 @@
    * Learn features using 3D -> 2D voxelation with Bird’s Eye View (BEV) or range-view projection. The examples of this 2 views can be seen in the next images:
       * Birds Eye View
 
-        ![motivation](./motivation.png)
+        ![BEV](./BEV.png)
 
       * Range View
+    
+        ![RangeView](./RangeView.png)
+
    * Object Detection:
       * 3D sparse tensor -> 2D BEV feature map and perform detection in BEV
       * Anchor free detectors (Center-based detection instead of axis-based)
@@ -44,6 +47,9 @@
 
 * **LidarMultiNet**: Unify 3D semantic segmentation, 3D Object Detection and panoptic segmentation in a versatile network that exploits relationship in these tasks.
 * **Main Architecture**:
+
+   ![MainArchitecture](./MainArchitecture.png)
+
    * Voxelization step: converts LiDAR -> Regular voxel grid
    * VFE: MLP + Max pooling layers to generate enhanced sparse voxel features
    * 3D Sparse U-Net architecture: Lateral skip-connected features from encoder are concatenated with voxel features decoder
@@ -55,6 +61,9 @@
    * BEV Segmentation Head: Coarse segmentation results helpful in training
    * Each head has it’s particular losses
 * **Global Context Pooling**:
+
+   ![GCP_module](./GCP_module.png)
+
    * Extracts large-scale information from dense BEV feature map.
    * Useful for:
       * Learn global contextual information for segmentation
@@ -63,10 +72,24 @@
    * Use 2D multi-scale CNN for long-range extraction
    * Reshape encoded BEV feature representation -> dense voxel map -> sparse voxel with a reverse conversion.
 * **Second-stage Refinement**:
+
+    ![2nd_stage](./2nd_stage.png)
+
    * Get local coordinates of points in each box and concatenate with voxel features
    * Assign point-box index to the points in each box 0 <= ind_i <= B.
    * PointNet-like network (MLP + Attention module + Aggregation module) to predict point-wise mask scores and box classification
    * Refined segmentation scores = merging 1st and 2nd stage results -> assign to class with max score
+   * To get the 2nd. stage results the following formula is used:
+ 
+     ![2SegmentationScore](./2SegmentationScore.png)
+
+   * To get the final results results the following formula is used:
+ 
+     ![FinalSegment](./FinalSegment.png)
+
+   * In the past formulas, they are using the following characters:
+ 
+     
  
 ### Evaluations
 
@@ -93,9 +116,17 @@
 * Baselines: SOA Algorithms seen in tables
 * Key results:
    * Table 3: Highest mAPH in L2 Test sets in detection task for WOD
+ 
+     ![Table_WOD_detection](./Table_WOD_detection.png)
+
    * Table 6: Outperforms the previous SOA single-task models in nuScene
+ 
+     ![Table_nuScenes](./Table_nuScenes.png)
+
    * Table 1: Final WOD semantic segmentation leaderboard and shows that LidarMultiNet achieves mIoU of 71.13 on the leaderboard.
       * TTA = Test-Time Augmentation and model ensemble to further improve the performance
+    
+     ![Table_WOD_segmentation](./Table_WOD_segmentation.png)
 
 ### Pros and Cons (Your thoughts)
 
