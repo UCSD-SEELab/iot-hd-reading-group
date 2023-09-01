@@ -21,8 +21,8 @@ A template for paper reading summary can be found [here](./template.md).
 | [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL/CACL.md) |
 | [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./AAAI/2022/ML4EV/ML4EV.md) |
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (AAAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./AAAI/2022/CFeD/CFeD.md) |
+| [LidarMultiNet: Towards a Unified Multi-Task Network for LiDAR Perception](https://arxiv.org/abs/2209.09385) (AAAI 2023) | Not Provided | Ivannia | [Summary](./AAAI/2023/LidarMultiNet/LidarMultiNet.md) |
 | [Online Hyperparameter Optimization for Class-Incremental Learning](https://arxiv.org/pdf/2301.05032.pdf) (AAAI 2023) | https://github.com/yaoyao-liu/online-hyperparameter-optimization/ | Eric   | [Summary](./AAAI/2023/OnlineHyperOptiCIL/OnlineHyperOptiCIL.md) |
-
 
 ### IJCAI
 
@@ -204,3 +204,9 @@ A template for paper reading summary can be found [here](./template.md).
 | [Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective](https://arxiv.org/abs/2105.01696) (ICASSP 2021) | https://github.com/Haoran-S/TSP_CL                           | Xiaofan    | [Summary](./Wireless/WirelessCL/WirelessCL.md)           |
 | [Deep-Learning-Based Device Fingerprinting for Increased LoRa-IoT Security: Sensitivity to Network Deployment Changes](https://dl.acm.org/doi/abs/10.1109/MNET.001.2100553) (IEEE Networks 2022) | [Link to dataset](https://research.engr.oregonstate.edu/hamdaoui/datasets) | Xiaofan    | [Summary](./Wireless/LoRaFingerprint/LoRaFingerprint.md) |
 
+### Arvix
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                   |
+| ------------------------------------------------------------ | ------------ | ---------- | --------------------------------------- |
+| [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arvix) | https://anonymous.4open.science/r/hdcc-5F7C/ | Shengfan    | [Summary](./Arvix/2023/HDCC/HDCC.md)        |
+=======
