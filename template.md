@@ -12,10 +12,11 @@
 * Why is it important?
 * What are the challenges?
 * What is missing from previous works?
-* What are the major contributions?
 * What are the key assumptions?
 
 ### Method
+
+* What are the major contributions?
 
 * What is the technical problem? What are the input and output of the problem?
 * What they propose to solve the problem?
