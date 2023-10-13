@@ -174,7 +174,7 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [LESS: Label-Efficient Semantic Segmentation for LiDAR Point Clouds](https://arxiv.org/abs/2210.08064) (ECCV 2022) | None | Ivannia | [Summary](./ECCV/LESS/LESS.md)
+| [LESS: Label-Efficient Semantic Segmentation for LiDAR Point Clouds](https://arxiv.org/abs/2210.08064) (ECCV 2022) | None | Ivannia | [Summary](./ECCV/2022/LESS/LESS.md)
 
 ## Topic Reviews
 
