@@ -44,50 +44,29 @@
       * Teacher model: Trained with past formulas and overlapped scans, expected to exploit richer semantics and perform better.
       * Student model: Same networks backbone + Trained from scratch + Single-scan input + Finetune it with $L_{dis}$ (match student model with teacher predictions). $L_{dis} = -\frac{T^{2}}{n} {\sum_{n}}^{i} \sum_{c} \frac{\exp(u_{ic}/T)}{\sum_{c'} \exp(u_{ic'}/T)} \log \left( \frac{\exp(v_{ic}/T)}{\sum_{c'} \exp(v_{ic'}/T)} \right)$
 
- 
 ### Evaluations
 
 * Dataset
-   * Waymo Open Dataset (WOD)
-      * Object Detection, Semantic Segmentation
-      * 2 Levels based on difficulty
-      * 23 classes
+   * SemanticKITII
+      * 64-beam LiDAR sensor
+      * 10Hz frquency
+      * 43k scans
+      * 19 classes
    * nuScene:
-      * Object Detection, Semantic Segmentation, Panoptic Segmentation
-      * 10 Foreground classes (things) + 6 Background classes (stuff)
-* Metric
-   * WOD:
-      * Average Precision Weighted by Heading (APH) for detection
-      * Intersection Over Union (IOU) for segmentation
-   * nuScene:
-      * Mean Average Precision (mAP) + NuScene Detection Scores (NDS) for detection
-      * mIoU for semantic segmentation
-      * Panoptic Quality (PQ) for panoptic segmentation
-* Implementation:
-   * WOD merge every 2 frames + nuScenes merges every 9 frames for denser clouds.
-   * Data Augmentation: Random flipping, global scaling, rotation and translation.
-   * 8 A100 GPUs -> Batch = 2 + 20 epochs
+      * 32-beam LiDAR sensor
+      * 20Hz but annotation is 2Hz
+      * 40k scans
+      * 16 classes
+* Metric: mIoU + objects detected
 * Baselines: SOA Algorithms seen in tables
 * Key results:
-   * Table 3: Highest mAPH in L2 Test sets in detection task for WOD
- 
-     ![Table_WOD_detection](./Table_WOD_detection.png)
-
-   * Table 6: Outperforms the previous SOA single-task models in nuScene
- 
-     ![Table_nuScenes](./Table_nuScenes.png)
-
-   * Table 1: Final WOD semantic segmentation leaderboard and shows that LidarMultiNet achieves mIoU of 71.13 on the leaderboard.
-      * TTA = Test-Time Augmentation and model ensemble to further improve the performance
-    
-     ![Table_WOD_segmentation](./Table_WOD_segmentation.png)
+   * Tab 2: Outperforms label-efficient methods + matches the performance of fully-supervised methods (boost given by underrepresented classes).
+   * Tab 3: Outperforms CotrastiveSceneContext + highly competitive with fully-supervised counterpart with only 0.2% labels. 
 
 ### Pros and Cons (Your thoughts)
 
 * Pros:
-   * Really good difference with SOA
+   * Really nice results + new labeling approach.
 * Cons:
-   * Hard to follow through + Assumes a lot of previous knowledge
-   * Weird that camera + lidar doesn’t have better accuracy than only LiDAR
-   * No RGB Values on the dataset
-   * Claims “notable efficiency” but only shows prediction runtime, not training which might be slow because there’s 3 different trained heads + 8 GPUs seems to indicate this.
+   * Why not test on ScribbleKitti?
+   * Specific for moving LiDAR scans, not adaptable to other types of datasets.
