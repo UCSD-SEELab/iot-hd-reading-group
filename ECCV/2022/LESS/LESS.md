@@ -10,7 +10,10 @@
 
 * **Problem**: Training deep models with conventional supervised methods require large datasets that are very costly to label.
 * **Importance**: LiDAR segmentation is important in autonomous driving.
-* **Challenges**: Unbalanced categories in objects.
+* **Challenges**: Unbalanced categories in objects. As shown in the image:
+  
+  ![Distribucion](./Distribucion.png)
+  
 * **Major Contributions**:
    * In outdoor scenes distributions between objects, show that the unbalanced category is the problem.
    * First to propose label-efficient semantic segmentation pipeline for outdoor scenes with LiDAR point clouds.
@@ -26,6 +29,9 @@
 ### Method
 
 * **LESS**: Co-designs an efficient labeling process with semi/weakly supervised learning approach. It has 3 main areas:
+
+![Method](./Method.png)
+
   * *Pre-segmentation*: Subdivide the point cloud into a collection of components (1-few classes per component) by
     * Fusing overlapping scans by ego-poses (position of camera)
     * Detect ground
@@ -61,7 +67,12 @@
 * Baselines: SOA Algorithms seen in tables
 * Key results:
    * Tab 2: Outperforms label-efficient methods + matches the performance of fully-supervised methods (boost given by underrepresented classes).
-   * Tab 3: Outperforms CotrastiveSceneContext + highly competitive with fully-supervised counterpart with only 0.2% labels. 
+     
+     ![Table_2](./Table_2.png)
+  
+   * Tab 3: Outperforms CotrastiveSceneContext + highly competitive with fully-supervised counterpart with only 0.2% labels.
+
+     ![Table_3](./Table_3.png)
 
 ### Pros and Cons (Your thoughts)
 
