@@ -25,51 +25,25 @@
 
 ### Method
 
-* **LidarMultiNet**: Unify 3D semantic segmentation, 3D Object Detection and panoptic segmentation in a versatile network that exploits relationship in these tasks.
-* **Main Architecture**:
+* **LESS**: Co-designs an efficient labeling process with semi/weakly supervised learning approach. It has 3 main areas:
+  * *Pre-segmentation*: Subdivide the point cloud into a collection of components (1-few classes per component) by
+    * Fusing overlapping scans by ego-poses (position of camera)
+    * Detect ground
+    * Construct connected components by making graph and adaptive threshold
+    * Subdivide large components where each component is bounded by a fixed size
+  * *Labeling*: Coarsely annotate the component proposal by labeling one point for each class in component. Which create 3 types of labels:
+    * Sparse labels: Directly labeled by annotators (most accurate)
+    * Weak labels: Classes that appear in each component (multicategory provide weak but dense supervision)
+    * Propagated labels: For pure components (1 class) propagate the label to the entire component
+  * *Network Training*:
+    * Joint Loss: $L = L_{parse} + L_{propagated} + L_{weak}$  with inverse square root as category weights and cross-entropy loss.
+    * Contrastive prototype learning: Learning distinctive class prototypes (specifically for teacher model) using moving average.
+      * Create the class prototype with $P_c \leftarrow mP_c + (1-m) \frac{1}{n_c} \sum_{y_i = c} \text{stopgrad} (h(f(x_i)))$ where $P_c$ is the class prototype, $y_i$ is the label of $x_i$ (point being tested), $\text{stopgrad}$ is the stop gradient operation, h(x) is the linear projection head with vector normalization, and f(x_i) is the embedding for point $x_i$.
+      * The loss function for the class prototype specifically for sparse and propagated levels and is defined by $L_{proto} = \frac{1}{n} {\sum_{i}}^{n} - w_{y_{i}}log\frac{\exp(h(f(x_i)) \cdot P_{y_{i}}/\tau)}{\sum_c \exp(h(f(x_i)) \cdot P_{c}/\tau)}$ where $w_{y_{i}}$ is the inverse sqr of the distribution of classes (to favor the underepresented classes) and $(f(x_i)) \cdot P_{y_{i}}$ represents the cosine similarity between projected embedding and prototype.
+    * Multi-scan distalation:
+      * Teacher model: Trained with past formulas and overlapped scans, expected to exploit richer semantics and perform better.
+      * Student model: Same networks backbone + Trained from scratch + Single-scan input + Finetune it with $L_{dis}$ (match student model with teacher predictions). $L_{dis} = -\frac{T^{2}}{n} {\sum_{n}}^{i} \sum_{c} \frac{\exp(u_{ic}/T)}{\sum_{c'} \exp(u_{ic'}/T)} \log \left( \frac{\exp(v_{ic}/T)}{\sum_{c'} \exp(v_{ic'}/T)} \right)$
 
-   ![MainArchitecture](./MainArchitecture.png)
-
-   * Voxelization step: converts LiDAR -> Regular voxel grid
-   * VFE: MLP + Max pooling layers to generate enhanced sparse voxel features
-   * 3D Sparse U-Net architecture: Lateral skip-connected features from encoder are concatenated with voxel features decoder
-      * 4 stages of 3D sparse convolutions with increasing channel width
-      * Each stage = Sparse Convolutional Layer + 2 Submanifold sparse convolutional blocks
-   * Global Context Pooling (GCP)
-   * 3D segmentation head: outputs voxel-level prediction -> point level (de-voxelization)
-   * 3D Detection Head: Anchor free 3D detector CenterPoint
-   * BEV Segmentation Head: Coarse segmentation results helpful in training
-   * Each head has it’s particular losses
-* **Global Context Pooling**:
-
-   ![GCP_module](./GCP_module.png)
-
-   * Extracts large-scale information from dense BEV feature map.
-   * Useful for:
-      * Learn global contextual information for segmentation
-      * Object detection and other BEV tasks
-   * Transformation sparse to dense with concatenation
-   * Use 2D multi-scale CNN for long-range extraction
-   * Reshape encoded BEV feature representation -> dense voxel map -> sparse voxel with a reverse conversion.
-* **Second-stage Refinement**:
-
-    ![2nd_stage](./2nd_stage.png)
-
-   * Get local coordinates of points in each box and concatenate with voxel features
-   * Assign point-box index to the points in each box 0 <= ind_i <= B.
-   * PointNet-like network (MLP + Attention module + Aggregation module) to predict point-wise mask scores and box classification
-   * Refined segmentation scores = merging 1st and 2nd stage results -> assign to class with max score
-   * To get the 2nd. stage results the following formula is used:
- 
-     ![2SegmentationScore](./2SegmentationScore.png)
-
-   * To get the final results results the following formula is used:
- 
-     ![FinalSegment](./FinalSegment.png)
-
-   * In the past formulas, they are using the following characters:
- 
-     ![Explanation](./Explanation.png)
  
 ### Evaluations
 
