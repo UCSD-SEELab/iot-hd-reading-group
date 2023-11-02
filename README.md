@@ -165,7 +165,7 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                                        |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------------------------ |
-| [Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems](https://dl.acm.org/doi/pdf/10.1145/3544548.3581393) (CHI 2023) | None         | Louis      | [Summary](./CHI/2023/Decision Support Tool/Decision Support Tool.md) |
+| [Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems](https://dl.acm.org/doi/pdf/10.1145/3544548.3581393) (CHI 2023) | None         | Louis      | [Summary](./CHI/2023/Decision_Support_Tool/Decision_Support_Tool.md) |
 
 ### USENIX ATC
 
@@ -202,7 +202,6 @@ A template for paper reading summary can be found [here](./template.md).
 | [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)                           |
 | [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf) (IV 2021) | [Link to code](https://github.com/TUC-ProAut/HDC_driving_style_classification) | Ivannia    | [Summary](./HD/MultivariateTimeSeries/MultivariateTimeSeries.md) |
 | [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided                                                 | Louis      | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md)                |
-|                                                              |                                                              |            |                                                              |
 | [HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612) (J. Proteome R 2023) | Not provided                                                 | Xin        | [Summary](./HD/HyperSpec/HyperSpec.md)                       |
 | [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arxiv) | https://anonymous.4open.science/r/hdcc-5F7C/                 | Shengfan   | [Summary](./HD/HDCC/HDCC.md)                                 |
 
