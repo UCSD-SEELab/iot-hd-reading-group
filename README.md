@@ -4,14 +4,7 @@ This repository hosts a list of research papers and topics that we track in the 
 
 A template for paper reading summary can be found [here](./template.md).
 
-## Conference Reviews
-
-### ICLR
-
-| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
-| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided | Eric   | [Summary](./ICLR/2021/RFA/RFA.md) |
-| [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric   | [Summary](./ICLR/2023/CreamFL/CreamFL.md) |
+## AI Conference Reviews
 
 ### AAAI
 
@@ -42,6 +35,11 @@ A template for paper reading summary can be found [here](./template.md).
 | [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md) |
 | [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) | https://github.com/VU-DETAIL/PerfHD      | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)   |
 
+### ECCV
+
+| Paper Title                                                  | Link to code | Presenters | Notes                               |
+| ------------------------------------------------------------ | ------------ | ---------- | ----------------------------------- |
+| [LESS: Label-Efficient Semantic Segmentation for LiDAR Point Clouds](https://arxiv.org/abs/2210.08064) (ECCV 2022) | None         | Ivannia    | [Summary](./ECCV/2022/LESS/LESS.md) |
 
 ### KDD
 
@@ -50,6 +48,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [AutoGrow: Automatic Layer Growing in Deep Convolutional Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403126) (KDD 2020) | Not provided                        | Ivannia    | [Summary](./KDD/2020/Autogrow/Autogrow.md) |
 | [Navigating Alignment for Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework](http://mesl.ucsd.edu/pubs/Jiayun_KDD2023_FEDALIGN.pdf) (KDD 2023) | https://github.com/jiayunz/FedAlign | Xiaofan    | [Summary](./KDD/2023/fedalign/fedalign.md) |
 
+### Machine Learning Conference Reviews
 
 ### NeurIPS
 
@@ -59,13 +58,14 @@ A template for paper reading summary can be found [here](./template.md).
 | [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan    | [Summary](./NeurIPS/2021/HRR/HRR.md)           |
 | [FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction](https://arxiv.org/abs/2212.01548) (NeurIPS 2022) | [Link to code](https://github.com/AIoT-MLSys-Lab/FedRolex)   | Xiaofan    | [Summary](./NeurIPS/2022/FedRolex/fedrolex.md) |
 
+### ICLR
 
-### ICDCS
+| Paper Title (Conf/Year of Paper)                             | Link to code                         | Presenters | Notes                                     |
+| ------------------------------------------------------------ | ------------------------------------ | ---------- | ----------------------------------------- |
+| [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided                         | Eric       | [Summary](./ICLR/2021/RFA/RFA.md)         |
+| [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric       | [Summary](./ICLR/2023/CreamFL/CreamFL.md) |
 
-| Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
-| ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric   | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
-
+## IoT/Mobile Device/Sensor Networks Conference Reviews
 
 ### SenSys
 
@@ -108,28 +108,14 @@ A template for paper reading summary can be found [here](./template.md).
 | [BatMobility: Towards Flying Without Seeing for Autonomous Drones](https://arxiv.org/abs/2307.11518) (MobiCom 2023) | [Link](https://batmobility.github.io) | Louis    | [Summary](./MobiCom/2023/Batmobility/Batmobility.md) |
 | [AgriTera: Accurate Non-Invasive Fruit Ripeness Sensing via Sub-Terahertz Wireless Signals](https://dl.acm.org/doi/10.1145/3570361.3613275) (MobiCom 2023 Best Paper Award) | Not provided | Xiaofan | [Summary](./MobiCom/2023/AgriTera/AgriTera.md) |
 
-### USENIX ATC
+### MobiSys
 
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/system/files/atc20-liu-xing.pdf) (ATC 2020) | Not provided | Louis    | [Summary](./ATC/2020/Firefly/Firefly.md) |
-| [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia  | [Summary](./ATC/2021/Revamper/Revamper.md) |
+| Paper Title                                                  | Link to code                    | Presenters | Notes                                            |
+| ------------------------------------------------------------ | ------------------------------- | ---------- | ------------------------------------------------ |
+| [Memory-Efficient DNN Training on Mobile Devices](https://dl.acm.org/doi/abs/10.1145/3498361.3539765) (MobiSys 2022) | https://github.com/eis-lab/sage | Xiaofan    | [Summary](./MobiSys/2022/Sage/Sage.md)           |
+| [BystandAR: Protecting Bystander Visual Data in Augmented Reality Systems](https://dl.acm.org/doi/10.1145/3581791.3596830) (MobiSys 2023) | Not provided                    | Ivannia    | [Summary](./MobiSys/2023/BystandAR/BystandAR.md) |
 
-
-### USENIX Security
-
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Delphi: A Cryptographic Inference Service for Neural Networks](https://www.usenix.org/system/files/sec20-mishra_0.pdf) (Security 2020) | https://github.com/mc2-project/delphi | Dan | [Summary](./Security/2020/Delphi/Delphi.md) |
-
-
-### INFOCOM
-
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Nadege: When Graph Kernels meet Network Anomaly Detection](https://ieeexplore.ieee.org/document/9796978) (INFOCOM 2022) | Not provided | Xiaofan    | [Summary](./INFOCOM/2022/Nadege/Nadege.md) |
-| [ComAI: Enabling Lightweight, Collaborative Intelligence by Retrofitting Vision DNNs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9796769) (INFOCOM 2022) | Not provided | Dan    | [Summary](./INFOCOM/2022/ComAI/ComAI.md) |
-| [Milliear: Millimeter-wave Acoustic Eavesdropping with Unconstrained Vocabulary](https://ieeexplore.ieee.org/document/9796940) (INFOCOM 2022) | Not provided | Louis    | [Summary](./INFOCOM/2022/Milliear/Milliear.md) |
+## EDA Conference Reviews
 
 ### ICCAD
 
@@ -153,30 +139,48 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [HyperRec: Efficient Recommender Systems with Hyperdimensional Computing](https://acsweb.ucsd.edu/~sasalama/papers/HyperRec.pdf) (ASP-DAC 2021) | Not provided | Ivannia  | [Summary](./ASP-DAC/2021/HyperRec/HyperRec.md) |
 
-### MobiSys
-
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Memory-Efficient DNN Training on Mobile Devices](https://dl.acm.org/doi/abs/10.1145/3498361.3539765) (MobiSys 2022) | https://github.com/eis-lab/sage | Xiaofan | [Summary](./MobiSys/2022/Sage/Sage.md) |
-| [BystandAR: Protecting Bystander Visual Data in Augmented Reality Systems](https://dl.acm.org/doi/10.1145/3581791.3596830) (MobiSys 2023) | Not provided | Ivannia | [Summary](./MobiSys/2023/BystandAR/BystandAR.md) |
-
-### CHI
-
-| Paper Title                                                  | Link to code | Presenters | Notes                                      |
-| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems](https://dl.acm.org/doi/pdf/10.1145/3544548.3581393) (CHI 2023)| None | Louis| [Summary](./CHI/2023/Decision%20Support%20Tool/Decision%20Support%20Tool.md)   
-
 ### DAC
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) (DAC 2023) | None | Xin| [Summary](./DAC/SegHDC/SegHDC.md)
 
-### ECCV
+## Other Top Conference Reviews
+
+### ICDCS
+
+| Paper Title (Conf/Year of Paper)                             | Link to code | Presenters | Notes                                    |
+| ------------------------------------------------------------ | ------------ | ---------- | ---------------------------------------- |
+| [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric       | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
+
+### CHI
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                                        |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------------------------ |
+| [Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems](https://dl.acm.org/doi/pdf/10.1145/3544548.3581393) (CHI 2023) | None         | Louis      | [Summary](https://github.com/UCSD-SEELab/iot-hd-reading-group/blob/main/CHI/2023/Decision Support Tool/Decision Support Tool.md) |
+
+### USENIX ATC
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [LESS: Label-Efficient Semantic Segmentation for LiDAR Point Clouds](https://arxiv.org/abs/2210.08064) (ECCV 2022) | None | Ivannia | [Summary](./ECCV/2022/LESS/LESS.md)
+| [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/system/files/atc20-liu-xing.pdf) (ATC 2020) | Not provided | Louis      | [Summary](./ATC/2020/Firefly/Firefly.md)   |
+| [Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training](https://www.usenix.org/system/files/atc21-lee.pdf) (ATC 2021) | Not provided | Ivannia    | [Summary](./ATC/2021/Revamper/Revamper.md) |
+
+
+### USENIX Security
+
+| Paper Title                                                  | Link to code                          | Presenters | Notes                                       |
+| ------------------------------------------------------------ | ------------------------------------- | ---------- | ------------------------------------------- |
+| [Delphi: A Cryptographic Inference Service for Neural Networks](https://www.usenix.org/system/files/sec20-mishra_0.pdf) (Security 2020) | https://github.com/mc2-project/delphi | Dan        | [Summary](./Security/2020/Delphi/Delphi.md) |
+
+
+### INFOCOM
+
+| Paper Title                                                  | Link to code | Presenters | Notes                                          |
+| ------------------------------------------------------------ | ------------ | ---------- | ---------------------------------------------- |
+| [Nadege: When Graph Kernels meet Network Anomaly Detection](https://ieeexplore.ieee.org/document/9796978) (INFOCOM 2022) | Not provided | Xiaofan    | [Summary](./INFOCOM/2022/Nadege/Nadege.md)     |
+| [ComAI: Enabling Lightweight, Collaborative Intelligence by Retrofitting Vision DNNs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9796769) (INFOCOM 2022) | Not provided | Dan        | [Summary](./INFOCOM/2022/ComAI/ComAI.md)       |
+| [Milliear: Millimeter-wave Acoustic Eavesdropping with Unconstrained Vocabulary](https://ieeexplore.ieee.org/document/9796940) (INFOCOM 2022) | Not provided | Louis      | [Summary](./INFOCOM/2022/Milliear/Milliear.md) |
 
 ## Topic Reviews
 
