@@ -49,35 +49,50 @@
 ![overview](./overview.png)
 
 * Metrics (output as a regression task):
+
   * Dry Matter: the solid component without water
   * Brix: a measure of sugar or sweetness of fruits
+
 * Challenges and solutions
+
   * **Challenge 1:** The total reflected power only provides a coarse-grained estimation
+
     * **Solution:** Model fruit as a 3-layer medium, use relative power variation across the wide band
     * Based on simulation, \theta_i = 45 degrees is the optimal position to balance penetration and reflection
       ![physic](./physic.png)
+
   * **Challenge 2:** the sensitivity to a particular frequency is unknown, and may vary re. fruit type
+
     * **Solution:** AgriTera adopts a Partial Least Square (PLS) regression model, finding the most correlated frequency features with the ground-truth ripeness
+
     * Build different models for each fruit type
+
       ![method](./method.png)
 
 ### Evaluations
 
 * Experimental Setup
+
   * Implementation: TeraMetrix T-Ray transmitter and receiver
   * 3 types of fruits: **green apples, avocados and persimmons**
   * A total of 30 fruits, took measurements every 12 hours over 10 days, resulting in 200 measurements for each fruit category
   * 180 samples for training, 20 samples for testing
   * Ground truth: Felix Instruments F750 Food Quality Sensor
   * Baseline: Camera
+
     ![setup](./setup.png)
 
 * Key results
+
   * Ripeness estimation performance
+
   * AgriTera can accurately estimate Brix and Dry Matter in 3 different fruits with an avg normalized RMSE of 0.55%
     ![main_result](./main_result.png)
+
   * Fruit-specific spectral signatures
+
     ![fruit_type](./fruit_type.png)
+
   * Impact of bandwidth: Larger bandwidth brings higher  correlation
 
 
