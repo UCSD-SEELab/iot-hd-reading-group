@@ -18,6 +18,7 @@
 * Rely on previous works for feature extraction and classification
 * They add a sample importance module that evaluates the weight of individual input samples
 * The key part is the use of the loss from model M1 to drive the input weight estimation for model M2, and vice versa
+  ![method](./method.png)
 * Why this works is not clear from the paper
 * The underlying osservation behind this proposal comes from peer coding, a method where a couple of programmer collaboratively work on the same code simultaneously to produce higher-quality code.
 
@@ -29,6 +30,8 @@
   * Baselines: MatchingNet, ProtoNet, S2M2, DeepEMD
   * Accuracy
 * 1-5% higher accuracy than baselines, but no additional benefits in case of errors (higher accuracy in presence of noise is mainly due to initial error-free accuracy)
+![results-error-free](./results-error-free.png)
+![results-with-noise](./results-with-noise.png)
 
 ### Pros and Cons (Your thoughts)
 
