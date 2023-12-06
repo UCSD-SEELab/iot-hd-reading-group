@@ -27,6 +27,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Understanding the Mitigating Data Contamination in Deep Anomaly Detection: A Kernel-based Approach](https://www.ijcai.org/proceedings/2022/322) (IJCAI 2022) | Not Provided | Xiaofan | [Summary](./IJCAI/2022/DataContamination/DataContamination.md) |
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 | [Interactive Machine Learning Solutions for Acoustic Monitoring of Animal Wildlife in Biosphere Reserves](https://www.ijcai.org/proceedings/2023/0711.pdf) (IJCAI 2023) | Not Provided | Xiaofan | [Summary](./IJCAI/2023/wildlife/wildlife.md) |
+| [Learning to Learn from Corrupted Data for Few-Shot Learning](https://www.ijcai.org/proceedings/2023/0381.pdf) (IJCAI 2023) | Not Provided | Flavio | [Summary](./IJCAI/2023/corrupted-few-shot-learning/corrupted_few_shot.md) |
 
 ### CVPR
 
