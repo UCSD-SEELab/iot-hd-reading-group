@@ -28,6 +28,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 | [Interactive Machine Learning Solutions for Acoustic Monitoring of Animal Wildlife in Biosphere Reserves](https://www.ijcai.org/proceedings/2023/0711.pdf) (IJCAI 2023) | Not Provided | Xiaofan | [Summary](./IJCAI/2023/wildlife/wildlife.md) |
 | [Learning to Learn from Corrupted Data for Few-Shot Learning](https://www.ijcai.org/proceedings/2023/0381.pdf) (IJCAI 2023) | https://github.com/anyuexuan/PCL | Flavio | [Summary](./IJCAI/2023/corrupted-few-shot-learning/corrupted_few_shot.md) |
+| [Confidence-based Self-Corrective Learning: An Application in Height Estimation Using Satellite LiDAR and Imagery](https://www.ijcai.org/proceedings/2023/0671.pdf) (IJCAI 2023) | Not Provided | Ivannia | [Summary](./IJCAI/2023/SCL/SCL.md) |
 
 ### CVPR
 
