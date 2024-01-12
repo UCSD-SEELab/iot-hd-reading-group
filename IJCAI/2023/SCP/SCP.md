@@ -50,7 +50,7 @@
    * $w_r$ = weight residual 1x1 convolution (shared by all the pixels) instead of bias to stabilize the network training
    * Sigmoid function
  
-[Method](./Method.png)
+[Model](./Model.png)
 
 ### Evaluations
 
