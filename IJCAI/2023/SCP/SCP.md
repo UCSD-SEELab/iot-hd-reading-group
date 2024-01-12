@@ -49,6 +49,8 @@
    * $Y_{ij} = (W_{ij} + w_r)^{\top}X_{ij}$
    * $w_r$ = weight residual 1x1 convolution (shared by all the pixels) instead of bias to stabilize the network training
    * Sigmoid function
+ 
+[Method](./Method.png)
 
 ### Evaluations
 
@@ -59,6 +61,7 @@
    * All-net - Baseline Network
    * Base + Coordinates as input feature
    * Base + Adding coordinates in the final convolution layer
+   * [Baselines](./Baselines.png)
 * Metric:
    * Accuracy:
       * Dice-Similarity Coefficient: 2 |A ∩ B| / (|A| + |B|)
@@ -69,9 +72,11 @@
       * In low-capacity, SCP outperforms baselines but Base-B has higher L-PPV.
       * SCP shows consistent improvement on the other capacities
       * Reduction of 23.8% GPU, 64.9% FLOPs, 74.7% GPU memory usage
+      * [Table1](./Table1.png)
    * CT
       * Improves accuracy in Dice and L-Dice mostly
       * Scores of L-F1 and L-Dice are lower which means they have overfitted
+      * [Table2](./Table2.png)
 
 ### Pros and Cons
 
