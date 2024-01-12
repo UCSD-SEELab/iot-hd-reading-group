@@ -17,7 +17,7 @@
    * Medical images show stronger visual patterns (similar tissue structures)
    * Feature vector at each position follows the Gaussian distribution
 
-[Brain](./Brain.png)
+   ![Brain](./Brain.png)
 
 * **Challenges**:
    * How to leverage the spatial invariance for better efficiency?
@@ -50,7 +50,7 @@
    * $w_r$ = weight residual 1x1 convolution (shared by all the pixels) instead of bias to stabilize the network training
    * Sigmoid function
  
-[Model](./Model.png)
+![Model](./Model.png)
 
 ### Evaluations
 
@@ -61,7 +61,8 @@
    * All-net - Baseline Network
    * Base + Coordinates as input feature
    * Base + Adding coordinates in the final convolution layer
-   * [Baselines](./Baselines.png)
+
+     ![Baselines](./Baselines.png)
 * Metric:
    * Accuracy:
       * Dice-Similarity Coefficient: 2 |A ∩ B| / (|A| + |B|)
@@ -72,11 +73,13 @@
       * In low-capacity, SCP outperforms baselines but Base-B has higher L-PPV.
       * SCP shows consistent improvement on the other capacities
       * Reduction of 23.8% GPU, 64.9% FLOPs, 74.7% GPU memory usage
-      * [Table1](./Table1.png)
+
+        ![Table1](./Table1.png)
    * CT
       * Improves accuracy in Dice and L-Dice mostly
       * Scores of L-F1 and L-Dice are lower which means they have overfitted
-      * [Table2](./Table2.png)
+
+        ![Table2](./Table2.png)
 
 ### Pros and Cons
 
