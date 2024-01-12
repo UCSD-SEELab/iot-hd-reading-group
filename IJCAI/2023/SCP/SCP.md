@@ -16,6 +16,9 @@
 * **Assumptions**:
    * Medical images show stronger visual patterns (similar tissue structures)
    * Feature vector at each position follows the Gaussian distribution
+
+[Brain](./Brain.png)
+
 * **Challenges**:
    * How to leverage the spatial invariance for better efficiency?
    * Lesions vary greatly in shape, size and location
