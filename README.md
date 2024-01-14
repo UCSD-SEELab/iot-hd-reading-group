@@ -78,6 +78,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [SQEE: A Machine Perception Approach to Sensing Quality Evaluation at the Edge by Uncertainty Quantification](https://dl.acm.org/doi/abs/10.1145/3560905.3568534) (SenSys 2022) | Not Provided | Xiaofan | [Summary](./SenSys/2022/SQEE/SQEE.md) |
 | [SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing](https://dl.acm.org/doi/10.1145/3560905.3568502) (SenSys 2022) | Not Provided | Dan   | [Summary](./SenSys/2022/SpeechQoE/SpeechQoE.md) |
 | [On-NAS: On-Device Neural Architecture Search on Memory-Constrained Intelligent Embedded Systems](https://drive.google.com/file/d/1MDK5BPrEYZUFUhWmLGSKI2uxeoiNfsK_/view) (SenSys 2023) | https://github.com/eai-lab/On-NAS | Xiaofan | [Summary](./SenSys/2023/On-NAS/On-NAS.md) |
+| [NeuroRadar: A Neuromorphic Radar Sensor for Low-Power IoT Systems](http://xyzhang.ucsd.edu/papers/Kai.Zheng_SenSys23_NeuroRadar.pdf) (SenSys 2023) | Not provided | Xiaofan | [Summary](./SenSys/2023/NeuroRadar/NeuroRadar.md) |
 
 
 ### IPSN
