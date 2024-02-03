@@ -44,17 +44,17 @@
       * Specify original sampling points
       * Apply TED algorithm (looks for neighboring points and construct distance matrix and maximizes this for representative points)
    * Error model:
-      * Error model is approximate using first-order Taylor series
-      * Difference between error output and input is linear
+      * Error model is approximate using first-order Taylor series.
+      * Following $\bigtriangleup y \approx \left | f'(a)^{T}\overline{\bigtriangleup x} \right |$ shows how difference between error output and input is linear.
    * Performance/Power Models:
-      * Gaussian Process models, which provides a prior over a value function
+      * Gaussian Process models, which provides a prior over a value function as shown in the formula: $f(x) \sim GP(\mu, k_{\theta })$ where $\mu$ = mean value and $k$ is a kernel function.
       * Using prior, able to construct Gaussian distribution of the functions
       * You are able to find f* for new x* → able to get y*
       * Kernel Function is ARD Matern 5/2 kernel
    * Multi-objective optimization:
       * Trying to find the Pareto hypervolume → Transform the problem from optimizing 3 objectives to maximizing super volume.
-      * Larger PV = Better configuration
-      * Bayesian optimization to get this maximization
+      * Larger PV = Better configuration.
+      * Bayesian optimization to get this maximization.
 
       ![Volume](Volume.png)
  
@@ -72,15 +72,15 @@
 
    ![Graph_2](Graph_2.png)
    
-   * In vector environments: Better performance improvement and power reduction but worse convergence speed
+   * In vector environments: Better performance improvement and power reduction but worse convergence speed.
 
 ### Pros and Cons
 
 * Pros:
-   * Well written and nice speedups
+   * Well written and nice speedups.
 * Cons:
-   * Decrease in number of bits of variables not necessarily equate to faster speed
-      * Compiler can implicitly add data type conversions → overhead
-   * Not fully automated → still needs human knowledge, manual pruning and vectorization.
-   * Only show results for simulator (state better performance overall on hardware)
-   * Search overhead due to sampling time → domain knowledge is important
+   * Decrease in number of bits of variables not necessarily equate to faster speed.
+      * Compiler can implicitly add data type conversions which causes overhead.
+   * Not fully automated → still needs human knowledge, manual pruning in the dataset and vectorization in the apps.
+   * Only show results for simulator (state better performance overall on hardware), but no graphs in hardware.
+   * Search overhead due to sampling time → domain knowledge is important to decrease the time it takes to get a good dataset.
