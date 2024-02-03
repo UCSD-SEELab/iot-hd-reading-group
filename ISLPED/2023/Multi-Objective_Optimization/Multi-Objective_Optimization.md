@@ -37,6 +37,8 @@
 * Apply Multi-objective Bayesian Optimization algorithm to search for better precision vectors → add those to datasets.
 * After several iterations → find Pareto Efficient Set → optimal precision configuration.
 
+![Flowchart](Flowchart.png)
+
 * Sections:
    * Sampling:
       * Specify original sampling points
@@ -53,6 +55,8 @@
       * Trying to find the Pareto hypervolume → Transform the problem from optimizing 3 objectives to maximizing super volume.
       * Larger PV = Better configuration
       * Bayesian optimization to get this maximization
+
+      ![Volume](Volume.png)
  
 ### Evaluations
 
@@ -60,8 +64,14 @@
 * Baselines: ADAPT
 * Metrics: Speedup (Compared to full-precision version)
 * Takeaways:
+  
+     ![Graph_1](Graph_1.png)
+
    * Better precision configuration in the vast majority of cases. With 2% better speedup ration than ADAPT on scalar programs.
    * Average speedup ratio of 42.5% when precision options expanded.
+
+   ![Graph_2](Graph_2.png)
+   
    * In vector environments: Better performance improvement and power reduction but worse convergence speed
 
 ### Pros and Cons
