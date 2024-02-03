@@ -47,10 +47,15 @@
       * Error model is approximate using first-order Taylor series.
       * Following $\bigtriangleup y \approx \left | f'(a)^{T}\overline{\bigtriangleup x} \right |$ shows how difference between error output and input is linear.
    * Performance/Power Models:
-      * Gaussian Process models, which provides a prior over a value function as shown in the formula: $f(x) \sim GP(\mu, k_{\theta })$ where $\mu$ = mean value and $k$ is a kernel function.
-      * Using prior, able to construct Gaussian distribution of the functions
+      * Gaussian Process models, which provides a prior over a value function as shown in the formula: $f(x) \sim GP(\mu, k_{\theta })$ where $\mu$ = mean value and $k$ is a kernel function (specifically an ARD Matern 5/2 kernel).
+      * Using prior, able to construct Gaussian distribution of the functions as ahown in the following formula:
+        
+        ![eq_2](eq_2.png)
+        
       * You are able to find f* for new x* → able to get y*
-      * Kernel Function is ARD Matern 5/2 kernel
+
+        ![eq_3](eq_3.png)
+
    * Multi-objective optimization:
       * Trying to find the Pareto hypervolume → Transform the problem from optimizing 3 objectives to maximizing super volume.
       * Larger PV = Better configuration.
