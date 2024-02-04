@@ -154,8 +154,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code                                             | Presenters | Notes                                        |
 | ------------------------------------------------------------ | -------------------------------------------------------- | ---------- | -------------------------------------------- |
-| [A Robust and Energy-Efficient Classifier Using Brain-Inspired Hyperdimensional Computing](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf) (ISLPED 2016) | https://github.com/abbas-rahimi/HDC-Language-Recognition | Eric       | [Summary](./HD/Language_HDC/Language_HDC.md) |
-| [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) (ISLPED 2020) | https://github.com/iis-eth-zurich/hd_dvs                 | Shuhang    | [Summary](./HD/SparseHDC/SparseHDC.md)       |
+| [A Robust and Energy-Efficient Classifier Using Brain-Inspired Hyperdimensional Computing](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf) (ISLPED 2016) | https://github.com/abbas-rahimi/HDC-Language-Recognition | Eric       | [Summary](./ISLPED/2016/Language_HDC/Language_HDC.md) |
+| [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) (ISLPED 2020) | https://github.com/iis-eth-zurich/hd_dvs                 | Shuhang    | [Summary](./ISLPED/2020/SparseHDC/SparseHDC.md)       |
 | [Multi-objective optimization for Floating Point Mix-Precision Tuning](https://madsys.cs.tsinghua.edu.cn/publications/ISLPED2023-li.pdf) (ISLPED 2023) | No Code Available                | Ivannia    | [Summary](./ISLPED/2023/Multi-Objective_Optimization/Multi-Objective_Optimization.md)       |
 
 ## Other Top Conference Reviews
