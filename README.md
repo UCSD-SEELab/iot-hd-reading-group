@@ -201,6 +201,12 @@ A template for paper reading summary can be found [here](./template.md).
 
 ## Topic Reviews
 
+### ML
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                          | Presenters | Notes                          |
+| ------------------------------------------------------------ | ------------------------------------- | ---------- | ------------------------------ |
+| [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) (arXiv 2023) | https://github.com/state-spaces/mamba | Xiaofan    | [Summary](./ML/Mamba/Mamba.md) |
+
 ### HD
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                                                 | Presenters | Notes                                            |
