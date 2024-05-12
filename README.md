@@ -38,6 +38,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md) |
 | [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) | https://github.com/VU-DETAIL/PerfHD      | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)   |
 | [Prompting Large Language Models With Answer Heuristics for Knowledge-Based Visual Question Answering](https://arxiv.org/abs/2303.01903v2) (CVPR 2023) | https://github.com/MILVLG/prophet        | Xiaofan    | [Summary](./CVPR/2023/Prophet/Prophet.md) |
+| [OneLLM: One Framework to Align All Modalities with Language](https://arxiv.org/abs/2312.03700) (CVPR 2024) | https://github.com/csuhan/OneLLM         | Xiaofan    | [Summary](./CVPR/2024/OneLLM/OneLLM.md)   |
 
 ### ECCV
 
