@@ -55,6 +55,12 @@ A template for paper reading summary can be found [here](./template.md).
 | [Navigating Alignment for Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework](http://mesl.ucsd.edu/pubs/Jiayun_KDD2023_FEDALIGN.pdf) (KDD 2023) | https://github.com/jiayunz/FedAlign | Xiaofan    | [Summary](./KDD/2023/fedalign/fedalign.md) |
 
 ## Machine Learning Conference Reviews
+### MLSys
+| Paper Title                                                  | Link to code | Presenters | Notes                                      |
+| ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
+|[AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/pdf/2306.00978)|[Link to code](https://github.com/mit-han-lab/llm-awq?tab=readme-ov-file)|Lele Zhao|[Summary](./MLSys/2024/AWQ/AWQ.md)
+
+
 
 ### NeurIPS
 
