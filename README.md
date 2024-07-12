@@ -160,7 +160,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
-| [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) (DAC 2023) | None | Xin| [Summary](./DAC/2023/SegHDC/SegHDC.md)
+| [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) (DAC 2023) | Not provided | Xin| [Summary](./DAC/2023/SegHDC/SegHDC.md)|
+| [Enabling On-Device Large Language Model Personalization with Self-Supervised Data Selection and Synthesis](https://arxiv.org/abs/2311.12275) (DAC 2024) | Not provided | Xiaofan | [Summary](./DAC/2024/Personalized-LLM/Personalized-LLM.md) |
 
 ### ISLPED
 
