@@ -33,6 +33,12 @@
 * Algorithm, architecture, solution
   * After each iteration of training, update the atomic hypervectors using a surrogate function to optimize the encoding matrix
   * Utilize the final matrix to perform inference
+  ![Architecture](Architecture.png)
+  1. Pull Data
+  2. Encoded using encoding matrix with some offset, then passed through cosine activation function.
+  ![Activation Function](Encoding\_Function.png)
+  3. Dot product with regression model to obtain inference
+  4. Calculate loss, feed back to the surrogate function F_theta. F_theta uses M # of random atomic hypervectors using some parameter vector *theta* to generate an encoding matrix. *theta* is updated after every iteration using gradient descent over the loss function.
 
 ### Evaluations
 
