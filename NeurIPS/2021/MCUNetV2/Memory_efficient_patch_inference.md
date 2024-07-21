@@ -59,7 +59,7 @@
 
 * Key improvemets of MCUNetV2 compared with the baselines
 
-  <img src= "./tableMCUNet.png" alt="table" width="400">
+  <img src= "./tableMCUNet-1.png" alt="table" width="400">
    
 
 ### Pros and Cons (Your thoughts)
