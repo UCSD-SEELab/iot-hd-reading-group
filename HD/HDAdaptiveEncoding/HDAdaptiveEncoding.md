@@ -33,23 +33,39 @@
 * Algorithm, architecture, solution
   * After each iteration of training, update the atomic hypervectors using a surrogate function to optimize the encoding matrix
   * Utilize the final matrix to perform inference
+
   ![Architecture](Architecture.png)
   1. Pull Data
   2. Encoded using encoding matrix with some offset, then passed through cosine activation function.
-  ![Activation Function](Encoding\_Function.png)
+
+  ![Activation Function](EncodingFunction.png)
+
   3. Dot product with regression model to obtain inference
   4. Calculate loss, feed back to the surrogate function F_theta. F_theta uses M # of random atomic hypervectors using some parameter vector *theta* to generate an encoding matrix. *theta* is updated after every iteration using gradient descent over the loss function.
 
 ### Evaluations
 
 * Where did they implement their method? On what platform?
+  * i7-12700k intel cpu
 * How they evaluate their method?
-  * Dataset
+  * Datasets: N = number of samples, M = number of features
+
+![Descriptions of datasets. N = number of samples, M = number of features](DatasetDescription.png)
   * Baselines
-  * Metrics
+
+![Descriptions of models](ModelDescription.png)
+
+![Model Parameters](HyperparameterDescription.png)
+  * Metrics: Measuring both inference time and Prediction Quality (r^2 metric)
 * What are the key results?
+
+![Results](Results.png)
+
+These data serve to shwo that FLASH performs with comparable prediction quality to state-of-the-art with much lower inference time. This can be attributed to the signficantly reduced size of the FLASH model compared to the others, which performs inference in 500 dimensions while the others use 2000.
 
 ### Pros and Cons (Your thoughts)
 
-* Pros: why you think this is a good paper?
-* Cons: unrealistic assumptions, missing elements, missing experiments, etc.
+* Pros:
+  * A unique solution to the problem by reducing heavy operations
+* Cons:
+  * Does a poor job of proving that FLASH is actually faster than the other models, especially since the model is intentionally smaller than the others. In fact, the A-FLASH model designed for better accuracy is more comparable in size to the baselines, and while occassionally exhibiting better accuracy, it sees no significant decrease in inference time.
