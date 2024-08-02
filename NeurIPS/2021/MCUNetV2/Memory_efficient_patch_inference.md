@@ -1,4 +1,4 @@
-## [MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning] (https://arxiv.org/abs/2110.15352) 
+## MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning (https://arxiv.org/abs/2110.15352) 
 
 * Ji Lin, Wei-Ming Chen, Han Cai, Chuang Gan, Song Han
 
