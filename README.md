@@ -125,6 +125,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [BatMobility: Towards Flying Without Seeing for Autonomous Drones](https://arxiv.org/abs/2307.11518) (MobiCom 2023) | [Link](https://batmobility.github.io) | Louis    | [Summary](./MobiCom/2023/Batmobility/Batmobility.md) |
 | [AgriTera: Accurate Non-Invasive Fruit Ripeness Sensing via Sub-Terahertz Wireless Signals](https://dl.acm.org/doi/10.1145/3570361.3613275) (MobiCom 2023 Best Paper Award) | Not provided | Xiaofan | [Summary](./MobiCom/2023/AgriTera/AgriTera.md) |
 | [AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving](https://dl.acm.org/doi/abs/10.1145/3570361.3592517) (MobiCom 2023) | Not provided | Xiaofan | [Summary](./MobiCom/2023/AutoFed/AutoFed.md) |
+| [Taming Event Cameras with Bio-Inspired Architecture and Algorithm: A Case for Drone Obstacle Avoidance](https://arxiv.org/pdf/2106.09685) (MobiCom 2023) | https://github.com/MobiSense/BioDrone | Xiaofan | [Summary](./MobiCom/2023/BioDrone/BioDrone.md) |
 
 ### MobiSys
 
