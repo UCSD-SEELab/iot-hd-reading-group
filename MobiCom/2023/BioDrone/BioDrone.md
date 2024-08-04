@@ -1,4 +1,4 @@
-## [Taming Event Cameras with Bio-Inspired Architecture and Algorithm: A Case for Drone Obstacle Avoidance](https://arxiv.org/pdf/2106.09685)
+## [Taming Event Cameras with Bio-Inspired Architecture and Algorithm: A Case for Drone Obstacle Avoidance](https://dl.acm.org/doi/abs/10.1145/3570361.3613269)
 
 * Jingao Xu, Danyang Li, Zheng Yang, Yishujie Zhao, Hao Cao, Yunhao Liu, Longfei Shangguan. Tsinghua University & University of Pittsburgh
 
