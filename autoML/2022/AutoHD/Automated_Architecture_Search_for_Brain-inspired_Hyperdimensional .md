@@ -68,9 +68,9 @@
   * Key Results
     * Higher accuracy on models created by AutoHDC
 
-      <img src= "./result1.png" alt="table" width="400">
+      <img src= "./result1-new.png" alt="table" width="400">
 
-      <img src= "./result2.png" alt="table" width="400">
+      <img src= "./result2-new.png" alt="table" width="420">
       
     * Sparsity of 75% and dimension 100 HDC model on Clintox achieves the best accuracy
 
