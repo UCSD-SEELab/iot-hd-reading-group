@@ -25,7 +25,8 @@
 
 * What are the major contributions?
   * Constructed the fundamental search space in the design of the HDC architecture (listed important parameters that would influence the HD performance).
-     <img src= "./tableMCUNet-1.png" alt="table" width="400">
+
+    <img src= "./SearchSpaceTable.png" alt="table" width="500">
   * Designed a reinforcement learning search loop(AutoHDC) to automatically search for the best HDC architecture for a given application.
   * Carried out case studies on drug discovery tasks and language processing tasks.
 * What is the technical problem? What are the input and output of the problem?
@@ -38,19 +39,21 @@
 * Algorithm, architecture, solution
   * Auto HDC
     * Recurrent Neural Network as controller; HDC as executor to produce a reward for a searched structure
-       <img src= "./tableMCUNet-1.png" alt="table" width="400">
+       <img src= "./autoHDC.png" alt="table" width="600">
     * Preprocessing: Convert each unique input text into numerical tokens and produce base hypervectors
-       <img src= "./tableMCUNet-1.png" alt="table" width="400">
+       <img src= "./base.png" alt="table" width="400">
   * Search Space
      * List it out possible parameters in the HDC process.
-       <img src= "./tableMCUNet-1.png" alt="table" width="400">
+
+       <img src= "./SearchSpace.png" alt="table" width="700">
+       
        * 2 Sparisty: # of 1s
        * 4 Gram size: number of continues characters as a sub-unit to be operated by element-wise operation
        * 5 Permutation: the i-th element’s hypervector will rotate (N-i)*j elements instead of (N-i) elements
        * 6 Element-wise Operation: Multiplication, Xor, And, Or
        * 7 Mathematical Operation: add a threshold or not
        * 8 Encoded Hypervectors Dataype: binary, bipolar, int8, int16, int32, int64
-         <img src= "./tableMCUNet-1.png" alt="table" width="400">
+         <img src= "./ExampleSearchSpace.png" alt="table" width="700">
 
 ### Evaluations
   * Dataset
@@ -64,10 +67,16 @@
     * Language processing tasks: accuracy
   * Key Results
     * Higher accuracy on models created by AutoHDC
-       <img src= "./tableMCUNet-1.png" alt="table" width="400">
-    * Sparsity of 75% and dimension 100 HDC model on Clintox achieves the best accuracy
-       <img src= "./tableMCUNet-1.png" alt="table" width="400">
 
+      <img src= "./result1.png" alt="table" width="400">
+
+      <img src= "./result2.png" alt="table" width="400">
+      
+    * Sparsity of 75% and dimension 100 HDC model on Clintox achieves the best accuracy
+
+      <img src= "./sparisty.png" alt="table" width="700">
+
+      
 ### Pros and Cons (Your thoughts)
 * Pros
   * A holistic collection of HD parameters under the basic HDC
