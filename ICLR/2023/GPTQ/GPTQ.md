@@ -30,10 +30,10 @@ https://github.com/IST-DASLab/gptq
         - Activation outliers also breaks quantization in a few dimensions in LLM.int8(), they propose to use solve this issue by just keeping it on a high precision 
 
 * What are the key assumptions?
-Layer-Wise Quantization
-![alt text](text1.png)
-Optimal Brain Quantization, Greedy
-![alt text](<Screenshot 2024-07-21 at 2.27.58 PM.png>)
+    - Layer-Wise Quantization
+        ![alt text](text1.png)
+    - Optimal Brain Quantization, Greedy
+        ![alt text](<Screenshot 2024-07-21 at 2.27.58 PM.png>)
 
 ### Method
 
