@@ -61,6 +61,12 @@
 
    ![Algorithm](./Algorithm.png)
 
+* **Universal Mixing**: Combining (Mixing) 2 point clouds to create a single one, by dividing the points of the point cloud in regions, and using a binary mask to select.
+   * 3 different ways to mix:
+   * The Formula that represents the universal mixing is:
+   where $S$ is Source, $T$ is Target and $M_s$, $M_t$ is the binary mask selecting the type of mixing.
+
+* **Overall Algorithm**:
    * First Stage:
       * Clear weather and bridge domain are the input for creating intermediate domain
       * Student network 1 is trained
