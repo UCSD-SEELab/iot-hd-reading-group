@@ -37,6 +37,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ---------------------------------------- | ---------- | ----------------------------------------- |
 | [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md) |
 | [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) | https://github.com/VU-DETAIL/PerfHD      | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)   |
+| [UniMix: Towards Domain Adaptive and Generalizable LiDAR Semantic Segmentation in Adverse Weather](https://arxiv.org/pdf/2404.05145) (CVPR 2024) | https://github.com/sunnyHelen/UniMix | Ivannia     | [Summary](./CVPR/2024/UniMix/UniMix.md) |
 
 ### ECCV
 
