@@ -230,6 +230,8 @@ A template for paper reading summary can be found [here](./template.md).
 | [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided                                                 | Louis      | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md)                |
 | [HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612) (J. Proteome R 2023) | Not provided                                                 | Xin        | [Summary](./HD/HyperSpec/HyperSpec.md)                       |
 | [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arxiv) | https://anonymous.4open.science/r/hdcc-5F7C/                 | Shengfan   | [Summary](./HD/HDCC/HDCC.md)                                 |
+| [Automated Architecture Search for Brain-inspired Hyperdimensional](https://arxiv.org/pdf/2202.05827) (autoML 2022) | Not provided                                                 | Run        | [Summary](./HD/autoML/Automated_Architecture_Search_for_Brain-inspired_Hyperdimensional.md)   
+
 
 
 ### Tiny Machine Learning
