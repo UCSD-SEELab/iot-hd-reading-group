@@ -79,11 +79,11 @@ A template for paper reading summary can be found [here](./template.md).
 | [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric       | [Summary](./ICLR/2023/CreamFL/CreamFL.md) 
 |[GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/pdf/2210.17323) (ICLR 2023)|https://github.com/IST-DASLab/gptq|Lele Zhao|[Summary](./ICLR/2023/GPTQ/GPTQ.md)
 
-### ICMC
+### ICML
 
-| Paper Title (Conf/Year of Paper)                             | Link to code                      | Presenters | Notes                              |
-| ------------------------------------------------------------ | --------------------------------- | ---------- | ---------------------------------- |
-| [Accurate LoRA-Finetuning Quantization of LLMs via Information Retention](https://arxiv.org/abs/2402.05445) (ICML 2024) | https://github.com/htqin/ir-qlora | Xiaofan    | [Summary](./ICML/2024/IR-QLoRA.md) |
+| Paper Title (Conf/Year of Paper)                             | Link to code                      | Presenters | Notes                                       |
+| ------------------------------------------------------------ | --------------------------------- | ---------- | ------------------------------------------- |
+| [Accurate LoRA-Finetuning Quantization of LLMs via Information Retention](https://arxiv.org/abs/2402.05445) (ICML 2024) | https://github.com/htqin/ir-qlora | Xiaofan    | [Summary](./ICML/2024/IR-QLoRA/IR-QLoRA.md) |
 
 ## IoT/Mobile Device/Sensor Networks Conference Reviews
 
