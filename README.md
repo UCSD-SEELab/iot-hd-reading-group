@@ -61,8 +61,6 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 |[AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/pdf/2306.00978)|[Link to code](https://github.com/mit-han-lab/llm-awq?tab=readme-ov-file)|Lele Zhao|[Summary](./MLSys/2024/AWQ/AWQ.md)
 
-
-
 ### NeurIPS
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
@@ -80,6 +78,12 @@ A template for paper reading summary can be found [here](./template.md).
 | [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided                         | Eric       | [Summary](./ICLR/2021/RFA/RFA.md)         |
 | [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric       | [Summary](./ICLR/2023/CreamFL/CreamFL.md) 
 |[GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/pdf/2210.17323) (ICLR 2023)|https://github.com/IST-DASLab/gptq|Lele Zhao|[Summary](./ICLR/2023/GPTQ/GPTQ.md)
+
+### ICMC
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                      | Presenters | Notes                              |
+| ------------------------------------------------------------ | --------------------------------- | ---------- | ---------------------------------- |
+| [Accurate LoRA-Finetuning Quantization of LLMs via Information Retention](https://arxiv.org/abs/2402.05445) (ICML 2024) | https://github.com/htqin/ir-qlora | Xiaofan    | [Summary](./ICML/2024/IR-QLoRA.md) |
 
 ## IoT/Mobile Device/Sensor Networks Conference Reviews
 
