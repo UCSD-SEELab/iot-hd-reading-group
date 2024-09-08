@@ -233,6 +233,8 @@ A template for paper reading summary can be found [here](./template.md).
 | [HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612) (J. Proteome R 2023) | Not provided                                                 | Xin        | [Summary](./HD/HyperSpec/HyperSpec.md)                       |
 | [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arxiv) | https://anonymous.4open.science/r/hdcc-5F7C/                 | Shengfan   | [Summary](./HD/HDCC/HDCC.md)                                 |                                                                   
 | [Hyperdimensional Computing with holographic and adaptive encoder](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1371988/full) (Frontiers 2024) | Not Provided | Michael | [Summary](./HD/HDAdaptiveEncoding/HDAdaptiveEncoding.md)
+| [Automated Architecture Search for Brain-inspired Hyperdimensional](https://arxiv.org/pdf/2202.05827) (autoML 2022) | Not provided                                                 | Run        | [Summary](./HD/autoML/Automated_Architecture_Search_for_Brain-inspired_Hyperdimensional.md)   
+
 
 
 ### Tiny Machine Learning
