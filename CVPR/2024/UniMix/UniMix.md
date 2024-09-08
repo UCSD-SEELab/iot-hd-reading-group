@@ -38,9 +38,28 @@
 * **Bridge Domain**: Target domain with adverse weather simulation
    * LiDAR system can be represented using a linear model for the received signal power:
 
+   ![Formula_BridgeDomain](./Formula_BridgeDomain.png)
+
    * Where $P_R$ is received signal power and $P_T$ is transmitted signal power, $R$ is distance, $t$ is time, $c$ is speed of light, **$H$ is optical system’s impulse response** (It shows how quickly and accurately the system can detect objects)
    * In adverse weather (rain, fog and snowflakes), H is the parameter that is being affected.
    * For each scene in the source domain,a bridge domain is constructed by including the weather features.
+
+   ![Bride_Domain](./Bride_Domain.png)
+
+* **Universal Mixing**: Combining (Mixing) 2 point clouds to create a single one, by dividing the points of the point cloud in regions, and using a binary mask to select.
+   * 3 different ways to mix:
+   
+   ![Universal_Mixing](./Universal_Mixing.png)
+   
+   * The Formula that represents the universal mixing is:
+
+   ![Universal_Mixing_Formula](./Universal_Mixing_Formula.png)
+
+   where $S$ is Source, $T$ is Target and $M_s$, $M_t$ is the binary mask selecting the type of mixing.
+
+* **Overall Algorithm**:
+
+   ![Algorithm](./Algorithm.png)
 
 * **Universal Mixing**: Combining (Mixing) 2 point clouds to create a single one, by dividing the points of the point cloud in regions, and using a binary mask to select.
    * 3 different ways to mix:
@@ -68,12 +87,16 @@
    * Achieves best gain with both datasets
    * Adaptation from synthetic dataset is more difficult for all DA methods, which is attributed with a wider domain shift.
 
+![Results_1](./Results_1.png)
+
 ### Results for DG
 * **Baselines**: Augmentation-based methods (Dropout, Noise Perturbation, PolarMix) and 2D DG Methods (MMD and PCL)
 * **Takeaway**:
    * It hasn’t seen SemanticSTF for results
    * Achieves best gain with both datasets
    * Shows generalization results for each type of weather, where UniMix also achieves the best performance overall
+
+![Results_2](./Results_2.png)
 
 ### Pros and Cons
 

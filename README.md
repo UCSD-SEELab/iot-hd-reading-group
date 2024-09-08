@@ -40,6 +40,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [Prompting Large Language Models With Answer Heuristics for Knowledge-Based Visual Question Answering](https://arxiv.org/abs/2303.01903v2) (CVPR 2023) | https://github.com/MILVLG/prophet        | Xiaofan    | [Summary](./CVPR/2023/Prophet/Prophet.md) |
 | [OneLLM: One Framework to Align All Modalities with Language](https://arxiv.org/abs/2312.03700) (CVPR 2024) | https://github.com/csuhan/OneLLM         | Xiaofan    | [Summary](./CVPR/2024/OneLLM/OneLLM.md)   |
 | [VILA: On Pre-training for Visual Language Models](https://arxiv.org/abs/2312.07533) (CVPR 2024) | https://github.com/NVlabs/VILA           | Xiaofan    | [Summary](./CVPR/2024/VILA/VILA.md)       |
+| [UniMix: Towards Domain Adaptive and Generalizable LiDAR Semantic Segmentation in Adverse Weather](https://arxiv.org/pdf/2404.05145) (CVPR 2024) | https://github.com/sunnyHelen/UniMix | Ivannia     | [Summary](./CVPR/2024/UniMix/UniMix.md) |
 
 ### ECCV
 
