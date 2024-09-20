@@ -171,6 +171,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) (DAC 2023) | Not provided | Xin| [Summary](./DAC/2023/SegHDC/SegHDC.md)|
 | [Enabling On-Device Large Language Model Personalization with Self-Supervised Data Selection and Synthesis](https://arxiv.org/abs/2311.12275) (DAC 2024) | Not provided | Xiaofan | [Summary](./DAC/2024/Personalized-LLM/Personalized-LLM.md) |
+| [CONClave - Secure and Robust Cooperative Perception for CAVs Using Authenticated Consensus and Trust Scoring](https://arxiv.org/abs/2409.02863) (DAC 2024) | Not provided | Xiaofan | [Summary](./DAC/2024/CONClave/CONClave.md) |
 
 ### ISLPED
 
