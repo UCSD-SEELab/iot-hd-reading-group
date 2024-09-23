@@ -40,6 +40,8 @@ A template for paper reading summary can be found [here](./template.md).
 | [Prompting Large Language Models With Answer Heuristics for Knowledge-Based Visual Question Answering](https://arxiv.org/abs/2303.01903v2) (CVPR 2023) | https://github.com/MILVLG/prophet        | Xiaofan    | [Summary](./CVPR/2023/Prophet/Prophet.md) |
 | [OneLLM: One Framework to Align All Modalities with Language](https://arxiv.org/abs/2312.03700) (CVPR 2024) | https://github.com/csuhan/OneLLM         | Xiaofan    | [Summary](./CVPR/2024/OneLLM/OneLLM.md)   |
 | [VILA: On Pre-training for Visual Language Models](https://arxiv.org/abs/2312.07533) (CVPR 2024) | https://github.com/NVlabs/VILA           | Xiaofan    | [Summary](./CVPR/2024/VILA/VILA.md)       |
+| [Dual Prior Unfolding for Snapshot Compressive Imaging](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Dual_Prior_Unfolding_for_Snapshot_Compressive_Imaging_CVPR_2024_paper.pdf) (CVPR 2024) |  https://github.com/ZhangJC-2k/DPU | Michael | [Summary](./CVPR/2024/DPU-SCI/DPU-SCI.md) |
+| [CRKD: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation](https://arxiv.org/pdf/2403.19104) (CVPR 2024) | https://github.com/Song-Jingyu/CRKD | Michael | [Summary](./CVPR/2024/CRKD/CRKD.md) |
 
 ### ECCV
 
