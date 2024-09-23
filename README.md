@@ -42,6 +42,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [VILA: On Pre-training for Visual Language Models](https://arxiv.org/abs/2312.07533) (CVPR 2024) | https://github.com/NVlabs/VILA           | Xiaofan    | [Summary](./CVPR/2024/VILA/VILA.md)       |
 | [Dual Prior Unfolding for Snapshot Compressive Imaging](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Dual_Prior_Unfolding_for_Snapshot_Compressive_Imaging_CVPR_2024_paper.pdf) (CVPR 2024) |  https://github.com/ZhangJC-2k/DPU | Michael | [Summary](./CVPR/2024/DPU-SCI/DPU-SCI.md) |
 | [CRKD: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation](https://arxiv.org/pdf/2403.19104) (CVPR 2024) | https://github.com/Song-Jingyu/CRKD | Michael | [Summary](./CVPR/2024/CRKD/CRKD.md) |
+| [UniMix: Towards Domain Adaptive and Generalizable LiDAR Semantic Segmentation in Adverse Weather](https://arxiv.org/pdf/2404.05145) (CVPR 2024) | https://github.com/sunnyHelen/UniMix | Ivannia     | [Summary](./CVPR/2024/UniMix/UniMix.md) |
 
 ### ECCV
 
@@ -62,8 +63,6 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 |[AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/pdf/2306.00978)|[Link to code](https://github.com/mit-han-lab/llm-awq?tab=readme-ov-file)|Lele Zhao|[Summary](./MLSys/2024/AWQ/AWQ.md)
 
-
-
 ### NeurIPS
 
 | Paper Title                                                  | Link to code | Presenters | Notes                                      |
@@ -71,13 +70,22 @@ A template for paper reading summary can be found [here](./template.md).
 | [Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning](https://proceedings.neurips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html) (NeurIPS 2020) | [Link to code](https://github.com/deepmind/deepmind-research/tree/master/byol) | Xiaofan    | [Summary](./NeurIPS/2020/BYOL/BYOL.md)         |
 | [Learning with Holographic Reduced Representations](https://openreview.net/forum?id=RX6PrcpXP-) (NeurIPS 2021) | [Link to code](https://github.com/NeuromorphicComputationResearchProgram/Learning-with-Holographic-Reduced-Representations) | Xiaofan    | [Summary](./NeurIPS/2021/HRR/HRR.md)           |
 | [FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction](https://arxiv.org/abs/2212.01548) (NeurIPS 2022) | [Link to code](https://github.com/AIoT-MLSys-Lab/FedRolex)   | Xiaofan    | [Summary](./NeurIPS/2022/FedRolex/fedrolex.md) |
+| [MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning](https://arxiv.org/abs/2110.15352) (NeurIPS 2021) | [Link to code](https://github.com/mit-han-lab/tinyengine) | Run Wang    | [Summary](./NeurIPS/2021/MCUNetV2/Memory_efficient_patch_inference.md)         |
+| [On-Device Training Under 256KB Memory](https://arxiv.org/pdf/2206.15472) (NeurIPS 2022) | [Link to code](https://github.com/mit-han-lab/mcunet?tab=readme-ov-file)   | Run Wang    | [Summary](./NeurIPS/2022/MCUNetV3/On-Device_Training_Under_256KB_Memory.md) |
 
 ### ICLR
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                         | Presenters | Notes                                     |
 | ------------------------------------------------------------ | ------------------------------------ | ---------- | ----------------------------------------- |
 | [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided                         | Eric       | [Summary](./ICLR/2021/RFA/RFA.md)         |
-| [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric       | [Summary](./ICLR/2023/CreamFL/CreamFL.md) |
+| [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric       | [Summary](./ICLR/2023/CreamFL/CreamFL.md) 
+|[GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/pdf/2210.17323) (ICLR 2023)|https://github.com/IST-DASLab/gptq|Lele Zhao|[Summary](./ICLR/2023/GPTQ/GPTQ.md)
+
+### ICML
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                      | Presenters | Notes                                       |
+| ------------------------------------------------------------ | --------------------------------- | ---------- | ------------------------------------------- |
+| [Accurate LoRA-Finetuning Quantization of LLMs via Information Retention](https://arxiv.org/abs/2402.05445) (ICML 2024) | https://github.com/htqin/ir-qlora | Xiaofan    | [Summary](./ICML/2024/IR-QLoRA/IR-QLoRA.md) |
 
 ## IoT/Mobile Device/Sensor Networks Conference Reviews
 
@@ -125,6 +133,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [BatMobility: Towards Flying Without Seeing for Autonomous Drones](https://arxiv.org/abs/2307.11518) (MobiCom 2023) | [Link](https://batmobility.github.io) | Louis    | [Summary](./MobiCom/2023/Batmobility/Batmobility.md) |
 | [AgriTera: Accurate Non-Invasive Fruit Ripeness Sensing via Sub-Terahertz Wireless Signals](https://dl.acm.org/doi/10.1145/3570361.3613275) (MobiCom 2023 Best Paper Award) | Not provided | Xiaofan | [Summary](./MobiCom/2023/AgriTera/AgriTera.md) |
 | [AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving](https://dl.acm.org/doi/abs/10.1145/3570361.3592517) (MobiCom 2023) | Not provided | Xiaofan | [Summary](./MobiCom/2023/AutoFed/AutoFed.md) |
+| [Taming Event Cameras with Bio-Inspired Architecture and Algorithm: A Case for Drone Obstacle Avoidance](https://dl.acm.org/doi/abs/10.1145/3570361.3613269) (MobiCom 2023) | https://github.com/MobiSense/BioDrone | Xiaofan | [Summary](./MobiCom/2023/BioDrone/BioDrone.md) |
 
 ### MobiSys
 
@@ -164,6 +173,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [On-Device Unsupervised Image Segmentation](https://arxiv.org/abs/2303.12753) (DAC 2023) | Not provided | Xin| [Summary](./DAC/2023/SegHDC/SegHDC.md)|
 | [Enabling On-Device Large Language Model Personalization with Self-Supervised Data Selection and Synthesis](https://arxiv.org/abs/2311.12275) (DAC 2024) | Not provided | Xiaofan | [Summary](./DAC/2024/Personalized-LLM/Personalized-LLM.md) |
+| [CONClave - Secure and Robust Cooperative Perception for CAVs Using Authenticated Consensus and Trust Scoring](https://arxiv.org/abs/2409.02863) (DAC 2024) | Not provided | Xiaofan | [Summary](./DAC/2024/CONClave/CONClave.md) |
 
 ### ISLPED
 
@@ -231,6 +241,8 @@ A template for paper reading summary can be found [here](./template.md).
 | [HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612) (J. Proteome R 2023) | Not provided                                                 | Xin        | [Summary](./HD/HyperSpec/HyperSpec.md)                       |
 | [HDCC: A Hyperdimensional Computing compiler for classification on embedded systems and high-performance computing](https://arxiv.org/pdf/2304.12398.pdf) (Arxiv) | https://anonymous.4open.science/r/hdcc-5F7C/                 | Shengfan   | [Summary](./HD/HDCC/HDCC.md)                                 |                                                                   
 | [Hyperdimensional Computing with holographic and adaptive encoder](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1371988/full) (Frontiers 2024) | Not Provided | Michael | [Summary](./HD/HDAdaptiveEncoding/HDAdaptiveEncoding.md)
+| [Automated Architecture Search for Brain-inspired Hyperdimensional](https://arxiv.org/pdf/2202.05827) (autoML 2022) | Not provided                                                 | Run        | [Summary](./HD/autoML/Automated_Architecture_Search_for_Brain-inspired_Hyperdimensional.md)   
+
 
 
 ### Tiny Machine Learning
