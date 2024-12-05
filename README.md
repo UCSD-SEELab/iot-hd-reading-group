@@ -99,6 +99,7 @@ A template for paper reading summary can be found [here](./template.md).
 | [On-NAS: On-Device Neural Architecture Search on Memory-Constrained Intelligent Embedded Systems](https://drive.google.com/file/d/1MDK5BPrEYZUFUhWmLGSKI2uxeoiNfsK_/view) (SenSys 2023) | https://github.com/eai-lab/On-NAS | Xiaofan | [Summary](./SenSys/2023/On-NAS/On-NAS.md) |
 | [NeuroRadar: A Neuromorphic Radar Sensor for Low-Power IoT Systems](http://xyzhang.ucsd.edu/papers/Kai.Zheng_SenSys23_NeuroRadar.pdf) (SenSys 2023) | Not provided | Xiaofan | [Summary](./SenSys/2023/NeuroRadar/NeuroRadar.md) |
 | [EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge](https://arxiv.org/abs/2311.10986) (SenSys 2023) | Not provided | Xiaofan | [Summary](./SenSys/2023/EdgeFM/EdgeFM.md) |
+| [Large Model for Small Data: Foundation Model for Cross-Modal RF Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3666025.3699349) (SenSys 2024) | Not provided | Xiaofan | [Summary](./SenSys/2024/FM-Fi/FM-Fi.md) |
 
 
 ### IPSN
