@@ -223,6 +223,12 @@ A template for paper reading summary can be found [here](./template.md).
 
 ## Topic Reviews
 
+### Nature
+
+| Paper Title (Conf/Year of Paper)                             | Link to code                                    | Presenters | Notes                                                   |
+| ------------------------------------------------------------ | ----------------------------------------------- | ---------- | ------------------------------------------------------- |
+| [Loss of plasticity in deep continual learning](https://www.nature.com/articles/s41586-024-07711-7) (Nature 2024) | https://github.com/shibhansh/loss-of-plasticity | Xiaofan    | [Summary](./Nature/2024/Cont-BackProp/Cont-BackProp.md) |
+
 ### ML
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                          | Presenters | Notes                          |
@@ -244,8 +250,6 @@ A template for paper reading summary can be found [here](./template.md).
 | [Hyperdimensional Computing with holographic and adaptive encoder](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1371988/full) (Frontiers 2024) | Not Provided | Michael | [Summary](./HD/HDAdaptiveEncoding/HDAdaptiveEncoding.md)
 | [Automated Architecture Search for Brain-inspired Hyperdimensional](https://arxiv.org/pdf/2202.05827) (autoML 2022) | Not provided                                                 | Run        | [Summary](./HD/autoML/Automated_Architecture_Search_for_Brain-inspired_Hyperdimensional.md)   
 | [Hyperdimensional Computing vs. Neural Networks: Comparing Architecture and Learning Process](https://arxiv.org/abs/2207.12932) (ISQED 2024) | Not provided  | Run  | [Summary](./HD/ISQED/Hyperdimensional_Computing_vs._Neural_Networks:Comparing_Architecture_and_Learning_Process.md)   
-
-
 
 
 ### Tiny Machine Learning
