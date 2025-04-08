@@ -144,6 +144,12 @@ A template for paper reading summary can be found [here](./template.md).
 | [Memory-Efficient DNN Training on Mobile Devices](https://dl.acm.org/doi/abs/10.1145/3498361.3539765) (MobiSys 2022) | https://github.com/eis-lab/sage | Xiaofan    | [Summary](./MobiSys/2022/Sage/Sage.md)           |
 | [BystandAR: Protecting Bystander Visual Data in Augmented Reality Systems](https://dl.acm.org/doi/10.1145/3581791.3596830) (MobiSys 2023) | Not provided                    | Ivannia    | [Summary](./MobiSys/2023/BystandAR/BystandAR.md) |
 
+### ASPLOS
+
+| Paper Title                                                  | Link to code | Presenters | Notes                               |
+| ------------------------------------------------------------ | ------------ | ---------- | ----------------------------------- |
+| [AnA: An Attentive Autonomous Driving System](https://dl.acm.org/doi/pdf/10.1145/3669940.3707261) (ASPLOS 2025) | Not provided | Xiaofan    | [Summary](./ASPLOS/2025/AnA/AnA.md) |
+
 ## EDA Conference Reviews
 
 ### ICCAD
