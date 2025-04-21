@@ -146,9 +146,10 @@ A template for paper reading summary can be found [here](./template.md).
 
 ### ASPLOS
 
-| Paper Title                                                  | Link to code | Presenters | Notes                               |
-| ------------------------------------------------------------ | ------------ | ---------- | ----------------------------------- |
-| [AnA: An Attentive Autonomous Driving System](https://dl.acm.org/doi/pdf/10.1145/3669940.3707261) (ASPLOS 2025) | Not provided | Xiaofan    | [Summary](./ASPLOS/2025/AnA/AnA.md) |
+| Paper Title                                                  | Link to code                         | Presenters | Notes                                               |
+| ------------------------------------------------------------ | ------------------------------------ | ---------- | --------------------------------------------------- |
+| [AnA: An Attentive Autonomous Driving System](https://dl.acm.org/doi/pdf/10.1145/3669940.3707261) (ASPLOS 2025) | Not provided                         | Xiaofan    | [Summary](./ASPLOS/2025/AnA/AnA.md)                 |
+| [MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering](https://dl.acm.org/doi/10.1145/3669940.3707227) (ASPLOS 2025) | https://horizon-lab.org/metasapiens/ | Xiaofan    | [Summary](./ASPLOS/2025/MetaSapiens/MetaSapiens.md) |
 
 ## EDA Conference Reviews
 
