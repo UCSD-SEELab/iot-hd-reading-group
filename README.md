@@ -200,6 +200,12 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ----------------------------------------- |
 | [Brain-Inspired Hyperdimensional Computing in the Wild: Lightweight Symbolic Learning for Sensorimotor Controls of Wheeled Robots](https://ieeexplore.ieee.org/document/10610176) (ICRA 2024) | None         | Xiaofan    | [Summary](./ICRA/2024/ReactHD/ReactHD.md) |
 
+### RSS
+
+| Paper Title                                                  | Link to code                          | Presenters | Notes                                        |
+| ------------------------------------------------------------ | ------------------------------------- | ---------- | -------------------------------------------- |
+| [Enhancing Autonomous Driving Systems with On-Board Deployed Large Language Models](https://arxiv.org/abs/2504.11514) (RSS 2025) | https://github.com/ForzaETH/LLMxRobot | Xiaofan    | [Summary](./RSS/2025/LLMxRobot/LLMxRobot.md) |
+
 ## Other Top Conference Reviews
 
 ### ICDCS
