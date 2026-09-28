@@ -10,22 +10,22 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Eric   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
+| [Learning Advanced Client Selection Strategy for Federated Learning](https://www.aaai.org/AAAI22Papers/AAAI-12714.ZhangS.pdf) (AAAI 2022) | Not Provided | Quanling Zhao   | [Summary](./AAAI/2022/FedMarl/FedMarl.md) |
 | [Unsupervised Representation for Semantic Segmentation by Implicit Cycle-Attention Contrastive Learning](https://www.aaai.org/AAAI22Papers/AAAI-243.PangB.pdf) (AAAI 2022) | Not provided | Xiaofan | [Summary](./AAAI/2022/CACL/CACL.md) |
 | [A Machine Learning Method for EV Range Prediction with Updates on Route Information and Traffic Conditions](https://ojs.aaai.org/index.php/AAAI/article/view/21525) (AAAI 2022) | Not Provided | Shuhang | [Summary](./AAAI/2022/ML4EV/ML4EV.md) |
-| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (AAAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./AAAI/2022/CFeD/CFeD.md) |
+| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (AAAI 2022) | https://github.com/lianziqt/CFeD | Quanling Zhao | [Summary](./AAAI/2022/CFeD/CFeD.md) |
 | [LidarMultiNet: Towards a Unified Multi-Task Network for LiDAR Perception](https://arxiv.org/abs/2209.09385) (AAAI 2023) | Not Provided | Ivannia | [Summary](./AAAI/2023/LidarMultiNet/LidarMultiNet.md) |
-| [Online Hyperparameter Optimization for Class-Incremental Learning](https://arxiv.org/pdf/2301.05032.pdf) (AAAI 2023) | https://github.com/yaoyao-liu/online-hyperparameter-optimization/ | Eric   | [Summary](./AAAI/2023/OnlineHyperOptiCIL/OnlineHyperOptiCIL.md) |
+| [Online Hyperparameter Optimization for Class-Incremental Learning](https://arxiv.org/pdf/2301.05032.pdf) (AAAI 2023) | https://github.com/yaoyao-liu/online-hyperparameter-optimization/ | Quanling Zhao   | [Summary](./AAAI/2023/OnlineHyperOptiCIL/OnlineHyperOptiCIL.md) |
 
 ### IJCAI
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [MMT: Multi-Way Multi-Modal Transformer for Multimodal Learning](https://www.ijcai.org/proceedings/2022/0480.pdf) (IJCAI 2022) | Not Provided | Eric   | [Summary](./IJCAI/2022/MMT/MMT.md) |
+| [MMT: Multi-Way Multi-Modal Transformer for Multimodal Learning](https://www.ijcai.org/proceedings/2022/0480.pdf) (IJCAI 2022) | Not Provided | Quanling Zhao   | [Summary](./IJCAI/2022/MMT/MMT.md) |
 | [Learning from Students: Online Contrastive Distillation Network for General Continual Learning](https://www.ijcai.org/proceedings/2022/0446.pdf) (IJCAI 2022) | https://github.com/lijincm/OCD-Net | Xiaofan | [Summary](./IJCAI/2022/OCD-Net/OCD-Net.md) |
 | [Picking the Right Winner: Why Tie-Breaking in Crowdsourcing Contests Matters](https://www.ijcai.org/proceedings/2022/0044.pdf) (IJCAI 2022) | Not Provided | Ivannia | [Summary](./IJCAI/2022/PickingTheRightWinner/PickingtheRightWinner.md) |
 | [Understanding the Mitigating Data Contamination in Deep Anomaly Detection: A Kernel-based Approach](https://www.ijcai.org/proceedings/2022/322) (IJCAI 2022) | Not Provided | Xiaofan | [Summary](./IJCAI/2022/DataContamination/DataContamination.md) |
-| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Eric | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
+| [Continual Federated Learning Based on Knowledge Distillation](https://www.ijcai.org/proceedings/2022/0303.pdf) (IJCAI 2022) | https://github.com/lianziqt/CFeD | Quanling Zhao | [Summary](./IJCAI/2022/CFeD/CFeD.md) |
 | [Interactive Machine Learning Solutions for Acoustic Monitoring of Animal Wildlife in Biosphere Reserves](https://www.ijcai.org/proceedings/2023/0711.pdf) (IJCAI 2023) | Not Provided | Xiaofan | [Summary](./IJCAI/2023/wildlife/wildlife.md) |
 | [Learning to Learn from Corrupted Data for Few-Shot Learning](https://www.ijcai.org/proceedings/2023/0381.pdf) (IJCAI 2023) | https://github.com/anyuexuan/PCL | Flavio | [Summary](./IJCAI/2023/corrupted-few-shot-learning/corrupted_few_shot.md) |
 | [Confidence-based Self-Corrective Learning: An Application in Height Estimation Using Satellite LiDAR and Imagery](https://www.ijcai.org/proceedings/2023/0671.pdf) (IJCAI 2023) | Not Provided | Ivannia | [Summary](./IJCAI/2023/SCL/SCL.md) |
@@ -35,8 +35,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code                             | Presenters | Notes                                     |
 | ------------------------------------------------------------ | ---------------------------------------- | ---------- | ----------------------------------------- |
-| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL | Eric       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md) |
-| [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) | https://github.com/VU-DETAIL/PerfHD      | Eric       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)   |
+| [Constrained Few-shot Class-incremental Learning](https://arxiv.org/pdf/2203.16588.pdf) (CVPR 2022) | https://github.com/IBM/constrained-FSCIL | Quanling Zhao       | [Summary](./CVPR/2022/C-FSCIL/C-FSCIL.md) |
+| [PerfHD: Efficient ViT Architecture Performance Ranking Using Hyperdimensional Computing](https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Ma_PerfHD_Efficient_ViT_Architecture_Performance_Ranking_Using_Hyperdimensional_Computing_CVPRW_2023_paper.html) (CVPR 2023) | https://github.com/VU-DETAIL/PerfHD      | Quanling Zhao       | [Summary](./CVPR/2023/PerfHD/PerfHD.md)   |
 | [Prompting Large Language Models With Answer Heuristics for Knowledge-Based Visual Question Answering](https://arxiv.org/abs/2303.01903v2) (CVPR 2023) | https://github.com/MILVLG/prophet        | Xiaofan    | [Summary](./CVPR/2023/Prophet/Prophet.md) |
 | [OneLLM: One Framework to Align All Modalities with Language](https://arxiv.org/abs/2312.03700) (CVPR 2024) | https://github.com/csuhan/OneLLM         | Xiaofan    | [Summary](./CVPR/2024/OneLLM/OneLLM.md)   |
 | [VILA: On Pre-training for Visual Language Models](https://arxiv.org/abs/2312.07533) (CVPR 2024) | https://github.com/NVlabs/VILA           | Xiaofan    | [Summary](./CVPR/2024/VILA/VILA.md)       |
@@ -77,8 +77,8 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                         | Presenters | Notes                                     |
 | ------------------------------------------------------------ | ------------------------------------ | ---------- | ----------------------------------------- |
-| [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided                         | Eric       | [Summary](./ICLR/2021/RFA/RFA.md)         |
-| [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Eric       | [Summary](./ICLR/2023/CreamFL/CreamFL.md) 
+| [Random Feature Attention](https://openreview.net/pdf?id=QtTKTdVrFBB) (ICLR 2021) | Not Provided                         | Quanling Zhao       | [Summary](./ICLR/2021/RFA/RFA.md)         |
+| [Multimodal Federated Learning via Contrastive Representation Ensemble](https://openreview.net/forum?id=Hnk1WRMAYqg) (ICLR 2023) | https://github.com/FLAIR-THU/CreamFL | Quanling Zhao       | [Summary](./ICLR/2023/CreamFL/CreamFL.md) 
 |[GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/pdf/2210.17323) (ICLR 2023)|https://github.com/IST-DASLab/gptq|Lele Zhao|[Summary](./ICLR/2023/GPTQ/GPTQ.md)
 
 ### ICML
@@ -93,7 +93,7 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
-| [FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking](https://dl.acm.org/doi/10.1145/3485730.3485929) (SenSys 2021) | Not Provided | Eric   | [Summary](./SenSys/2021/FedMask/FedMask.md) |
+| [FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking](https://dl.acm.org/doi/10.1145/3485730.3485929) (SenSys 2021) | Not Provided | Quanling Zhao   | [Summary](./SenSys/2021/FedMask/FedMask.md) |
 | [SQEE: A Machine Perception Approach to Sensing Quality Evaluation at the Edge by Uncertainty Quantification](https://dl.acm.org/doi/abs/10.1145/3560905.3568534) (SenSys 2022) | Not Provided | Xiaofan | [Summary](./SenSys/2022/SQEE/SQEE.md) |
 | [SpeechQoE: A Novel Personalized QoE Assessment Model for Voice Services via Speech Sensing](https://dl.acm.org/doi/10.1145/3560905.3568502) (SenSys 2022) | Not Provided | Dan   | [Summary](./SenSys/2022/SpeechQoE/SpeechQoE.md) |
 | [On-NAS: On-Device Neural Architecture Search on Memory-Constrained Intelligent Embedded Systems](https://drive.google.com/file/d/1MDK5BPrEYZUFUhWmLGSKI2uxeoiNfsK_/view) (SenSys 2023) | https://github.com/eai-lab/On-NAS | Xiaofan | [Summary](./SenSys/2023/On-NAS/On-NAS.md) |
@@ -116,7 +116,7 @@ A template for paper reading summary can be found [here](./template.md).
 | Paper Title                                                  | Link to code                            | Presenters | Notes                               |
 | ------------------------------------------------------------ | --------------------------------------- | ---------- | ----------------------------------- |
 | [DeepSQA: Understanding Sensor Data via Question Answering](https://dl.acm.org/doi/10.1145/3450268.3453529) (IoTDI 2021) | https://github.com/NESL/DeepSQA | Xiaofan | [Summary](./IoTDI/2021/DeepSQA/DeepSQA.md) |
-| [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Eric | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
+| [Multimodal Federated Learning on IoT Data](https://arxiv.org/abs/2109.04833) (IoTDI 2022) | Not provided | Quanling Zhao | [Summary](./IoTDI/2022/MultimodalFL/MultimodalFL.md) |
 
 
 ### MobiCom
@@ -125,7 +125,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------ |
 | [Hermes: An Efficient Federated Learning Framework for Heterogeneous Mobile Clients](https://sites.duke.edu/angli/files/2021/10/2021_Mobicom_Hermes_v1.pdf) (MobiCom 2021) | Not provided | Xiaofan    | [Summary](./MobiCom/2021/Hermes/Hermes.md) |
 | [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) (MobiCom 2020) | Not Provided | Dan    | [Summary](./MobiCom/2020/IndoorNavigation/IndoorNavigation.md) |
-| [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (MobiCom 2022) | Not Provided | Eric    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
+| [Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519) (MobiCom 2022) | Not Provided | Quanling Zhao    | [Summary](./MobiCom/2022/Cosmo/Cosmo.md) |
 | [Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://dl.acm.org/doi/pdf/10.1145/3495243.3560515) (MobiCom 2022) | Not Provided | Dan    | [Summary](./MobiCom/2022/RFMask/RFMask.md) |
 | [InFi: End-to-end Learnable Input Filter for Resource-efficient Mobile-centric Inference](https://dl.acm.org/doi/10.1145/3495243.3517016) (MobiCom 2022) | https://github.com/yuanmu97/infi | Ivannia    | [Summary](./MobiCom/2022/InFi/InFi.md) |
 | [U-Star: An Underwater Navigation System based on Passive 3D Optical Identification Tags](https://dl.acm.org/doi/pdf/10.1145/3495243.3517019) (MobiCom 2022) | Not provided | Louis    | [Summary](./MobiCom/2022/U-Star/U-Star.md) |
@@ -168,7 +168,7 @@ A template for paper reading summary can be found [here](./template.md).
 | ------------------------------------------------------------ | ------------ | ---------- | ------------------------------------------------------------ |
 | [HDCluster: An Accurate Clustering Using Brain-Inspired High-Dimensional Computing](https://ieeexplore.ieee.org/document/8715147) (DATE 2019) | Not Provided | Xin      | [Summary](./DATE/2019/HDCluster/HDCluster.md) |
 | [OnlineHD: Robust, Efficient, and Single-Pass Online Learning Using Hyperdimensional System](https://doi.org/10.23919/DATE51398.2021.9474107) (DATE 2021) | https://github.com/BIASLab-UCI/onlinehd | Alex       | [Summary](./HD/OnlineHD/OnlineHD.md)                         |
-| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Eric | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
+| [Federated Learning with Heterogeneous Models for On-device Malware Detection in loT Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10137288&casa_token=sjAq01TdK5wAAAAA:WtkYgZcGOMP7EG6OqYJpZW10p0shr9rBo3InArHVd7O9xu9ktrMhG35u4taPt-m7aD0w5cEStw&tag=1) (DATE 2023) | Not Provided | Quanling Zhao | [Summary](./DATE/2023/On-Device-Malware-FL/On-Device-Malware-FL.md) |
 
 ### ASP-DAC
 
@@ -188,7 +188,7 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title                                                  | Link to code                                             | Presenters | Notes                                        |
 | ------------------------------------------------------------ | -------------------------------------------------------- | ---------- | -------------------------------------------- |
-| [A Robust and Energy-Efficient Classifier Using Brain-Inspired Hyperdimensional Computing](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf) (ISLPED 2016) | https://github.com/abbas-rahimi/HDC-Language-Recognition | Eric       | [Summary](./ISLPED/2016/Language_HDC/Language_HDC.md) |
+| [A Robust and Energy-Efficient Classifier Using Brain-Inspired Hyperdimensional Computing](https://iis-people.ee.ethz.ch/~arahimi/papers/ISLPED16.pdf) (ISLPED 2016) | https://github.com/abbas-rahimi/HDC-Language-Recognition | Quanling Zhao       | [Summary](./ISLPED/2016/Language_HDC/Language_HDC.md) |
 | [Integrating Event-based Dynamic Vision Sensors with Sparse Hyperdimensional Computing: A Low-power Accelerator with Online Capability](https://www.research-collection.ethz.ch/handle/20.500.11850/425534) (ISLPED 2020) | https://github.com/iis-eth-zurich/hd_dvs                 | Shuhang    | [Summary](./ISLPED/2020/SparseHDC/SparseHDC.md)       |
 | [Multi-objective optimization for Floating Point Mix-Precision Tuning](https://madsys.cs.tsinghua.edu.cn/publications/ISLPED2023-li.pdf) (ISLPED 2023) | No Code Available                | Ivannia    | [Summary](./ISLPED/2023/Multi-Objective_Optimization/Multi-Objective_Optimization.md)       |
 
@@ -212,7 +212,7 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title (Conf/Year of Paper)                             | Link to code | Presenters | Notes                                    |
 | ------------------------------------------------------------ | ------------ | ---------- | ---------------------------------------- |
-| [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Eric       | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
+| [FedZKT: Zero-Shot Knowledge Transfer towards Resource-Constrained Federated Learning with Heterogeneous On-Device Models](https://arxiv.org/pdf/2109.03775.pdf) (ICDCS 2022) | Not Provided | Quanling Zhao       | [Summary](./ICDCS/2022/FedZKT/FedZKT.md) |
 
 ### CHI
 
@@ -261,10 +261,10 @@ A template for paper reading summary can be found [here](./template.md).
 
 | Paper Title (Conf/Year of Paper)                             | Link to code                                                 | Presenters | Notes                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------ |
-| [Hyperdimensional Computing-based Multimodality Emotion Recognition with Physiological Signals](https://ieeexplore.ieee.org/document/8771622) (AICAS 2019) | https://github.com/enjui/HDC-MER                             | Eric       | [Summary](./HD/HDC-MER/HDC-MER.md)                           |
+| [Hyperdimensional Computing-based Multimodality Emotion Recognition with Physiological Signals](https://ieeexplore.ieee.org/document/8771622) (AICAS 2019) | https://github.com/enjui/HDC-MER                             | Quanling Zhao       | [Summary](./HD/HDC-MER/HDC-MER.md)                           |
 | [Vector Symbolic Architectures Answer Jackendoff's Challenges for Cognitive Neuroscience](https://arxiv.org/abs/cs/0412059) (2004) | Not provided                                                 | Xiaofan    | [Summary](./HD/VSA-Jackendoff/VSA-Jackendoff.md)             |
 | [Symbolic Representation and Learning with Hyperdimensional Computing](https://pubmed.ncbi.nlm.nih.gov/33501231/) (Frontiers 2020) | https://github.com/ncos/pyhdc, <br />https://github.com/thulab/DeepHash | Xiaofan    | [Summary](./HD/HIL/hil.md)                                   |
-| [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Eric       | [Summary](./HD/RFF-VSA/RFF-VSA.md)                           |
+| [Understanding Hyperdimensional Computing for Parallel Single-Pass Learning](https://arxiv.org/abs/2202.04805) (2022) | https://github.com/Cornell-RelaxML/Hyperdimensional-Computing | Quanling Zhao       | [Summary](./HD/RFF-VSA/RFF-VSA.md)                           |
 | [Multivariate Time Series Analysis for Driving Style Classification using Neural Networks and Hyperdimensional Computing](https://www.tu-chemnitz.de/etit/proaut/publications/schlegel_2021_IV.pdf) (IV 2021) | [Link to code](https://github.com/TUC-ProAut/HDC_driving_style_classification) | Ivannia    | [Summary](./HD/MultivariateTimeSeries/MultivariateTimeSeries.md) |
 | [Minority Resampling Boosted Unsupervised Learning With Hyperdimensional Computing for Threat Detection at the Edge of Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9530655) (IEEE ACCESS 2021) | Not Provided                                                 | Louis      | [Summary](./HD/EG-SMOTE_GSOM/EG-SMOT_GSOM.md)                |
 | [HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612) (J. Proteome R 2023) | Not provided                                                 | Xin        | [Summary](./HD/HyperSpec/HyperSpec.md)                       |
